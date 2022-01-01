@@ -9,7 +9,7 @@ const Footer: React.FC = () => (
         Grooving Against Leukemia
       </a>
     </p>
-    <h2>Jack O'Brien 2021</h2>
+    <h2>Jack O'Brien 2022</h2>
   </footer>
 );
 
