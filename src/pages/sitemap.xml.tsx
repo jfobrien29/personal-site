@@ -1,4 +1,5 @@
 import { HOSTED_BLOG_SLUGS } from '@/blogs/all';
+import { BOOK_SLUGS } from '@/components/books/data';
 import { ROUTES, SITE_URL } from '@/utils/constants';
 
 const STATIC_PAGES = [ROUTES.HOME, ROUTES.BLOG, ROUTES.ABOUT];
@@ -15,12 +16,21 @@ const generateSiteMap = async () => {
       </url>
     `;
      }).join('')}
-     <!--Blog routes-->
+     <!--Hosted Blog routes-->
      ${HOSTED_BLOG_SLUGS.map((slug: string) => {
        return `
       <url>
           <loc>${`${SITE_URL}/blog/${slug}`}</loc>
           <priority>0.7</priority>
+      </url>
+     `;
+     }).join('')}
+     <!--Book routes-->
+     ${BOOK_SLUGS.map((slug: string) => {
+       return `
+      <url>
+          <loc>${`${SITE_URL}/books/${slug}`}</loc>
+          <priority>0.5</priority>
       </url>
      `;
      }).join('')}
