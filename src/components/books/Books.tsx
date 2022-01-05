@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import BaseLayout from '../../containers/BaseLayout';
-import { ALL_BOOKS, Category, IBook } from './data';
+import { ALL_BOOKS, CATEGORY, IBook } from './data';
 
 const BookListing: React.FC<{ book: IBook }> = ({ book }) => {
   return (
@@ -15,7 +15,7 @@ const BookListing: React.FC<{ book: IBook }> = ({ book }) => {
   );
 };
 
-const BookSection: React.FC<{ category: Category; header: string }> = ({
+const BookSection: React.FC<{ category: CATEGORY; header: string }> = ({
   header,
   category,
 }) => {
@@ -44,16 +44,16 @@ const Books: React.FC = () => (
       <div className="mt-1">Books I've read and recommend you should too!</div>
 
       <BookSection
-        category={Category.MUST_READ}
+        category={CATEGORY.MUST_READ}
         header="Top 5 Must Read Books"
       />
       <BookSection
-        category={Category.ENTREPRENEUR_STORY}
+        category={CATEGORY.ENTREPRENEUR_STORY}
         header="Entrepreneur Stories"
       />
-      <BookSection category={Category.SOFTWARE} header="Software and Product" />
-      <BookSection category={Category.STARTUP} header="Startup Bibles" />
-      <BookSection category={Category.OTHER} header="Other Great Reads" />
+      <BookSection category={CATEGORY.SOFTWARE} header="Software and Product" />
+      <BookSection category={CATEGORY.STARTUP} header="Startup Bibles" />
+      <BookSection category={CATEGORY.OTHER} header="Other Great Reads" />
     </div>
   </BaseLayout>
 );

@@ -1,8 +1,10 @@
 import React from 'react';
-import BaseLayout from '@/containers/BaseLayout';
-import { ALL_BOOKS_MAP, IBook } from './data';
 import Link from 'next/link';
+
+import BaseLayout from '@/containers/BaseLayout';
 import { ROUTES } from '@/utils/constants';
+
+import { ALL_BOOKS_MAP, IBook } from './data';
 
 const BookReview: React.FC<any> = ({ slug }) => {
   const book: IBook | undefined = ALL_BOOKS_MAP.get(slug);
