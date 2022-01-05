@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { TWITTER_LINK } from '@/utils/constants';
+import { ROUTES, TWITTER_LINK } from '@/utils/constants';
 import { IBlogPost, LANDING_BLOG_POSTS } from '@/blogs/all';
 import BaseLayout from '@/containers/BaseLayout';
 
@@ -41,12 +41,12 @@ const Landing: React.FC<any> = () => (
           <a className="underline" href="https://onepager.vc">
             OnePager
           </a>
-          , interested in software, startups, education, biotech, climate change
-          solutions, and web3. At my core, I'm a builder.
+          , interested in software, startups, education, biotech, and climate
+          change solutions. At my core, I'm a builder.
         </h1>
       </div>
 
-      <div className="px-4 max-w-2xl mt-1 mx-auto ">
+      <div className="px-4 max-w-2xl mx-auto ">
         <div className="w-full h-px bg-white mx-auto" />
 
         <h2 className="mt-8 text-lg">
@@ -54,6 +54,15 @@ const Landing: React.FC<any> = () => (
           <a className="underline" href={TWITTER_LINK}>
             follow me on Twitter!
           </a>
+        </h2>
+
+        <h2 className="mt-8 text-lg">
+          For book recommendations,{' '}
+          <Link href={ROUTES.BOOKS} passHref>
+            <a className="underline" href={TWITTER_LINK}>
+              check out my top recs
+            </a>
+          </Link>
         </h2>
 
         <h2 className="mt-8 italic text-lg">Highlighted blog posts</h2>

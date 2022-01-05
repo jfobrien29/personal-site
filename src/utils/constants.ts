@@ -10,6 +10,8 @@ export const ROUTES = {
   HOME: '/',
   ABOUT: '/about',
   BLOG: '/blog',
+  BOOKS: '/books',
 
   BLOG_POST: '/blog/[slug]',
+  BOOK_REVIEW: '/books/[slug]',
 };
