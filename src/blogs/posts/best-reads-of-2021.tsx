@@ -22,8 +22,8 @@ const BlogPost: React.FC<any> = () => {
       <P>
         If you're reading this, I'm probably recommending you a book! I like to
         think back on my favorite books and articles at the end of the year, and
-        this year (and in years to come) I'm published the best of the best. I
-        wholeheartedly recommend a read of everything mentioned!
+        this year (and in years to come) I'm publishing my best of the best. I
+        wholeheartedly recommend a read of these books and articles!
       </P>
       <Heading2 id="books">My Top 3 Books</Heading2>
       <P>
