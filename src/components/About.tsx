@@ -4,7 +4,7 @@ import BaseLayout from '@/containers/BaseLayout';
 const About: React.FC<any> = () => (
   <BaseLayout
     title="About Jack O'Brien"
-    description="Co-Founder and CTO of OnePager, interested in programming, startups, education, biotech, and climate
+    description="Co-Founder and CTO of OnePager, interested in software, startups, education, biotech, and climate
 change solutions. At my core, I like to build things. Previously Google, IBM, and Princeton University."
   >
     <div className="flex flex-col max-w-2xl px-4">
@@ -19,14 +19,17 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         <a className="underline" href="https://openscout.vc">
           Open Scout
         </a>
-        , aiming to give more founders quality fundraising exposure. If more
+        , building to give more founders quality fundraising exposure. If more
         founders can access early stage venture funding, more great ideas will
         become sustainable businesses.
       </p>
 
       <p className="mt-8 text-lg">
         Founding Fellow of{' '}
-        <a className="underline" href="https://kernel.community/">
+        <a
+          className="underline"
+          href="https://twitter.com/KERNEL0x/status/1466643159576842244?s=20"
+        >
           Kernel's 5th cohort
         </a>
         , a community of 250 individuals learning web3. Proud to say I owned
@@ -73,25 +76,35 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
       </p>
 
       <p className="mt-8 text-lg">
-        Undergraduate engineering degree in Computer Science from Princeton. I
-        was recruited to Princeton on the men's lacrosse team where I played for
-        4 years. I clearly like orange to a fault, let's go tigers.
+        Undergraduate engineering degree in Computer Science from Princeton,
+        were I was recruited on the men's lacrosse team and played for 4 years.
+        I clearly like orange to a fault, let's go Tigers!
       </p>
 
       <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
 
       <div className="mt-8 text-lg">
         <span>Usually</span> I get in all the coding I need from my main job,
-        but I do hack on a few side projects occationally. A few fun ones both
+        but I do work on a few side projects occationally. A few fun ones both
         technical and non-technical:
         <ul className="list-disc ml-6 mt-4 gap-4">
-          <li>
-            <span className="font-semibold">On the Hook</span>, fundraising via
-            text among networks (coming soon...)
-          </li>
           <li className="mt-4">
             <span className="font-semibold">Text Reflect</span>, daily self
-            reflection via text (coming soon...,)
+            reflection via text (2022, in progress...,)
+          </li>
+          <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
+                href="https://groovingagainstleukemia.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Grooving Against Leukemia
+              </a>
+            </span>
+            , NYC marathon fundraising team for the Leukemia & Lymphoma Society
+            (2018-2021)
           </li>
           <li className="mt-4">
             <a
@@ -102,8 +115,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
             >
               Marathon NFT Minter
             </a>
-            , mint simple randomized NFTs for the NYC marathon. Built thanks to
-            a{' '}
+            , mint simple randomized NFTs for the 2021 NYC marathon. Built
+            thanks to a{' '}
             <a
               className="underline font-semibold"
               href="https://buildspace.so/"
@@ -127,6 +140,11 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
             via text, show results in public (2021){' '}
           </li>
           <li className="mt-4">
+            <span className="font-semibold">Fun Zoom Link</span>, dress up zoom
+            links and add context to meetings. Great pandemic project, shut down
+            for using the word "Zoom" (2020){' '}
+          </li>
+          <li className="mt-4">
             <a
               className="underline font-semibold"
               href="https://skystheminute.com/"
@@ -136,19 +154,6 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
               Skys the Minute
             </a>
             , use your free minutes to learn something (2018)
-          </li>
-          <li className="mt-4">
-            <span className="font-semibold">
-              <a
-                className="underline font-semibold"
-                href="https://http://groovingagainstleukemia.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Grooving Against Leukemia
-              </a>
-            </span>
-            , NYC marathon fundraising team for LLS (2018-2021)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
