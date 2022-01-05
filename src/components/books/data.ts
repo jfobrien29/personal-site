@@ -99,33 +99,56 @@ export const UNICORN_PROJECT = {
   author: 'Gene Kim',
   category: Category.SOFTWARE,
 };
-
 export const TECHINICALLY_WRONG = {
   slug: 'techinically-wrong',
   title: `Techinically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech`,
   author: 'Sara Wachter-Boettcher',
   category: Category.SOFTWARE,
 };
-
 export const CLEAN_CODE = {
   slug: 'clean-code',
   title: `Clean Code: A Handbook of Agile Software Craftsmanship`,
   author: 'Robert C. Martin',
   category: Category.SOFTWARE,
 };
-
 export const DESIGN_OF_EVERYDAY_THINGS = {
   slug: 'design-of-everyday-things',
   title: `Design of Everyday Things`,
   author: 'Donald A. Norman',
   category: Category.SOFTWARE,
 };
-
 export const HOOKED = {
   slug: 'hooked',
   title: `Hooked: How to Build Habit-Forming Products`,
   author: 'Nir Eyal',
   category: Category.SOFTWARE,
+};
+
+// Startup Books
+
+export const ZERO_TO_ONE = {
+  slug: 'zero-to-one',
+  title: `Zero to One: Notes on Startups, or How to Build the Future`,
+  author: 'Peter Thiel',
+  category: Category.STARTUP,
+};
+export const LEAN_STARTUP = {
+  slug: 'the-lean-startup',
+  title: `The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses`,
+  author: 'Eric Ries',
+  category: Category.STARTUP,
+};
+export const ART_OF_THE_START = {
+  slug: 'art-of-the-start',
+  title: `The Art of the Start 2.0: The Time-Tested, Battle Hardened Guide for Anyone Starting Anything`,
+  author: 'Guy Kawasaki',
+  category: Category.STARTUP,
+};
+export const HARD_THING_ABOUT_HARD_THINGS = {
+  slug: 'the-hard-thing-about-hard-things',
+  title: `The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers`,
+  author: 'Ben Horowitz',
+  category: Category.STARTUP,
 };
 
 // Other
@@ -137,13 +160,20 @@ export const EMPTY_PLANET = {
   category: Category.OTHER,
 };
 
+export const DEFINING_DECADE = {
+  slug: 'defining-decade',
+  title:
+    'The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now',
+  author: 'Meg Jay',
+  category: Category.OTHER,
+};
+
 export const ALL_BOOKS: IBook[] = [
   LIFESPAN,
   WIRES_OF_WAR,
   CODE_BREAKER,
   CHASING_THE_SCREAM,
   HOW_TO_AVOID_A_CLIMATE_DISASTER,
-  EMPTY_PLANET,
   LIFT_OFF,
   THE_NEW_NEW_THING,
   SHOE_DOG,
@@ -153,6 +183,12 @@ export const ALL_BOOKS: IBook[] = [
   CLEAN_CODE,
   DESIGN_OF_EVERYDAY_THINGS,
   HOOKED,
+  ZERO_TO_ONE,
+  LEAN_STARTUP,
+  ART_OF_THE_START,
+  HARD_THING_ABOUT_HARD_THINGS,
+  EMPTY_PLANET,
+  DEFINING_DECADE,
 ];
 
 export const ALL_BOOKS_MAP = new Map<string, IBook>(

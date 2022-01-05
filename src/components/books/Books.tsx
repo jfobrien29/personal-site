@@ -39,7 +39,7 @@ const Books: React.FC = () => (
     title="Jack O'Brien's Recommended Books"
     description="Books I've read and recommend! Includes my must reads, entreupreneur stories, tech books, and other categories."
   >
-    <div className="flex flex-col max-w-2xl px-4">
+    <div className="flex flex-col max-w-3xl px-4">
       <h1 className=" text-white text-3xl font-semibold">Books</h1>
       <div className="mt-1">Books I've read and recommend you should too!</div>
 
@@ -47,13 +47,13 @@ const Books: React.FC = () => (
         category={Category.MUST_READ}
         header="Top 5 Must Read Books"
       />
-
       <BookSection
         category={Category.ENTREPRENEUR_STORY}
         header="Entrepreneur Stories"
       />
-
       <BookSection category={Category.SOFTWARE} header="Software and Product" />
+      <BookSection category={Category.STARTUP} header="Startup Bibles" />
+      <BookSection category={Category.OTHER} header="Other Great Reads" />
     </div>
   </BaseLayout>
 );
