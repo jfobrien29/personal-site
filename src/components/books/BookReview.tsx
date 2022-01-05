@@ -1,6 +1,8 @@
 import React from 'react';
 import BaseLayout from '@/containers/BaseLayout';
 import { ALL_BOOKS_MAP, IBook } from './data';
+import Link from 'next/link';
+import { ROUTES } from '@/utils/constants';
 
 const BookReview: React.FC<any> = ({ slug }) => {
   const book: IBook | undefined = ALL_BOOKS_MAP.get(slug);
@@ -17,6 +19,13 @@ const BookReview: React.FC<any> = ({ slug }) => {
           By {book.author}
         </p>
         <hr className="my-4 border-px border-orange" />
+        {book.review || 'No review yet!'}
+
+        <div className="flex mt-4">
+          <Link href={ROUTES.BOOKS}>
+            <a className="underline">Back to all books</a>
+          </Link>
+        </div>
       </div>
     </BaseLayout>
   );

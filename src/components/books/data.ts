@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 export enum Category {
   MUST_READ,
   ENTREPRENEUR_STORY,
@@ -18,7 +20,10 @@ export interface IBook {
   };
   imageUrl?: string;
   category: Category;
+  review?: string | ReactNode;
 }
+
+// Must Reads
 
 export const LIFESPAN = {
   slug: 'lifespan',
@@ -48,18 +53,51 @@ export const CHASING_THE_SCREAM = {
   author: 'Johann Hari',
   category: Category.MUST_READ,
 };
-export const EMPTY_PLANET = {
-  slug: 'empty-planet',
-  title: 'Empty Planet: The Shock of Global Population Decline',
-  author: 'Darrell Bricker & John Ibbitson',
-  category: Category.MUST_READ,
-};
 
 export const HOW_TO_AVOID_A_CLIMATE_DISASTER = {
   slug: 'how-to-avoid-a-climate-disaster',
   title: `How to Avoid a Climate Disaster: Solutions We Have and the Breakthroughs We’ll Need`,
   author: 'Bill Gates',
   category: Category.MUST_READ,
+};
+
+// Entrepreneur stories
+
+export const LIFT_OFF = {
+  slug: 'lift-off',
+  title: `Lift Off: Elon Musk and the Desperate Early Days That Launched SpaceX`,
+  author: 'Eric Berger',
+  category: Category.ENTREPRENEUR_STORY,
+};
+
+export const THE_NEW_NEW_THING = {
+  slug: 'the-new-new-thing',
+  title: `The New New Thing: A Silicon Valley Story`,
+  author: 'Michael Lewis',
+  category: Category.ENTREPRENEUR_STORY,
+};
+
+export const SHOE_DOG = {
+  slug: 'shoe-dog',
+  title: `Shoe Dog: A Memoir by the Creator of Nike`,
+  author: 'Phil Knight',
+  category: Category.ENTREPRENEUR_STORY,
+};
+
+export const BAD_BLOOD = {
+  slug: 'bad-blood',
+  title: `Bad Blood: Secrets and Lies in a Silicon Valley Startup`,
+  author: 'John Carreyrou',
+  category: Category.ENTREPRENEUR_STORY,
+};
+
+// Other
+
+export const EMPTY_PLANET = {
+  slug: 'empty-planet',
+  title: 'Empty Planet: The Shock of Global Population Decline',
+  author: 'Darrell Bricker & John Ibbitson',
+  category: Category.OTHER,
 };
 
 export const ALL_BOOKS: IBook[] = [
@@ -69,6 +107,10 @@ export const ALL_BOOKS: IBook[] = [
   CHASING_THE_SCREAM,
   HOW_TO_AVOID_A_CLIMATE_DISASTER,
   EMPTY_PLANET,
+  LIFT_OFF,
+  THE_NEW_NEW_THING,
+  SHOE_DOG,
+  BAD_BLOOD,
 ];
 
 export const ALL_BOOKS_MAP = new Map<string, IBook>(
