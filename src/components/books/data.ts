@@ -91,6 +91,43 @@ export const BAD_BLOOD = {
   category: Category.ENTREPRENEUR_STORY,
 };
 
+// Software and Product
+
+export const UNICORN_PROJECT = {
+  slug: 'unicorn-project',
+  title: `The Unicorn Project: A Novel about Digital Disruption, Redshirts, and Overthrowing the Ancient Powerful Order`,
+  author: 'Gene Kim',
+  category: Category.SOFTWARE,
+};
+
+export const TECHINICALLY_WRONG = {
+  slug: 'techinically-wrong',
+  title: `Techinically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech`,
+  author: 'Sara Wachter-Boettcher',
+  category: Category.SOFTWARE,
+};
+
+export const CLEAN_CODE = {
+  slug: 'clean-code',
+  title: `Clean Code: A Handbook of Agile Software Craftsmanship`,
+  author: 'Robert C. Martin',
+  category: Category.SOFTWARE,
+};
+
+export const DESIGN_OF_EVERYDAY_THINGS = {
+  slug: 'design-of-everyday-things',
+  title: `Design of Everyday Things`,
+  author: 'Donald A. Norman',
+  category: Category.SOFTWARE,
+};
+
+export const HOOKED = {
+  slug: 'hooked',
+  title: `Hooked: How to Build Habit-Forming Products`,
+  author: 'Nir Eyal',
+  category: Category.SOFTWARE,
+};
+
 // Other
 
 export const EMPTY_PLANET = {
@@ -111,6 +148,11 @@ export const ALL_BOOKS: IBook[] = [
   THE_NEW_NEW_THING,
   SHOE_DOG,
   BAD_BLOOD,
+  UNICORN_PROJECT,
+  TECHINICALLY_WRONG,
+  CLEAN_CODE,
+  DESIGN_OF_EVERYDAY_THINGS,
+  HOOKED,
 ];
 
 export const ALL_BOOKS_MAP = new Map<string, IBook>(
