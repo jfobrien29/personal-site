@@ -10,13 +10,13 @@ export const EXCERPT =
 
 const BlogPost: React.FC<any> = () => {
   return (
-    <article>
+    <>
       <P>
         Coming soon! Coming soon! Coming soon! Coming soon! Coming soon! Coming
         soon!
       </P>
       <P> - Jack</P>
-    </article>
+    </>
   );
 };
 

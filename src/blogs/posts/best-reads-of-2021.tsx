@@ -14,11 +14,11 @@ import {
 export const SLUG = 'best-reads-of-2021';
 export const TITLE = 'Best Reads of 2021';
 export const DATE = '2021-12-18';
-export const EXCERPT = `If you're reading this, I'm probably recommending you a book! I like to think back on my favorite books and articles at the end of the year, and this year (and in years to come) I'm published the best of the best. I wholeheartedly recommend a read of everything mentioned!`;
+export const EXCERPT = `If you're reading this, I'm probably recommending you a book! I like to think back on my favorite books and articles at the end of the year, and this year (and in years to come) I'm publishing the best of the best. I wholeheartedly recommend a read of everything mentioned!`;
 
 const BlogPost: React.FC<any> = () => {
   return (
-    <article>
+    <>
       <P>
         If you're reading this, I'm probably recommending you a book! I like to
         think back on my favorite books and articles at the end of the year, and
@@ -326,7 +326,7 @@ const BlogPost: React.FC<any> = () => {
         know!
       </P>
       <P> - Jack</P>
-    </article>
+    </>
   );
 };
 

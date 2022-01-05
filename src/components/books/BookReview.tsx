@@ -13,7 +13,7 @@ const BookReview: React.FC<any> = ({ slug }) => {
 
   return (
     <BaseLayout title={book.title} description={book.title}>
-      <div className="flex flex-col max-w-3xl px-4 py-6 md:px-6 bg-white text-gray-700 rounded-md shadow-xl">
+      <article className="flex flex-col max-w-3xl px-4 py-6 md:px-6 bg-white text-gray-700 rounded-md shadow-xl">
         <h1 className="text-4xl font-semibold">{book.title}</h1>
         <p className="text-lg font-semibold text-gray-500 mt-2">
           By {book.author}
@@ -26,7 +26,7 @@ const BookReview: React.FC<any> = ({ slug }) => {
             <a className="underline">Back to all books</a>
           </Link>
         </div>
-      </div>
+      </article>
     </BaseLayout>
   );
 };
