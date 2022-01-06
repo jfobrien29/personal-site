@@ -37,7 +37,7 @@ const Landing: React.FC<any> = () => (
     <div className="flex flex-col w-full align-center">
       <div className="flex flex-col justify-center max-w-3xl h-screen px-4 negative-landing-margin mx-auto">
         <h1 className="text-xl leading-7 md:text-4xl font-semibold">
-          I'm the CTO & Co-Founder of{' '}
+          I'm Co-Founder & CTO of{' '}
           <a className="underline" href="https://onepager.vc">
             OnePager
           </a>
