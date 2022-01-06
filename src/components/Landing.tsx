@@ -30,7 +30,7 @@ export const HighlighedBlogPost: React.FC<{ post: IBlogPost }> = ({ post }) => {
 
 const Landing: React.FC<any> = () => (
   <BaseLayout
-    title="Jack O'Brien's personal site"
+    title="Jack O'Brien"
     description="Co-Founder and CTO of OnePager, interested in software, startups, education, biotech, climate
     change solutions, and web3. At my core, I like to build things."
   >
