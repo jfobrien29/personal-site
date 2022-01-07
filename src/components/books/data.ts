@@ -32,10 +32,10 @@ export const LIFESPAN = {
   category: CATEGORY.MUST_READ,
   links: {
     book:
-      'https://www.amazon.com/Lifespan-Why-Age_and-Dont-Have/dp/1501191977/ref=asc_df_1501191977/?tag=hyprod-20&linkCode=df0&hvadid=366299527575&hvpos=&hvnetw=g&hvrand=10968552982678931531&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-700016961004&psc=1&tag=&ref=&adgrpid=79033899111&hvpone=&hvptwo=&hvadid=366299527575&hvpos=&hvnetw=g&hvrand=10968552982678931531&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-700016961004',
+      'https://www.amazon.com/Lifespan-Why-Age_and-Dont-Have/dp/1501191977/',
   },
   quickDescription:
-    "Longevity and healthspan will meaningfully increase in our lifetimes. We've figured out the mechanism of aging, and every technical problem has a technical solution.",
+    "Longevity and healthspan will meaningfully increase in our lifetimes. We've figured out the mechanism of aging, and every technical biological problem has a technical solution.",
 };
 
 export const WIRES_OF_WAR = {
@@ -43,6 +43,10 @@ export const WIRES_OF_WAR = {
   title: 'Wires of War: Technology and the Global Struggle for Power and Order',
   author: 'Jacob Helberg',
   category: CATEGORY.MUST_READ,
+  links: {
+    book:
+      'https://www.amazon.com/Wires-War-Technology-Global-Struggle-ebook/dp/B08VJMR39C/',
+  },
   quickDescription:
     'China is openly attempting to take over global internet content, infrasturcture, and content. An authoritarian government in charge of the internet threatens democracy everywhere.',
 };
@@ -53,6 +57,10 @@ export const CODE_BREAKER = {
     'Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race',
   author: 'Walter Isaacson',
   category: CATEGORY.MUST_READ,
+  links: {
+    book:
+      'https://www.amazon.com/Code-Breaker-Jennifer-Doudna-Editing-ebook/dp/B08G1XNG7J/',
+  },
   quickDescription:
     "CRISPR genome editing was discovered in 2012, and the first gene edited human was born in 2018. Story of CRISPR discovery, how it's going to be used, and the moral delimas of cheap, easy gene editing.",
 };
@@ -62,6 +70,10 @@ export const CHASING_THE_SCREAM = {
   title: 'Chasing the Scream: The First and Last Days of the War on Drugs',
   author: 'Johann Hari',
   category: CATEGORY.MUST_READ,
+  links: {
+    book:
+      'https://www.amazon.com/Chasing-Scream-First-Last-Drugs-ebook/dp/B00OZM4ANM/',
+  },
   quickDescription:
     "Wild. Outdated global drug policy doesn't work, creates a dangerous world for everyone remotely involved, and the war on drugs is on it's way out.",
 };
@@ -71,6 +83,10 @@ export const HOW_TO_AVOID_A_CLIMATE_DISASTER = {
   title: `How to Avoid a Climate Disaster: Solutions We Have and the Breakthroughs We’ll Need`,
   author: 'Bill Gates',
   category: CATEGORY.MUST_READ,
+  links: {
+    book:
+      'https://www.amazon.com/How-Avoid-Climate-Disaster-Breakthroughs-ebook/dp/B07YRY461Y/',
+  },
   quickDescription:
     "We've got until 2030 to get on a direct path forward, and 2050 to reach net 0 carbon emissions. It's possible with focus, collaboration, and innovation.",
 };
