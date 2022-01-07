@@ -13,6 +13,7 @@ export interface IBook {
   slug: string;
   title: string;
   author: string;
+  quickDescription: string;
   links?: {
     book?: string;
     author?: string;
@@ -20,7 +21,6 @@ export interface IBook {
   imageUrl?: string;
   category: CATEGORY;
   review?: string;
-  quickDescription: string;
 }
 
 // Must Reads
@@ -30,6 +30,10 @@ export const LIFESPAN = {
   title: 'Lifespan: Why We Age - and Why We Don’t Have To',
   author: 'Dr. David Sinclair',
   category: CATEGORY.MUST_READ,
+  links: {
+    book:
+      'https://www.amazon.com/Lifespan-Why-Age_and-Dont-Have/dp/1501191977/ref=asc_df_1501191977/?tag=hyprod-20&linkCode=df0&hvadid=366299527575&hvpos=&hvnetw=g&hvrand=10968552982678931531&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-700016961004&psc=1&tag=&ref=&adgrpid=79033899111&hvpone=&hvptwo=&hvadid=366299527575&hvpos=&hvnetw=g&hvrand=10968552982678931531&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-700016961004',
+  },
   quickDescription:
     "Longevity and healthspan will meaningfully increase in our lifetimes. We've figured out the mechanism of aging, and every technical problem has a technical solution.",
 };

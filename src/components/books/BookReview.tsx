@@ -20,8 +20,26 @@ const BookReview: React.FC<any> = ({ slug }) => {
         <p className="text-lg font-semibold text-gray-500 mt-2">
           By {book.author}
         </p>
-        <hr className="my-4 border-px border-orange" />
-        {book.review || 'No review yet!'}
+        <hr className="mt-4 border-px border-orange" />
+
+        <h2 className="mt-4 text-gray-500 font-semibold">Overview</h2>
+        <p className="mt-2">{book.quickDescription}</p>
+        <h2 className="mt-4 text-gray-500 font-semibold">Review</h2>
+        <p className="mt-2">
+          {book.review || "I haven't written a review yet!"}
+        </p>
+
+        <hr className="mt-4 border-px border-orange" />
+        {book.links?.book && (
+          <a
+            href={book.links.book}
+            className="underline mt-4"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See this book on Amazon
+          </a>
+        )}
 
         <div className="flex mt-4">
           <Link href={ROUTES.BOOKS}>
