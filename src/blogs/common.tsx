@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export const P: React.FC<any> = ({ children }) => {
   return <p className="mt-6">{children}</p>;
@@ -49,4 +50,15 @@ export const Heading4: React.FC<any> = ({ children }) => {
 
 export const Divider: React.FC = () => {
   return <hr className="my-8 border-px border-orange" />;
+};
+
+export const PostImage: React.FC<any> = ({ src, alt, subtitle }) => {
+  return (
+    <div className="mt-6 flex flex-col items-center">
+      <img src={src} alt={alt} className="w-auto max-h-72" />
+      <p className="text-xs text-gray-500 mt-2 w-2/3 text-center italic">
+        {subtitle}
+      </p>
+    </div>
+  );
 };

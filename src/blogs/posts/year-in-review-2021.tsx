@@ -1,6 +1,6 @@
 import React from 'react';
 import { IBlogPost } from '../all';
-import { A, Heading2, P } from '../common';
+import { A, Heading2, P, PostImage } from '../common';
 
 export const SLUG = '2021-year-in-review';
 export const TITLE = 'Big Decisions, Big Races, and a Big Year All Around!';
@@ -55,7 +55,21 @@ const BlogPost: React.FC<any> = () => {
         weekend, where I brought together my family and friends together in
         Massachusetts for a great weekend in the pouring rain.
       </P>
-      <P>Pic</P>
+      <PostImage
+        src="/blogs/2021-year-in-review/tori_jackson_hole.png"
+        alt="Tori and I at the Griffens wedding in Jackson Hole, Wyoming"
+        subtitle="Tori and I at the Griffens wedding in Jackson Hole, Wyoming"
+      />
+      <PostImage
+        src="/blogs/2021-year-in-review/zion_mountains.jpg"
+        alt="Zion Mountains"
+        subtitle="Kolob Canyon in Zion from our 4 day camping trip across the park."
+      />
+      <PostImage
+        src="/blogs/2021-year-in-review/tahoe_people.png"
+        alt="Friends from Tahoe"
+        subtitle="The main characters from our 2 months in Lake Tahoe."
+      />
       <Heading2>Big Mountains and Big Races</Heading2>
       <P>
         I started the year in Lake Tahoe trying to ski as much as possible. Half
@@ -125,6 +139,17 @@ const BlogPost: React.FC<any> = () => {
         the three races under our belt, we’ve raised $96,458!
       </P>
       <P>For now we’ve decided this is the end of GAL… for now.</P>
+
+      <PostImage
+        src="/blogs/2021-year-in-review/post_ironman.png"
+        alt="Johnny and I after the iron man."
+        subtitle="Johnny and I after finishing the half Iron Man in Roanoke, VA."
+      />
+      <PostImage
+        src="/blogs/2021-year-in-review/nyc_marathon.jpg"
+        alt="Me running the NYC marathon."
+        subtitle="A shot from the NYC marathon!"
+      />
 
       <Heading2>Building At Google</Heading2>
       <P>
@@ -254,6 +279,11 @@ const BlogPost: React.FC<any> = () => {
         decision maker.”
       </P>
       <P>And with that I was all in!</P>
+      <PostImage
+        src="/blogs/2021-year-in-review/first_day_office.png"
+        alt="Adam and I in the office."
+        subtitle="Adam and I in our WeWork the first day, we were able to get in a day early and Nic couldn't make it! So really day 0."
+      />
       <Heading2>Being a Founder</Heading2>
       <P>
         By mid summer I was a full time co-founder and CTO of OnePager, and the
@@ -278,21 +308,26 @@ const BlogPost: React.FC<any> = () => {
         speakers Shahed Kahn (founder of Loom) and Josh Buckley (CEO Hyper).
         Afterwards, we managed to talk with Shahed and Josh for roughly an hour,
         and they gave us a rude awakening. We were a talented and promising team
-        yes, but it meant nothing if we didn’t show growth. And growth would
-        only be achieved with the market pull from product market fit. Josh said
-        if we weren’t growing 10% week over week, it wasn’t venture scalable. He
-        liked us, but emphasized we needed to continue down the “idea maze”. He
-        didn’t think OnePager in its current state would work.
+        yes, but it meant nothing if we didn’t show strong growth. Josh said if
+        we weren’t growing 10% week over week, or saw a path to that kind of
+        growth, it wasn’t venture scalable. That was his benchmark. He liked us,
+        but emphasized we needed to continue down the “idea maze”. He didn’t
+        think OnePager in its current state would work.
       </P>
       <P>
         From this point on, life at OnePager has been much more startup-y. Happy
         users and a steady stream of companies is fine, but these aren’t metrics
         of success. We needed to optimize for users, revenue, or both and show
         real growth. The app was in great shape but it didn’t matter. We
-        switched into full business experimentation mode. (In hindsight, we have
+        switched into full business experimentation mode. (In hindsight, we may
         have overcorrected after this encounter, but I think it was a positive
-        overall)
+        overall for us to stop working "heads down")
       </P>
+      <PostImage
+        src="/blogs/2021-year-in-review/product_hunt.png"
+        alt="Nic, Adam, and I. The OnePager team."
+        subtitle="Adam, Nic, and I at a Product Hunt event in New York City. After this photo, we talked with Josh and Shahed about OnePager."
+      />
       <Heading2>Going Down the Idea Maze</Heading2>
       <P>
         First we explored product recommendations further. As a stand alone
@@ -360,6 +395,11 @@ const BlogPost: React.FC<any> = () => {
         chances at success. Helping more founders fundraise does just that, and
         I’m proud of what we’ve done so far.
       </P>
+      <PostImage
+        src="/blogs/2021-year-in-review/onepager_boys.png"
+        alt="Nic, Adam, and I. The OnePager team."
+        subtitle="Nic, me, and Adam at a startup event in New York City hosted by Brex. The OnePager team never looked so good!"
+      />
       <Heading2>Conclusion</Heading2>
       <P>
         And that brings us to 2022! I did get COVID during the final days of
