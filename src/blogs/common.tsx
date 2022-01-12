@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { blurDataUrlShimmer } from '@/utils/shimmer';
 
 export const P: React.FC<any> = ({ children }) => {
   return <p className="mt-6">{children}</p>;
@@ -11,13 +12,13 @@ export const Quote: React.FC<any> = ({ children }) => {
   );
 };
 
-export const A: React.FC<any> = ({ children, href }) => {
+export const A: React.FC<any> = ({ children, href, noBlank }) => {
   return (
     <a
       className="underline decoration-orange"
       href={href}
-      target="_blank"
-      rel="noreferrer"
+      target={noBlank ? '' : '_blank'}
+      rel={noBlank ? '' : 'noreferrer'}
     >
       {children}
     </a>
@@ -52,11 +53,36 @@ export const Divider: React.FC = () => {
   return <hr className="my-8 border-px border-orange" />;
 };
 
-export const PostImage: React.FC<any> = ({ src, alt, subtitle }) => {
+export const MAX_HEIGHT = 400;
+
+export const PostImage: React.FC<any> = ({
+  src,
+  alt,
+  h = 300,
+  w = 300,
+  subtitle,
+}) => {
+  let width = w;
+  let height = h;
+  if (w > MAX_HEIGHT) {
+    width = (w * MAX_HEIGHT) / h;
+    height = MAX_HEIGHT;
+  }
+
   return (
-    <div className="mt-6 flex flex-col items-center">
-      <img src={src} alt={alt} className="w-auto max-h-72" />
-      <p className="text-xs text-gray-500 mt-2 w-2/3 text-center italic">
+    <div className="mt-6 flex flex-col items-center mb-2">
+      <div>
+        <Image
+          src={src}
+          alt={alt}
+          height={height}
+          width={width}
+          blurDataURL={blurDataUrlShimmer(h, w)}
+          placeholder="blur"
+          className="rounded-sm"
+        />
+      </div>
+      <p className="text-xs text-gray-500 mt-1 w-2/3 text-center italic">
         {subtitle}
       </p>
     </div>

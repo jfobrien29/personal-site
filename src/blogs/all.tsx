@@ -15,17 +15,17 @@ export interface IBlogPost {
 }
 
 export const LANDING_BLOG_POSTS: IBlogPost[] = [
+  YearInReview2021,
   BestOf2021,
   HowToWriteSoftware,
   ElevateFounderDiversity,
 ];
 
 export const ALL_BLOG_POSTS: IBlogPost[] = [
+  YearInReview2021,
   BestOf2021,
   HowToWriteSoftware,
   ElevateFounderDiversity,
-  LeavingGoogleForOnePager,
-  YearInReview2021,
 ];
 
 export const HOSTED_BLOG_POSTS: IBlogPost[] = [BestOf2021];
