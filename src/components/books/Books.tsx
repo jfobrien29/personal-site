@@ -25,7 +25,7 @@ const BookSection: React.FC<{ category: CATEGORY; header: string }> = ({
     <div>
       <h2 className="mt-8 text-2xl font-semibold underline">{header}</h2>
 
-      <div className="ml-4">
+      <div className="md:ml-4">
         {ALL_BOOKS.filter((book: IBook) => book.category === category).map(
           (book: IBook) => (
             <BookListing key={book.slug} book={book} />

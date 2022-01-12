@@ -8,7 +8,7 @@ export const SLUG = 'big-decisions-big-races-and-a-big-year-all-around';
 export const TITLE = 'Big Decisions, Big Races, and a Big Year All Around!';
 export const DATE = '2022-01-12';
 export const EXCERPT =
-  '2021 year in review:great time with friends, running my first half Iron Man and third marathon, leaving Google for OnePager, and my first 6 months as a founder.';
+  '2021 year in review: great time with friends, running my first half Iron Man and third marathon, leaving Google for OnePager, and my first 6 months as a founder.';
 
 const BlogPost: React.FC<any> = () => {
   return (

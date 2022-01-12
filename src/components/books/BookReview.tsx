@@ -24,10 +24,10 @@ const BookReview: React.FC<any> = ({ slug }) => {
 
         <h2 className="mt-4 text-gray-500 font-semibold">Overview</h2>
         <p className="mt-2">{book.quickDescription}</p>
-        <h2 className="mt-4 text-gray-500 font-semibold">Review</h2>
+        {/* <h2 className="mt-4 text-gray-500 font-semibold">Review</h2>
         <p className="mt-2">
           {book.review || "I haven't written a review yet!"}
-        </p>
+        </p> */}
 
         <hr className="mt-4 border-px border-orange" />
         {book.links?.book && (

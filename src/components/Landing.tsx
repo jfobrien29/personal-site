@@ -57,10 +57,10 @@ const Landing: React.FC<any> = () => (
         </h2>
 
         <h2 className="mt-8 text-lg">
-          For book recommendations,{' '}
+          For books,{' '}
           <Link href={ROUTES.BOOKS} passHref>
             <a className="underline" href={TWITTER_LINK}>
-              check out my top recs
+              check out my top recommendations.
             </a>
           </Link>
         </h2>

@@ -48,7 +48,7 @@ export const WIRES_OF_WAR = {
       'https://www.amazon.com/Wires-War-Technology-Global-Struggle-ebook/dp/B08VJMR39C/',
   },
   quickDescription:
-    'China is openly attempting to take over global internet content, infrasturcture, and content. An authoritarian government in charge of the internet threatens democracy everywhere.',
+    'China is openly attempting to take over global internet infrasturcture and content. An authoritarian government in charge of the internet threatens democracy everywhere.',
 };
 
 export const CODE_BREAKER = {
@@ -142,7 +142,7 @@ export const BAD_BLOOD = {
       'https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup-ebook/dp/B078VW3VM7/',
   },
   quickDescription:
-    "Elizabeth Holmes is a die hard entrepreneur and one of the most persuasive leaders I've read about. How NOT to run a startup.",
+    "Elizabeth Holmes is a die hard entrepreneur and one of the most persuasive leaders I've read about. Also, how NOT to run a startup.",
 };
 
 // Software and Product
@@ -157,7 +157,7 @@ export const UNICORN_PROJECT = {
       'https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41',
   },
   quickDescription:
-    'Put into the form of a novel, an informative story about dev ops, team structure, and agile developement practices for software companies.',
+    'Put into the form of an entertaining novel, an informative story about dev ops, team structure, and agile developement practices for software companies.',
 };
 export const TECHINICALLY_WRONG = {
   slug: 'techinically-wrong',
