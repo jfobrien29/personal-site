@@ -19,9 +19,9 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         <a className="underline" href="https://openscout.vc">
           Open Scout
         </a>
-        , building to give more founders quality fundraising exposure. If more
-        founders can access early stage venture funding, more great ideas will
-        become sustainable businesses.
+        . More people should be able to start companies. If more founders can
+        access early stage venture funding, more great ideas will become real
+        businesses.
       </p>
 
       <p className="mt-8 text-lg">
