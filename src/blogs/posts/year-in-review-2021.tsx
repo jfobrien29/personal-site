@@ -203,7 +203,7 @@ const BlogPost: React.FC<any> = () => {
       </P>
       <P>
         The positives: I got to spearhead a new team within YouTube and launch
-        features affecting millions of users, mostly students. According our
+        features affecting millions of users, mostly students. According to our
         launch metrics, features I had developed increased Academic Learning
         Watch Time by tens of thousands of hours weekly! A drop in the bucket
         for the billions of hours watched on YouTube, but a step in the right
@@ -295,10 +295,10 @@ const BlogPost: React.FC<any> = () => {
         co-founder Adam for ruthlessly recruiting me, and I’m also thankful for
         all the advice I got from friends, family, and mentors: my parents,
         Tori, Nic, Rich Napolitano, Alexander Fish, Bear Goldstien, Bear
-        Altemus, Alistair Berven, George Gianos, Mac Cordrey, Dawit Heck, Luke
-        Armour, Anna Doherty, Brandon Arvanaghi, Ed Parizeau, Michael Greenberg,
-        Suhail Doshi, Tom Cecil, Safwan Chowdrey, and Jon Novatnack to name a
-        few.
+        Altemus, Alistair Berven, George Gianos, Mac Cordrey, Dawit Heck, Chris
+        Dale, Luke Armour, Anna Doherty, Brandon Arvanaghi, Ed Parizeau, Michael
+        Greenberg, Suhail Doshi, Tom Cecil, Safwan Chowdrey, and Jon Novatnack
+        to name a few.
       </P>
       <P>
         This felt like an insane decision (people kill to work at Google!), so
@@ -311,7 +311,7 @@ const BlogPost: React.FC<any> = () => {
         “Doing this will be difficult and possibly fail, but it will move me
         closer to my ideal future as a proven builder and decision maker.”
       </P>
-      <P>And with that I was all in!</P>
+      <P>And with that it was a no brainer, I was all in!</P>
       <PostImage
         src="/blogs/2021-year-in-review/first_day_office.png"
         alt="Adam and I in the office."
@@ -322,12 +322,11 @@ const BlogPost: React.FC<any> = () => {
       <Heading2>Being a Founder</Heading2>
       <P>
         By mid summer I was a full time co-founder and CTO of OnePager, and the
-        first ~8 weeks were a heads down blur. We moved into a WeWork and got to
-        work. Nic and I had built out a backlog of critical bugs, styling
-        changes, and long awaited features, so the "what to do" felt
-        straightforward. Long hours building, testing, and launching. We
-        continued to get great feedback from founders and user growth showed
-        signs of acceleration. Things were generally looking up.
+        first ~8 weeks were a heads down blur. Nic and I had built out a backlog
+        of critical bugs, styling changes, and long awaited features, so the
+        "what to do" felt straightforward. Long hours building, testing, and
+        launching. We continued to get great feedback from founders and user
+        growth showed signs of acceleration. Things were generally looking up.
       </P>
       <P>
         At this time we also began exploring product recommendations further. Up
@@ -349,8 +348,8 @@ const BlogPost: React.FC<any> = () => {
         from <A href="https://twitter.com/FarzaTV">@FarzaTV</A>. Since DMing him
         for an invite, I've gone every other Wednesday. It's been the perfect
         opportunity to talk about the newest OnePager features, set goals (+
-        keep them), and talk with other founders in the grind. Most importantly
-        I've met some truly ambitious and talented people: David (
+        keep them), and talk with other founders in the grind. I've met some
+        truly ambitious and talented people: David (
         <A href="https://covalent.live/">Covalent</A>), Farza (
         <A href="https://buildspace.so/">buildspace</A>), Lenny (
         <A href="https://milkvideo.com/">Milk Video</A>), Fed (
@@ -359,10 +358,10 @@ const BlogPost: React.FC<any> = () => {
           Tunestalgia
         </A>
         ) , and Houck (<A href="https://www.launchhouse.com/">Launch House</A>)
-        to name a few. Right away the group was impressed OnePager's initial
+        to name a few. Right away the group was impressed by OnePager's initial
         traction, and some had even used us for fundraising! But, others
-        suggested OnePager needed to focus more on growth, and they turned out
-        to be right.
+        suggested we needed to focus more on growth, and they turned out to be
+        right.
       </P>
       <P>
         In late September we had our first major course correction. Nic, Adam,
