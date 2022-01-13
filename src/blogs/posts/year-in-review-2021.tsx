@@ -294,9 +294,11 @@ const BlogPost: React.FC<any> = () => {
         the better path forward. I owe it mostly to my good friend and
         co-founder Adam for ruthlessly recruiting me, and I’m also thankful for
         all the advice I got from friends, family, and mentors: my parents,
-        Tori, Nic, Rich Napolitano, Mac Cordrey, Dawit Heck, Luke Armour, Anna
-        Doherty, Brandon Arvanaghi, Ed Parizeau, Michael Greenberg, Suhail
-        Doshi, Tom Cecil, Safwan Chowdrey, and Jon Novatnack to name a few.
+        Tori, Nic, Rich Napolitano, Alexander Fish, Bear Goldstien, Bear
+        Altemus, Alistair Berven, George Gianos, Mac Cordrey, Dawit Heck, Luke
+        Armour, Anna Doherty, Brandon Arvanaghi, Ed Parizeau, Michael Greenberg,
+        Suhail Doshi, Tom Cecil, Safwan Chowdrey, and Jon Novatnack to name a
+        few.
       </P>
       <P>
         This felt like an insane decision (people kill to work at Google!), so
