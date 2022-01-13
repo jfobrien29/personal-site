@@ -77,20 +77,21 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
 
       <p className="mt-8 text-lg">
         Undergraduate engineering degree in Computer Science from Princeton,
-        where I was recruited for the men's lacrosse team. I clearly like orange
-        to a fault, let's go Tigers!
+        where I was recruited to play for the men's lacrosse team. I clearly
+        like orange to a fault, let's go Tigers!
       </p>
 
       <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
 
       <div className="mt-8 text-lg">
-        <span>Usually</span> I get in all the coding I need from my main job,
-        but I do work on a few side projects occationally. A few fun ones both
-        technical and non-technical:
+        I usually get in all the coding/work I need from my main job, but
+        occationally I like to tinker on side projects (OnePager is the only
+        graduate from this list). A few fun ones both technical and
+        non-technical:
         <ul className="list-disc ml-6 mt-4 gap-4">
           <li className="mt-4">
             <span className="font-semibold">Text Reflect</span>, daily self
-            reflection via text (2022, in progress...,)
+            reflection via text (2022, in progress)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -140,8 +141,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
             via text, show results in public (2021){' '}
           </li>
           <li className="mt-4">
-            <span className="font-semibold">Fun Zoom Link</span>, dress up zoom
-            links and add context to meetings. Great pandemic project, shut down
+            <span className="font-semibold">Fun Zoom Link</span>, shortlinks for
+            zoom only + context for meetings. Great pandemic project, shut down
             for using the word "Zoom" (2020){' '}
           </li>
           <li className="mt-4">
@@ -172,7 +173,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
             <span className="font-semibold">
               Impact Environmental Calculator
             </span>
-            , calculate and improve your true impact on the environment (2016)
+            , calculate and compete improve your true impact on the environment
+            with others in your area (2016)
           </li>
         </ul>
       </div>
