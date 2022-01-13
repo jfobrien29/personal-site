@@ -264,10 +264,12 @@ const BlogPost: React.FC<any> = () => {
       </P>
       <P>
         Throughout the rest of the spring/early summer we continued to refine
-        the product and see steady user growth, roughly 100 companies weekly. We
-        also became increasingly involved with the AWS Startups team, who were
-        happy to partner with us and get access to our breadth of early stage
-        startups. Thus, the first promising model of OnePager presented itself.
+        the product and see steady user growth. Revenue also picked up as we
+        attracted paid users to OnePager premium features for the first time. On
+        top of that, we became increasingly involved with the AWS Startups team,
+        who were happy to partner with us and get access to our breadth of early
+        stage startups. Thus, the first promising model of OnePager presented
+        itself.
       </P>
       <P>
         We would attract companies to OnePager as a fundraising presentation
@@ -483,21 +485,23 @@ const BlogPost: React.FC<any> = () => {
       <P>
         It’s unclear if this is the right path for our business, but we’re
         excited the way things have gone so far and where “the idea maze” is
-        taking us. It’s been a stressful, but rewarding experience. I’ve owned
-        our product end to end for nearly 2 years, spent 7 months as a full time
-        founder, and led massive changes, real growth, and notable revenue.
-        Overall, I do think we’ve made a small dent in venture capital, and more
-        and more people are starting to recognize the OnePager brand.
+        taking us. It’s of course been stressful, but it's also been an
+        incredibly rewarding experience. I’ve owned our product end to end for
+        nearly 2 years, spent 7 months as a full time founder, and led massive
+        changes, real growth, and notable revenue. Overall, I do think we’ve
+        made a small dent in venture capital, and more and more people are
+        beginning to recognize the OnePager brand.
       </P>
       <P>
         As we approach 2022, we're at a crossroads. We haven't put serious
         effort into raising money, mostly because we're not confident what
         business model we'd raise on. At the same time, we've built something
         that thousands have used and the majority have loved. We have a captive
-        audience of investors, and a steady stream of founder signups. We know
-        we've built something useful, and will decide in the coming weeks to
-        stay the course or approach existing ecosystems that could benefit more
-        from our product and our team. This will be a big year for us.
+        audience of investors, and a steady stream of great company signups. We
+        know we've built something useful, and will decide in the coming weeks
+        to stay the course or approach existing companies and ecosystems that
+        could benefit most from our product and our expertise. This will be a
+        big year for us.
       </P>
       <P>
         I firmly believe that there should be more opportunities for people to
@@ -516,7 +520,7 @@ const BlogPost: React.FC<any> = () => {
         And that brings us to 2022! In the final days of 2021 I got COVID, so
         I’m optimistic about my health and new found immunity in the new year.
         If you've made it this far, I’m hoping for a healthy, happy new year for
-        you as well!
+        you too!
       </P>
       <P>- Jack</P>
       <P>
