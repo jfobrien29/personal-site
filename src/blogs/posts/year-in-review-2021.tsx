@@ -14,19 +14,16 @@ const BlogPost: React.FC<any> = () => {
   return (
     <>
       <P>
-        2021 was an incredible year for me. It's odd to admit that publicly
-        during the pandemic, but reflecting on my experiences it’s impossible to
-        argue otherwise. I had my own ups, downs, and stressful times, but I
-        recognize how truly lucky I am to be able to work and live in relative
-        normalcy.
+        2021 was an incredible year for me. I had my own ups, downs, and
+        stressful times, but I recognize how truly lucky I am to be able to work
+        and live in relative normalcy.
       </P>
       <P>
-        I got closer with new friends and spent quality time with old ones. I
-        trained and raced in my first half Iron Man and my third marathon. I was
-        able to ski a ton. I launched features for Google and YouTube reaching
-        millions of students around the world. And in the defining moment of my
-        year (and possibly decade), I choose to quit my job at Google and work
-        on OnePager full time.
+        I trained and raced in my first half Iron Man and my third marathon. I
+        skied a ton. I launched features for YouTube reaching millions of
+        students around the world. And in the defining moment of my year (and
+        possibly decade), I choose to quit my job at Google and work on OnePager
+        full time.
       </P>
       <P>
         I’m writing this mostly in self reflection, but if you choose to go
