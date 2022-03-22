@@ -31,9 +31,9 @@ const Header: React.FC = () => (
       </h2>
       <div className="flex gap-2 md:gap-4 items-center">
         <HeaderLink href="/blog" text="Blog" />
-        <div className="border-r h-4 border-orange"></div>
+        <div className="border-r h-4 border-orange" />
         <HeaderLink href="/about" text="About" />
-        <div className="border-r h-4 border-orange"></div>
+        <div className="border-r h-4 border-orange" />
         <HeaderLink href={TWITTER_LINK} text="Twitter" isExternal />
       </div>
     </nav>

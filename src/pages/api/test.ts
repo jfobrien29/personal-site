@@ -1,11 +1,16 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { withOGImage } from 'next-api-og-image';
 
-const handler = async (
-  req: NextApiRequest,
-  res: NextApiResponse,
-): Promise<void> => {
-  res.setHeader('Cache-Control', ['s-maxage=5', 'stale-while-revalidate']);
-  res.status(200).json({ viewers: Math.ceil(Math.random() * 1000) });
-};
-
-export default handler;
+export default withOGImage({
+  template: {
+    html: ({ myP = 'JACK OBRIEN' }) => `
+      <html>
+        <head>
+          <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        </head>
+        <body>
+          <h1 class="flex flex-row text-6xl text-blue-300">${myP}<span>💻</span></h1>
+        </body>
+      </html>
+    `,
+  },
+});
