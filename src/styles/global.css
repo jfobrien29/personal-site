@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html {
-  @apply bg-orange;
+  @apply bg-zinc-900;
+  /* background-image: url('https://www.transparenttextures.com/patterns/cream-dust.png'); */
   font-family: 'Readex Pro', sans-serif;
 }
 

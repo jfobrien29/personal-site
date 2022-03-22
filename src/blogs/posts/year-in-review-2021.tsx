@@ -8,7 +8,7 @@ export const SLUG = 'big-decisions-big-races-and-a-big-year-all-around';
 export const TITLE = 'Big Decisions, Big Races, and a Big Year All Around!';
 export const DATE = '2022-01-12';
 export const EXCERPT =
-  '2021 year in review: great time with friends, running my first half Iron Man and third marathon, leaving Google for OnePager, and my first 6 months as a founder.';
+  '2021 year in review: my first half Iron Man and third marathon, leaving Google for OnePager, and my first 6 months as a founder.';
 
 const BlogPost: React.FC<any> = () => {
   return (
@@ -54,7 +54,7 @@ const BlogPost: React.FC<any> = () => {
         Three more highlights (out of many more I won't list): #1 a week with
         Tori living on Alistair and George’s houseboat in Sausalito. #2 a four
         day camping trip I took with 5 friends in Zion national park. #3
-        Memorial day weekend, where I brought together my family and friends in
+        Memorial day weekend, where I convinced a big group to head up to
         Massachusetts for a great weekend... in the pouring rain.
       </P>
       <PostImage

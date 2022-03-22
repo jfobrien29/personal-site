@@ -11,6 +11,17 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
+        Director of Engineering for{' '}
+        <a className="underline" href="https://stonks.com">
+          Stonks
+        </a>
+        . Moving as fast as possible, without breaking things (breaking things
+        during live-investing-events is painfully public and bad for business).
+      </p>
+
+      <h2 className="mt-8 italic text-lg">Previously</h2>
+
+      <p className="mt-8 text-lg">
         Co-Founder and CTO of{' '}
         <a className="underline" href="https://onepager.vc">
           OnePager
@@ -19,24 +30,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         <a className="underline" href="https://openscout.vc">
           Open Scout
         </a>
-        . More people should be able to start companies. If more founders can
-        access early stage venture funding, more great ideas will become real
-        businesses.
+        . We were aquired by Stonks in January 2022.
       </p>
-
-      <p className="mt-8 text-lg">
-        Founding Fellow of{' '}
-        <a
-          className="underline"
-          href="https://twitter.com/KERNEL0x/status/1466643159576842244?s=20"
-        >
-          Kernel's 5th cohort
-        </a>
-        , a community of 250 individuals learning web3. Proud to say I owned
-        jackob.eth long before the ENS airdrop.
-      </p>
-
-      <h2 className="mt-8 italic text-lg">Previously</h2>
 
       <p className="mt-8 text-lg">
         Software Engineer at{' '}

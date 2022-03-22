@@ -31,23 +31,23 @@ export const HighlighedBlogPost: React.FC<{ post: IBlogPost }> = ({ post }) => {
 const Landing: React.FC<any> = () => (
   <BaseLayout
     title="Jack O'Brien"
-    description="Co-Founder and CTO of OnePager, interested in software, startups, education, biotech, climate
-    change solutions, and web3. At my core, I like to build things."
+    description="Director of Engineering @ Stonks, interested in software, startups, biotech, and climate
+    change solutions. At my core, I like to build things."
   >
     <div className="flex flex-col w-full align-center">
       <div className="flex flex-col justify-center max-w-3xl h-screen px-4 negative-landing-margin mx-auto">
-        <h1 className="text-xl leading-7 md:text-4xl font-semibold">
-          I'm Co-Founder & CTO of{' '}
-          <a className="underline" href="https://onepager.vc">
-            OnePager
+        <h1 className="text-3xl px-8 leading-10 md:px-0 md:text-4xl font-semibold">
+          I'm the Director of Engineering at{' '}
+          <a className="underline" href="https://stonks.com">
+            Stonks
           </a>
-          , interested in software, startups, education, biotech, and climate
-          change solutions. At my core, I'm a builder.
+          , interested in software, startups, biotech, and climate change
+          solutions. At my core, I'm a builder.
         </h1>
       </div>
 
       <div className="px-4 max-w-2xl mx-auto ">
-        <div className="w-full h-px bg-white mx-auto" />
+        <div className="w-full h-px bg-orange mx-auto" />
 
         <h2 className="mt-8 text-lg">
           For my latest,{' '}
