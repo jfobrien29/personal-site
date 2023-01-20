@@ -21,7 +21,8 @@ const BlogPost: React.FC<any> = () => {
     <>
       <P>
         It's been a while since I posted, but I wanted to make sure I listed my
-        best reads of 2022. Everything listed here is a serious endorsement!
+        best reads of 2022. Everything listed here is a big personal
+        endorsement, and I hope you enjoy!
       </P>
 
       <Heading2 id="books">My Top 3 Books</Heading2>
@@ -40,6 +41,10 @@ const BlogPost: React.FC<any> = () => {
         English comes through occasionally, but the content of the books is like
         nothing I’ve ever read. This is stay up all night to find out what
         happens level book.
+      </P>
+      <P>
+        Book two, Dark Forrest, was my favorite, but all are absolutely required
+        reading for sci-fi fans.
       </P>
       <Heading4>How I found it</Heading4>
       <P>
