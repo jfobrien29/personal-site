@@ -221,6 +221,19 @@ export const ZERO_TO_ONE = {
   quickDescription:
     'Must read startup book. Quick read, foundational, just read it.',
 };
+
+export const COLD_START_PROBLEM = {
+  slug: 'cold-start-problem',
+  title: `The Cold Start Problem`,
+  author: 'Andrew Chen',
+  category: CATEGORY.STARTUP,
+  links: {
+    book:
+      'https://www.amazon.com/Zero-One-Notes-Startups-Future-ebook/dp/B00J6YBOFQ/',
+  },
+  quickDescription:
+    'Must read for startups. Everything revolves around networks and every company must solve "the cold start problem".',
+};
 export const LEAN_STARTUP = {
   slug: 'the-lean-startup',
   title: `The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses`,
@@ -303,6 +316,7 @@ export const ALL_BOOKS: IBook[] = [
   DESIGN_OF_EVERYDAY_THINGS,
   HOOKED,
   ZERO_TO_ONE,
+  COLD_START_PROBLEM,
   LEAN_STARTUP,
   ART_OF_THE_START,
   HARD_THING_ABOUT_HARD_THINGS,
