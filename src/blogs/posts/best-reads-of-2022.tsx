@@ -13,7 +13,7 @@ import {
 
 export const SLUG = 'best-reads-of-2022';
 export const TITLE = 'Best Reads of 2022';
-export const DATE = '2022-01-19';
+export const DATE = '2023-01-19';
 export const EXCERPT = `It's been a while since I blogged, but I wanted to make sure I listed my best reads of 2022. Everything listed here is a serious endorsement!`;
 
 const BlogPost: React.FC<any> = () => {
@@ -44,8 +44,9 @@ const BlogPost: React.FC<any> = () => {
       <Heading4>How I found it</Heading4>
       <P>
         This book was recommended to me by Ali Moiz, my collegue and founder of
-        Stonks! He recommended it at an offsite in April, and though it took me
-        a few months to get started, it's one of the best series I've ever read.
+        Stonks! He recommended it to me at an offsite in April, and though it
+        took me a few months to get started, it's one of the best series I've
+        ever read.
       </P>
 
       <P>
@@ -150,11 +151,6 @@ const BlogPost: React.FC<any> = () => {
         <p>And we will rule it,</p>
         <p>With an iron fist.</p>
       </Quote>
-      <P>
-        <A href="https://www.newyorker.com/culture/culture-desk/the-new-poem-making-machinery">
-          Read the full article here for more depth.
-        </A>
-      </P>
 
       <Heading3 id="article2">
         <A href="https://every.to/p/what-i-miss-about-working-at-stripe">
@@ -220,29 +216,30 @@ const BlogPost: React.FC<any> = () => {
         <A href="https://www.nfx.com/post/economics-of-creativity/">
           Economics of creativity
         </A>{' '}
-        Interesting thoughts on why developers are paid so much today from NFX.
+        - Interesting thoughts on why developers are paid so much today from
+        NFX.
       </P>
       <P>
         <A href="https://web.archive.org/web/20220514151219/https://www.nytimes.com/2022/05/14/opinion/sunday/rich-happiness-big-data.html">
           Money and Happiness
-        </A>
-        "The data-driven answer to life is as follows: Be with your love, on an
-        80-degree and sunny day, overlooking a beautiful body of water, having
-        sex."
+        </A>{' '}
+        - "The data-driven answer to life is as follows: Be with your love, on
+        an 80-degree and sunny day, overlooking a beautiful body of water,
+        having sex."
       </P>
       <P>
         <A href="https://www.wired.com/story/blake-lemoine-google-lamda-ai-bigotry/">
           Blake Lemoine Says Google's LaMDA AI Faces 'Bigotry'
         </A>{' '}
-        Wired article on Blake Lemoine, who claimed that Google's LaMDA was
+        - Wired article on Blake Lemoine, who claimed that Google's LaMDA was
         sentient.
       </P>
       <P>
         <A href="https://www.wired.com/story/the-search-for-a-pill-for-dog-and-human-longevity/ ">
           The Search for a Pill That Can Help Dogs—and Humans—Live Longer
         </A>{' '}
-        Wired article on Loyal, the company doubling dog lifespans, and possibly
-        humans soon.
+        - Wired article on Loyal, the company doubling dog lifespans, and
+        possibly humans soon.
       </P>
 
       <Divider />

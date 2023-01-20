@@ -18,7 +18,7 @@ const HeaderLink: React.FC<any> = ({ href, text, isExternal }) => {
 
   return (
     <Link href={href} passHref>
-      <a className="font-semibold text-sm md:text-md">{text}</a>
+      <span className="font-semibold text-sm md:text-md">{text}</span>
     </Link>
   );
 };

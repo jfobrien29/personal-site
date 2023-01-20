@@ -37,11 +37,11 @@ const Landing: React.FC<any> = () => (
     <div className="flex flex-col w-full align-center">
       <div className="flex flex-col justify-center max-w-3xl h-screen px-4 negative-landing-margin mx-auto">
         <h1 className="text-3xl px-8 leading-10 md:px-0 md:text-4xl font-semibold">
-          I'm the CTO at{' '}
+          I'm the CTO of{' '}
           <a className="underline" href="https://stonks.com">
             Stonks
           </a>
-          , interested in software, startups, biotech, and climate change
+          , interested in software, biotech, aerospace, and climate change
           solutions. At my core, I'm a builder.
         </h1>
       </div>
@@ -59,9 +59,7 @@ const Landing: React.FC<any> = () => (
         <h2 className="mt-8 text-lg">
           For books,{' '}
           <Link href={ROUTES.BOOKS} passHref>
-            <a className="underline" href={TWITTER_LINK}>
-              check out my top recommendations.
-            </a>
+            <span className="underline">check out my top recommendations.</span>
           </Link>
         </h2>
 

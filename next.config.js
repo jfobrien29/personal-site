@@ -1,5 +1,6 @@
 module.exports = {
-  future: {
-    webpack5: true,
+  /* config options here */
+  env: {
+    customKey: 'my-value',
   },
 };

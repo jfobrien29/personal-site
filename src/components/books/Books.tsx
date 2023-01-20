@@ -6,13 +6,11 @@ import { ALL_BOOKS, CATEGORY, IBook } from './data';
 const BookListing: React.FC<{ book: IBook }> = ({ book }) => {
   return (
     <Link href={`/books/${book.slug}`} passHref>
-      <a>
-        <h2 className="mt-8 text-xl font-semibold">{book.title}</h2>
-        <p className="mt-1 text-md italic">By {book.author}</p>
-        <p className="mt-1 text-md elipsis-2-lines-text">
-          {book.quickDescription}
-        </p>
-      </a>
+      <h2 className="mt-8 text-xl font-semibold">{book.title}</h2>
+      <p className="mt-1 text-md italic">By {book.author}</p>
+      <p className="mt-1 text-md elipsis-2-lines-text">
+        {book.quickDescription}
+      </p>
     </Link>
   );
 };

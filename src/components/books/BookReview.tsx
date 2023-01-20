@@ -43,7 +43,7 @@ const BookReview: React.FC<any> = ({ slug }) => {
 
         <div className="flex mt-4">
           <Link href={ROUTES.BOOKS}>
-            <a className="underline">Back to all books</a>
+            <span className="underline">Back to all books</span>
           </Link>
         </div>
       </article>
