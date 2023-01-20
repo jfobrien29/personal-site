@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Footer from '@/components/Footer';
-import BaseHeader from './BaseHeaders';
 import Header from '@/components/Header';
+import BaseHeader from './BaseHeaders';
 
 const BaseLayout: React.FC<any> = ({ title, description, children }) => {
   return (
