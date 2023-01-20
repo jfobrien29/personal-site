@@ -249,7 +249,7 @@ const BlogPost: React.FC<any> = () => {
         <li className="mt-2">
           <span className="font-semibold">Community</span>: Am I excited and
           happy to go to work every morning and see my teammates. Do I believe
-          in the mission, vision, and leadership of this team or company? 
+          in the mission, vision, and leadership of this team or company?
         </li>
       </ul>
       <P>

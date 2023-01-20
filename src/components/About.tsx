@@ -11,7 +11,7 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Director of Engineering for{' '}
+        CTO at{' '}
         <a className="underline" href="https://stonks.com">
           Stonks
         </a>
@@ -62,8 +62,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
 
       <p className="mt-8 text-lg">
         Co-Founder of Tiger Bed Rentals, a bed rental company I started with a
-        friend in college. Grew to $130k+ in revenue year one, profitable by
-        year two. Evenutally sold to{' '}
+        friend in college. Grew to $60k+ in revenue year one, profitable by year
+        two. Evenutally sold to{' '}
         <a className="underline" href="https://roomie.co/">
           Roomie
         </a>
@@ -72,8 +72,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
 
       <p className="mt-8 text-lg">
         Undergraduate engineering degree in Computer Science from Princeton,
-        where I was recruited to play for the men's lacrosse team. I clearly
-        like orange to a fault, let's go Tigers!
+        where I was recruited to play for the men's lacrosse team. Let's go
+        Tigers!
       </p>
 
       <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
@@ -85,8 +85,21 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         non-technical:
         <ul className="list-disc ml-6 mt-4 gap-4">
           <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
+                href="https://12daysofai.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                The 12 Days of AI
+              </a>
+            </span>
+            , the wordle of Generative AI + Christmas (2022)
+          </li>
+          <li className="mt-4">
             <span className="font-semibold">Text Reflect</span>, daily self
-            reflection via text (2022, in progress)
+            reflection via text (2022)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -134,11 +147,6 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
             </a>
             , complete a single challenge every day to build consistency, submit
             via text, show results in public (2021){' '}
-          </li>
-          <li className="mt-4">
-            <span className="font-semibold">Fun Zoom Link</span>, shortlinks for
-            zoom only + context for meetings. Great pandemic project, shut down
-            for using the word "Zoom" (2020){' '}
           </li>
           <li className="mt-4">
             <a

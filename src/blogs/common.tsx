@@ -8,7 +8,7 @@ export const P: React.FC<any> = ({ children }) => {
 
 export const Quote: React.FC<any> = ({ children }) => {
   return (
-    <p className="mt-6 pl-3 italic border-l-2 border-orange">{children}</p>
+    <div className="mt-6 pl-3 italic border-l-2 border-orange">{children}</div>
   );
 };
 
@@ -18,7 +18,7 @@ export const A: React.FC<any> = ({ children, href, noBlank }) => {
       className="underline decoration-orange"
       href={href}
       target={noBlank ? '' : '_blank'}
-      rel={noBlank ? '' : 'noreferrer'}
+      rel="noreferrer"
     >
       {children}
     </a>
