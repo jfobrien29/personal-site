@@ -20,3 +20,13 @@ export const ElevateFounderDiversity: IBlogPost = {
   link: 'https://onepager.vc/blog/a-step-to-elevate-the-diversity-of-founders',
   isExternal: true,
 };
+
+export const IntroducingLowTechAI: IBlogPost = {
+  slug: 'introducing-lowtechai',
+  title: 'LowTech AI: Simple AI Tools for Everyone',
+  date: '2023-06-07',
+  excerpt:
+    'Our Mission: Simplify powerful AI systems to help more people harness their abilities and improve their work and lives.',
+  link: 'https://lowtech.ai/blog/lowtech-ai-simple-ai-tools-for-everyone',
+  isExternal: true,
+};

@@ -11,9 +11,9 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Exploring AI and Climate tech. I'm extremely excited about advancements
-        in AI and it's practical applications. There's massive potential to
-        harness this technology to combat the climate crisis.
+        Exploring AI and Climate tech. I'm extremely optimistic about recent AI
+        advancements and their practical applications. There's massive potential
+        to harness this technology to combat the climate crisis.
       </p>
 
       <h2 className="mt-8 italic text-lg">Previously</h2>
@@ -24,7 +24,7 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
           Stonks
         </a>
         . We raised $19M from a16z and top VCs (Matrix, Floodgate, Pioneer), top
-        syndicates (Xooglers, Ex-Uber, Ex-Palantir, ...), and top angels (Naval
+        syndicates (Ex-Google, Ex-Uber, Ex-Palantir, ...), and top angels (Naval
         Ravikant, Sam Parr, Tim Draper, ...) to build "shark tank on the
         internet". I led our engineering team, built our core product, and
         facilitated $120M+ into hundreds of early stage companies through our

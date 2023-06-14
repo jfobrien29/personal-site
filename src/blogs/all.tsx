@@ -1,5 +1,9 @@
 import { ReactNode } from 'react';
-import { ElevateFounderDiversity, HowToWriteSoftware } from './external';
+import {
+  ElevateFounderDiversity,
+  HowToWriteSoftware,
+  IntroducingLowTechAI,
+} from './external';
 import { YearInReview2021 } from './posts/year-in-review-2021';
 import { BestOf2021 } from './posts/best-reads-of-2021';
 import { BestOf2022 } from './posts/best-reads-of-2022';
@@ -16,14 +20,15 @@ export interface IBlogPost {
 }
 
 export const LANDING_BLOG_POSTS: IBlogPost[] = [
+  IntroducingLowTechAI,
   BestOf2022,
   YearInReview2021,
   BestOf2021,
   HowToWriteSoftware,
-  ElevateFounderDiversity,
 ];
 
 export const ALL_BLOG_POSTS: IBlogPost[] = [
+  IntroducingLowTechAI,
   BestOf2022,
   YearInReview2021,
   BestOf2021,

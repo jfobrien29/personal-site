@@ -95,9 +95,10 @@ const BlogPost: React.FC<any> = () => {
         to push us to sell OnePager to Stonks! That call took place while I was
         literally reading this book on a Sunday! So maybe I’m a bit emotional
         about how we are intertwined with the author, but I loved reading it and
-        exercising its lessons in my day to day work with Stonks. It's arguable
-        whether or not in our 3 way network for Stonks (investors, founders,
-        partners), we've truly solved our "cold start problem."
+        actually using the content of the book in my day to day work with
+        Stonks. It's arguable whether or not in our 3 way network for Stonks
+        (investors, founders, partners), we've truly solved our "cold start
+        problem."
       </P>
       <Heading4>How I found it</Heading4>
       <P>
@@ -115,9 +116,10 @@ const BlogPost: React.FC<any> = () => {
       <Heading2 id="articles">My Top 3 Articles</Heading2>
       <P>
         I probably read (skim) at least 3 articles per day from sources like the{' '}
-        <A href="https://thehustle.co/">The Hustle</A>, and my Twitter feed.
-        It’s rare I remember an article more than a week, but the best ones
-        stick with me. (I once again found all of my favorites from twitter)
+        my Twitter feed, <A href="https://thehustle.co/">The Hustle</A>, and
+        various other newsletters. It’s rare I remember an article more than a
+        week, but the best ones stick with me. (For the second year running I
+        found all of my favorites from twitter)
       </P>
 
       <Heading3 id="article1">

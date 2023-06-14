@@ -2,13 +2,27 @@ import React from 'react';
 import Image from 'next/image';
 import { blurDataUrlShimmer } from '@/utils/shimmer';
 
+import { Source_Serif_Pro } from 'next/font/google';
+
+const font = Source_Serif_Pro({
+  subsets: ['latin'],
+  weight: ['200', '400', '600', '700', '900'],
+  style: ['normal', 'italic'],
+});
+
 export const P: React.FC<any> = ({ children }) => {
-  return <p className="mt-6">{children}</p>;
+  return (
+    <div className="mt-4">
+      <p className={font.className}>{children}</p>
+    </div>
+  );
 };
 
 export const Quote: React.FC<any> = ({ children }) => {
   return (
-    <div className="mt-6 pl-3 italic border-l-2 border-orange">{children}</div>
+    <div className="mt-6 pl-3 italic border-l-2 border-orange">
+      <p className={font.className}>{children}</p>
+    </div>
   );
 };
 

@@ -3,6 +3,20 @@ import { AppProps } from 'next/app';
 import '@/styles/global.css';
 import { useRouter } from 'next/router';
 
+import {
+  Source_Serif_Pro,
+  Inter /** Inter */ /** Raleway */,
+} from 'next/font/google';
+
+const font = Source_Serif_Pro({
+  subsets: ['latin'],
+  weight: ['200', '400', '600', '700', '900'],
+});
+const font2 = Inter({
+  subsets: ['latin'],
+  weight: ['200', '400', '500', '600', '700', '800'],
+});
+
 // log the pageview with their URL
 export const pageview = (url: string) => {
   if (typeof window !== 'undefined') {
@@ -26,5 +40,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     };
   }, [router.events]);
 
-  return <Component {...pageProps} />;
+  return (
+    <div className={font2.className}>
+      <Component {...pageProps} />
+    </div>
+  );
 }

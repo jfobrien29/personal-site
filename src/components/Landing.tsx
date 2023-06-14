@@ -31,18 +31,18 @@ export const HighlighedBlogPost: React.FC<{ post: IBlogPost }> = ({ post }) => {
 const Landing: React.FC<any> = () => (
   <BaseLayout
     title="Jack O'Brien"
-    description="CTO of Stonks, interested in software, startups, biotech, and climate
+    description="Proven builder with several successful technical projects and acquired companies. Interested in software, startups, AI, and climate
     change solutions. At my core, I like to build things."
   >
     <div className="flex flex-col w-full align-center">
       <div className="flex flex-col justify-center max-w-3xl h-screen px-4 negative-landing-margin mx-auto">
         <h1 className="text-3xl px-8 leading-10 md:px-0 md:text-4xl font-semibold">
-          I'm the CTO of{' '}
-          <a className="underline" href="https://stonks.com">
-            Stonks
+          Experimenting with{' '}
+          <a className="underline" href="https://lowtech.ai">
+            LowTech AI
           </a>
-          , interested in software, biotech, aerospace, and climate change
-          solutions. At my core, I'm a builder.
+          . Interested in startups, AI, and climate change solutions. At my
+          core, I'm a builder.
         </h1>
       </div>
 
