@@ -11,15 +11,25 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
+        Exploring AI and Climate tech. I'm extremely excited about advancements
+        in AI and it's practical applications. There's massive potential to
+        harness this technology to combat the climate crisis.
+      </p>
+
+      <h2 className="mt-8 italic text-lg">Previously</h2>
+
+      <p className="mt-8 text-lg">
         CTO at{' '}
         <a className="underline" href="https://stonks.com">
           Stonks
         </a>
-        . Moving as fast as possible, without breaking things (breaking things
-        during live-investing-events is painfully public and bad for business).
+        . We raised $19M from a16z and top VCs (Matrix, Floodgate, Pioneer), top
+        syndicates (Xooglers, Ex-Uber, Ex-Palantir, ...), and top angels (Naval
+        Ravikant, Sam Parr, Tim Draper, ...) to build "shark tank on the
+        internet". I led our engineering team, built our core product, and
+        facilitated $120M+ into hundreds of early stage companies through our
+        platform.
       </p>
-
-      <h2 className="mt-8 italic text-lg">Previously</h2>
 
       <p className="mt-8 text-lg">
         Co-Founder and CTO of{' '}
@@ -27,10 +37,11 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
           OnePager
         </a>{' '}
         and{' '}
-        <a className="underline" href="https://openscout.vc">
+        <a className="underline" href="https://os.onepager.vc">
           Open Scout
         </a>
-        . We were aquired by Stonks in January 2022.
+        . Over 5,000 companies trusted us with their fundraising process. We
+        were aquired by Stonks in January 2022.
       </p>
 
       <p className="mt-8 text-lg">
@@ -43,7 +54,14 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         </a>{' '}
         leading teams in finance and education projects. While working with the
         education team, designed and implemented features on Search and YouTube
-        impacting millions of students around the world.
+        impacting millions of students around the world,{' '}
+        <a
+          className="underline"
+          href="https://www.google.com/search?q=2x%5E2+%2B+3x+-+1+%3D+0&rlz=1C5CHFA_enUS707US716&oq=2x%5E2+%2B+3x+-+1+%3D+0&aqs=chrome..69i57.8930j0j9&sourceid=chrome&ie=UTF-8"
+        >
+          like this one
+        </a>
+        .
       </p>
 
       <p className="mt-8 text-lg">
@@ -51,8 +69,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         <a className="underline" href="https://www.ibm.com/blockchain">
           IBM Blockchain
         </a>
-        . Led remote developement teams to build enterprise blockchain
-        applications. (This was 2017, and I'm now more skeptical about the
+        . Led a remote developement team to build blockchain applications for
+        big companies. (This was 2017, and I'm now more skeptical about the
         future of{' '}
         <a className="underline" href="https://www.hyperledger.org/">
           Hyperledger
@@ -62,28 +80,40 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
 
       <p className="mt-8 text-lg">
         Co-Founder of Tiger Bed Rentals, a bed rental company I started with a
-        friend in college. Grew to $60k+ in revenue year one, profitable by year
-        two. Evenutally sold to{' '}
+        friend (and future co-founder of OnePager!) in college. Grew to $60k+ in
+        revenue year one, profitable by year two. Evenutally sold to{' '}
         <a className="underline" href="https://roomie.co/">
-          Roomie
+          Roomie Rentals
         </a>
         .
       </p>
 
       <p className="mt-8 text-lg">
         Undergraduate engineering degree in Computer Science from Princeton,
-        where I was recruited to play for the men's lacrosse team. Let's go
-        Tigers!
+        where I was recruited to play for the NCAA Division 1 men's lacrosse
+        team. Let's go Tigers!
       </p>
 
       <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
 
       <div className="mt-8 text-lg">
-        I usually get in all the coding/work I need from my main job, but
-        occationally I like to tinker on side projects (OnePager is the only
-        graduate from this list). A few fun ones both technical and
-        non-technical:
+        I usually get in all the coding/work I need from my main job, but I do
+        love to tinker on side projects (OnePager is the only graduate from this
+        list). A few fun ones both technical and non-technical:
         <ul className="list-disc ml-6 mt-4 gap-4">
+          <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
+                href="https://lowtech.ai/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LowTech AI
+              </a>
+            </span>
+            , Dead simple AI tools for non tech savy users (2023)
+          </li>
           <li className="mt-4">
             <span className="font-semibold">
               <a
@@ -135,6 +165,18 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
               buildspace course
             </a>{' '}
             (2021)
+          </li>
+          <li className="mt-4">
+            <a
+              className="underline font-semibold"
+              href="https://alltoscale.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              All to Scale
+            </a>
+            , Putting unthinkable size, numbers, and complexity into a form you
+            can wrap your head around! (2021){' '}
           </li>
           <li className="mt-4">
             <a
