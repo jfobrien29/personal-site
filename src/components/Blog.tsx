@@ -16,7 +16,7 @@ const BlogListing: React.FC<any> = ({ slug }) => {
       <a href={blog.link} target="_blank" rel="noreferrer">
         <h2 className="mt-8 text-2xl font-semibold">{blog.title}</h2>
         <p className="mt-1 text-md italic">
-          {moment(blog.date).format('MMM Do, YYYY')}
+          {moment(blog.date).format('MMMM Do, YYYY')}
         </p>
         <p className="mt-2 text-md elipsis-2-lines-text">{blog.excerpt}</p>
       </a>
@@ -28,7 +28,7 @@ const BlogListing: React.FC<any> = ({ slug }) => {
       <h2 className="mt-8 text-2xl font-semibold">{blog.title}</h2>
       <p className="mt-1 text-md italic">
         {' '}
-        {moment(blog.date).format('MMM DD, YYYY')}
+        {moment(blog.date).format('MMMM DD, YYYY')}
       </p>
       <p className="mt-2 text-md elipsis-2-lines-text">{blog.excerpt}</p>
     </Link>

@@ -36,13 +36,19 @@ const Landing: React.FC<any> = () => (
   >
     <div className="flex flex-col w-full align-center">
       <div className="flex flex-col justify-center max-w-3xl h-screen px-4 negative-landing-margin mx-auto">
-        <h1 className="text-3xl px-8 leading-10 md:px-0 md:text-4xl font-semibold">
+        <h1 className="text-3xl px-8 leading-10 md:px-0 md:text-4xl font-semibold mx-[-10px]">
           Experimenting with{' '}
-          <a className="underline" href="https://lowtech.ai">
+          <a
+            className="underline"
+            href="https://lowtech.ai/blog/lowtech-ai-simple-ai-tools-for-everyone"
+          >
             LowTech AI
           </a>
-          . Interested in startups, AI, and climate change solutions. At my
-          core, I'm a builder.
+          .
+          <br />
+          Interested in startups, AI, and climate tech.
+          <br />
+          At my core, I'm a builder.
         </h1>
       </div>
 
