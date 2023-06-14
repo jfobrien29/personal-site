@@ -13,31 +13,47 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
       <p className="mt-8 text-lg">
         Exploring AI and Climate tech. I'm extremely optimistic about recent AI
         advancements and their practical applications. There's massive potential
-        to harness this technology to combat the climate crisis.
+        everywhere (AI tools/agents for X), and I'm learning more about how to
+        harness this insane technology to combat the climate crisis.
       </p>
 
       <h2 className="mt-8 italic text-lg">Previously</h2>
 
       <p className="mt-8 text-lg">
         CTO at{' '}
-        <a className="underline" href="https://stonks.com">
+        <a
+          className="underline"
+          href="https://stonks.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           Stonks
         </a>
         . We raised $19M from a16z and top VCs (Matrix, Floodgate, Pioneer), top
         syndicates (Ex-Google, Ex-Uber, Ex-Palantir, ...), and top angels (Naval
         Ravikant, Sam Parr, Tim Draper, ...) to build "shark tank on the
         internet". I led our engineering team, built our core product, and
-        facilitated $120M+ into hundreds of early stage companies through our
+        facilitated $120M+ into hundreds of early stage companies on our
         platform.
       </p>
 
       <p className="mt-8 text-lg">
         Co-Founder and CTO of{' '}
-        <a className="underline" href="https://onepager.vc">
+        <a
+          className="underline"
+          href="https://onepager.vc"
+          target="_blank"
+          rel="noreferrer"
+        >
           OnePager
         </a>{' '}
         and{' '}
-        <a className="underline" href="https://os.onepager.vc">
+        <a
+          className="underline"
+          href="https://os.onepager.vc"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open Scout
         </a>
         . Over 5,000 companies trusted us with their fundraising process. We
@@ -49,15 +65,19 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         <a
           className="underline"
           href="https://www.google.com/search?q=2x%5E2+%2B+3x+-+1+%3D+0&rlz=1C5CHFA_enUS707US716&oq=2x%5E2+%2B+3x+-+1+%3D+0&aqs=chrome..69i57.8930j0j9&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+          rel="noreferrer"
         >
           Google
         </a>{' '}
         leading teams in finance and education projects. While working with the
         education team, designed and implemented features on Search and YouTube
-        impacting millions of students around the world,{' '}
+        impacting millions of students around the world{' '}
         <a
           className="underline"
           href="https://www.google.com/search?q=2x%5E2+%2B+3x+-+1+%3D+0&rlz=1C5CHFA_enUS707US716&oq=2x%5E2+%2B+3x+-+1+%3D+0&aqs=chrome..69i57.8930j0j9&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+          rel="noreferrer"
         >
           like this one
         </a>
@@ -66,13 +86,23 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
 
       <p className="mt-8 text-lg">
         Software Engineer and Consultant at{' '}
-        <a className="underline" href="https://www.ibm.com/blockchain">
+        <a
+          className="underline"
+          href="https://www.ibm.com/blockchain"
+          target="_blank"
+          rel="noreferrer"
+        >
           IBM Blockchain
         </a>
         . Led a remote developement team to build blockchain applications for
         big companies. (This was 2017, and I'm now more skeptical about the
         future of{' '}
-        <a className="underline" href="https://www.hyperledger.org/">
+        <a
+          className="underline"
+          href="https://www.hyperledger.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Hyperledger
         </a>{' '}
         and enterprise blockchain).
@@ -82,7 +112,12 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         Co-Founder of Tiger Bed Rentals, a bed rental company I started with a
         friend (and future co-founder of OnePager!) in college. Grew to $60k+ in
         revenue year one, profitable by year two. Evenutally sold to{' '}
-        <a className="underline" href="https://roomie.co/">
+        <a
+          className="underline"
+          href="https://roomie.co/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Roomie Rentals
         </a>
         .
