@@ -16,6 +16,16 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
         everywhere (AI tools/agents for X), and I'm learning more about how to
         harness this insane technology to combat the climate crisis.
       </p>
+      <p className="mt-8">
+        <a
+          className="underline"
+          href="https://twitter.com/thejackobrien/status/1678882968348024832"
+          target="_blank"
+          rel="noreferrer"
+        >
+          My recent thoughts on fighting climate change with AI.
+        </a>
+      </p>
 
       <h2 className="mt-8 italic text-lg">Previously</h2>
 
@@ -147,7 +157,7 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
                 LowTech AI
               </a>
             </span>
-            , Dead simple AI tools for non tech savy users (2023)
+            , Dead simple AI tools for non tech savy people (2023)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -253,8 +263,8 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
             <span className="font-semibold">
               Impact Environmental Calculator
             </span>
-            , calculate and compete improve your true impact on the environment
-            with others in your area (2016)
+            , calculate and compete to improve your true impact on the
+            environment with others in your area (2016)
           </li>
         </ul>
       </div>
