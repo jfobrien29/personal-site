@@ -38,13 +38,13 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
           rel="noreferrer"
         >
           Stonks
-        </a>
-        . We raised $19M from a16z and top VCs (Matrix, Floodgate, Pioneer), top
-        syndicates (Ex-Google, Ex-Uber, Ex-Palantir, ...), and top angels (Naval
-        Ravikant, Sam Parr, Tim Draper, ...) to build "shark tank on the
-        internet". I led our engineering team, built our core product, and
-        facilitated $120M+ into hundreds of early stage companies on our
-        platform.
+        </a>{' '}
+        (now known as SandHill Markets) . We raised $19M from a16z and top VCs
+        (Matrix, Floodgate, Pioneer), top syndicates (Ex-Google, Ex-Uber,
+        Ex-Palantir, ...), and top angels (Naval Ravikant, Sam Parr, Tim Draper,
+        ...) to build "shark tank on the internet". I led our engineering team,
+        built our core product, and facilitated $120M+ into hundreds of early
+        stage companies on our platform.
       </p>
 
       <p className="mt-8 text-lg">
