@@ -4,8 +4,7 @@ import BaseLayout from '@/containers/BaseLayout';
 const About: React.FC<any> = () => (
   <BaseLayout
     title="About Jack O'Brien"
-    description="Co-Founder and CTO of OnePager, interested in software, startups, education, biotech, and climate
-change solutions. At my core, I like to build things. Previously Google, IBM, and Princeton University."
+    description="Proven engineer, CTO, and founder at MIT. At my core, I like to build things. Prev. Sandhill Markets, Google, IBM, and Princeton University."
   >
     <div className="flex flex-col max-w-2xl px-4">
       <h1 className="text-3xl font-semibold">About</h1>
@@ -150,6 +149,20 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
             <span className="font-semibold">
               <a
                 className="underline font-semibold"
+                href="https://modelle.ai/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Modelle
+              </a>
+            </span>
+            , Stable diffusion + SAM for a seemless virtual try on experience
+            (2023-2024)
+          </li>
+          <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
                 href="https://lowtech.ai/"
                 target="_blank"
                 rel="noreferrer"
@@ -157,7 +170,7 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
                 LowTech AI
               </a>
             </span>
-            , Dead simple AI tools for non tech savy people (2023)
+            , Dead simple AI tools for non tech savy people (2023-2024)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -170,7 +183,7 @@ change solutions. At my core, I like to build things. Previously Google, IBM, an
                 The 12 Days of AI
               </a>
             </span>
-            , the wordle of Generative AI + Christmas (2022)
+            , the wordle of Generative AI + Christmas (2022, resurrected 2023)
           </li>
           <li className="mt-4">
             <span className="font-semibold">Text Reflect</span>, daily self

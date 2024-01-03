@@ -20,7 +20,7 @@ const LogoLinks: React.FC = () => (
     <LogoLink href="https://twitter.com/thejackobrien" icon={<FaTwitter />} />
     <LogoLink href="https://github.com/jfobrien29" icon={<FaGithub />} />
     <LogoLink
-      href="https://www.linkedin.com/in/jack-o-brien-53bbaa105/"
+      href="https://www.linkedin.com/in/thejackobrien/"
       icon={<FaLinkedin />}
     />
   </div>
