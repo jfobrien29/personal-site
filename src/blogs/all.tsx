@@ -1,8 +1,11 @@
 import { ReactNode } from 'react';
 import {
   ElevateFounderDiversity,
+  HideYourPrompt,
   HowToWriteSoftware,
   IntroducingLowTechAI,
+  PromptAThonV0,
+  WhatAreLLMs,
 } from './external';
 import { YearInReview2021 } from './posts/year-in-review-2021';
 import { BestOf2021 } from './posts/best-reads-of-2021';
@@ -28,6 +31,9 @@ export const LANDING_BLOG_POSTS: IBlogPost[] = [
 ];
 
 export const ALL_BLOG_POSTS: IBlogPost[] = [
+  PromptAThonV0,
+  WhatAreLLMs,
+  HideYourPrompt,
   IntroducingLowTechAI,
   BestOf2022,
   YearInReview2021,
