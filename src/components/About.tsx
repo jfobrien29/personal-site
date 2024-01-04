@@ -10,10 +10,10 @@ const About: React.FC<any> = () => (
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Exploring AI and Climate tech. I'm extremely optimistic about recent AI
-        advancements and their practical applications. There's massive potential
-        everywhere (AI tools/agents for X), and I'm learning more about how to
-        harness this insane technology to combat the climate crisis.
+        Exploring AI and climate tech at MIT. I'm extremely optimistic about
+        recent AI advancements and their practical applications. There's massive
+        potential everywhere (AI tools/agents for X), defensibility is another
+        issue.
       </p>
       <p className="mt-8">
         <a
@@ -39,11 +39,11 @@ const About: React.FC<any> = () => (
           Stonks
         </a>{' '}
         (now known as SandHill Markets) . We raised $19M from a16z and top VCs
-        (Matrix, Floodgate, Pioneer), top syndicates (Ex-Google, Ex-Uber,
-        Ex-Palantir, ...), and top angels (Naval Ravikant, Sam Parr, Tim Draper,
-        ...) to build "shark tank on the internet". I led our engineering team,
-        built our core product, and facilitated $120M+ into hundreds of early
-        stage companies on our platform.
+        (Matrix, Floodgate, Pioneer), top syndicates (including Ex-Google,
+        Ex-Uber, Ex-Palantir), and top angels (including Naval Ravikant, Sam
+        Parr, Tim Draper) to build "shark tank on the internet". I led our
+        engineering team, built our core product, and facilitated $120M+ into
+        hundreds of early stage companies on our platform.
       </p>
 
       <p className="mt-8 text-lg">
@@ -135,15 +135,15 @@ const About: React.FC<any> = () => (
       <p className="mt-8 text-lg">
         Undergraduate engineering degree in Computer Science from Princeton,
         where I was recruited to play for the NCAA Division 1 men's lacrosse
-        team. Let's go Tigers!
+        team. That kickstarted my whole life, let's go Tigers!
       </p>
 
       <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
 
       <div className="mt-8 text-lg">
         I usually get in all the coding/work I need from my main job, but I do
-        love to tinker on side projects (OnePager is the only graduate from this
-        list). A few fun ones both technical and non-technical:
+        love to tinker on side projects (OnePager is the only major graduate
+        from this list). A few fun ones both technical and non-technical:
         <ul className="list-disc ml-6 mt-4 gap-4">
           <li className="mt-4">
             <span className="font-semibold">
@@ -157,7 +157,7 @@ const About: React.FC<any> = () => (
               </a>
             </span>
             , Stable diffusion + SAM for a seemless virtual try on experience
-            (2023-2024)
+            for e-commerce brands (2023-2024)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
