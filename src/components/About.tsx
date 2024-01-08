@@ -10,10 +10,10 @@ const About: React.FC<any> = () => (
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Exploring AI and climate tech at MIT. I'm extremely optimistic about
-        recent AI advancements and their practical applications. There's massive
-        potential everywhere (AI tools/agents for X), defensibility is another
-        issue.
+        Building AI and climate tech at MIT while getting my MBA. I'm extremely
+        optimistic about recent AI advancements and their practical
+        applications. There's massive potential everywhere (AI tools/agents for
+        X), defensibility is another issue.
       </p>
       <p className="mt-8">
         <a
