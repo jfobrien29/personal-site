@@ -10,10 +10,9 @@ const About: React.FC<any> = () => (
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Building AI and climate tech at MIT while getting my MBA. I'm extremely
-        optimistic about recent AI advancements and their practical
-        applications. There's massive potential everywhere (AI tools/agents for
-        X), defensibility is another issue.
+        Currently a grad student at MIT getting my MBA and building AI and
+        climate tech. I'm extremely optimistic about recent AI advancements.
+        There's massive potential everywhere.
       </p>
       <p className="mt-8">
         <a
@@ -22,7 +21,7 @@ const About: React.FC<any> = () => (
           target="_blank"
           rel="noreferrer"
         >
-          My recent thoughts on fighting climate change with AI.
+          Semi-recent thoughts on fighting climate change with AI.
         </a>
       </p>
 
@@ -38,7 +37,7 @@ const About: React.FC<any> = () => (
         >
           Stonks
         </a>{' '}
-        (now known as SandHill Markets) . We raised $19M from a16z and top VCs
+        (now known as SandHill Markets). We raised $19M from a16z and top VCs
         (Matrix, Floodgate, Pioneer), top syndicates (including Ex-Google,
         Ex-Uber, Ex-Palantir), and top angels (including Naval Ravikant, Sam
         Parr, Tim Draper) to build "shark tank on the internet". I led our
@@ -88,7 +87,7 @@ const About: React.FC<any> = () => (
           target="_blank"
           rel="noreferrer"
         >
-          like this one
+          like this one I contributed to
         </a>
         .
       </p>
@@ -114,12 +113,12 @@ const About: React.FC<any> = () => (
         >
           Hyperledger
         </a>{' '}
-        and enterprise blockchain).
+        and enterprise blockchains).
       </p>
 
       <p className="mt-8 text-lg">
         Co-Founder of Tiger Bed Rentals, a bed rental company I started with a
-        friend (and future co-founder of OnePager!) in college. Grew to $60k+ in
+        friend (and my co-founder for OnePager!) in college. Grew to $60k+ in
         revenue year one, profitable by year two. Evenutally sold to{' '}
         <a
           className="underline"
@@ -134,8 +133,8 @@ const About: React.FC<any> = () => (
 
       <p className="mt-8 text-lg">
         Undergraduate engineering degree in Computer Science from Princeton,
-        where I was recruited to play for the NCAA Division 1 men's lacrosse
-        team. That kickstarted my whole life, let's go Tigers!
+        where I was recruited to play for the lacrosse team. That kickstarted my
+        whole life, let's go Tigers!
       </p>
 
       <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
