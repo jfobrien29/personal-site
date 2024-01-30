@@ -38,7 +38,7 @@ const BlogListing: React.FC<any> = ({ slug }) => {
 const Blog: React.FC = () => (
   <BaseLayout
     title="Jack O'Brien's Blog"
-    description="Blog post from Jack O'Brien's work, life, and everything else. Includes posts from this site and links to external posts!"
+    description="Blog post from my life, work, and everything else. Includes posts from this site and links to external posts!"
   >
     <div className="flex flex-col max-w-2xl px-4">
       <h1 className=" text-white text-3xl font-semibold">Blog</h1>
