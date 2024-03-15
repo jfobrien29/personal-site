@@ -51,12 +51,12 @@ const Books: React.FC = () => (
         category={CATEGORY.MUST_READ}
         header="Top 5 Must Read Books"
       />
+      <BookSection category={CATEGORY.SOFTWARE} header="Software and Product" />
+      <BookSection category={CATEGORY.STARTUP} header="Startup Bibles" />
       <BookSection
         category={CATEGORY.ENTREPRENEUR_STORY}
         header="Entrepreneur Stories"
       />
-      <BookSection category={CATEGORY.SOFTWARE} header="Software and Product" />
-      <BookSection category={CATEGORY.STARTUP} header="Startup Bibles" />
       <BookSection category={CATEGORY.OTHER} header="Other Great Reads" />
     </div>
   </BaseLayout>

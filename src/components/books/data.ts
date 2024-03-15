@@ -25,11 +25,24 @@ export interface IBook {
 
 // Must Reads
 
+export const THREE_BODY_PROBLEM = {
+  slug: 'three-body-problem',
+  title: 'The Three Body Problem',
+  author: 'Cixin Liu',
+  category: CATEGORY.MUST_READ,
+  links: {
+    book:
+      'https://www.amazon.com/The-Three-Body-Problem-audiobook/dp/B00P00QPPY/',
+  },
+  quickDescription:
+    'Fate of the world. Science fiction masterpiece. The second book in the series is my favorite, but all are incredible.',
+};
+
 export const LIFESPAN = {
   slug: 'lifespan',
   title: 'Lifespan: Why We Age - and Why We Don’t Have To',
   author: 'Dr. David Sinclair',
-  category: CATEGORY.MUST_READ,
+  category: CATEGORY.KNOWLEDGE_STORIES,
   links: {
     book:
       'https://www.amazon.com/Lifespan-Why-Age_and-Dont-Have/dp/1501191977/',
@@ -38,11 +51,25 @@ export const LIFESPAN = {
     "Longevity and healthspan will meaningfully increase in our lifetimes. We've figured out the mechanism of aging, and every technical biological problem has a technical solution.",
 };
 
+export const CHIP_WAR = {
+  slug: 'chip-war',
+  title:
+    "Chip War: The Quest to Dominate the World's Most Critical Technology.",
+  author: 'Chris Miller',
+  category: CATEGORY.MUST_READ,
+  links: {
+    book:
+      'https://www.amazon.com/Chip-War-Dominate-Critical-Technology/dp/B09TX24J5Y/',
+  },
+  quickDescription:
+    'Incredible overview of the chip industry. Economic historian Chris Miller explains how the semiconductor came to play a critical role in modern life and how the US became dominant in chip design and manufacturing and applied this technology to military systems. America’s victory in the Cold War and its global military dominance stems from its ability to harness computing power more effectively than any other power. Until recently, China had been catching up, aligning its chip-building ambitions with military modernization.',
+};
+
 export const WIRES_OF_WAR = {
   slug: 'wires-of-war',
   title: 'Wires of War: Technology and the Global Struggle for Power and Order',
   author: 'Jacob Helberg',
-  category: CATEGORY.MUST_READ,
+  category: CATEGORY.KNOWLEDGE_STORIES,
   links: {
     book:
       'https://www.amazon.com/Wires-War-Technology-Global-Struggle-ebook/dp/B08VJMR39C/',
@@ -69,7 +96,7 @@ export const CHASING_THE_SCREAM = {
   slug: 'chasing-the-scream',
   title: 'Chasing the Scream: The First and Last Days of the War on Drugs',
   author: 'Johann Hari',
-  category: CATEGORY.MUST_READ,
+  category: CATEGORY.OTHER,
   links: {
     book:
       'https://www.amazon.com/Chasing-Scream-First-Last-Drugs-ebook/dp/B00OZM4ANM/',
@@ -97,7 +124,7 @@ export const LIFT_OFF = {
   slug: 'lift-off',
   title: `Lift Off: Elon Musk and the Desperate Early Days That Launched SpaceX`,
   author: 'Eric Berger',
-  category: CATEGORY.ENTREPRENEUR_STORY,
+  category: CATEGORY.MUST_READ,
   links: {
     book:
       'https://www.amazon.com/Liftoff-Desperate-Early-Launched-SpaceX-ebook/dp/B088FQK2K2/',
@@ -301,12 +328,13 @@ export const DEFINING_DECADE = {
 };
 
 export const ALL_BOOKS: IBook[] = [
+  LIFT_OFF,
+  CODE_BREAKER,
+  CHIP_WAR,
+  THREE_BODY_PROBLEM,
+  HOW_TO_AVOID_A_CLIMATE_DISASTER,
   LIFESPAN,
   WIRES_OF_WAR,
-  CODE_BREAKER,
-  CHASING_THE_SCREAM,
-  HOW_TO_AVOID_A_CLIMATE_DISASTER,
-  LIFT_OFF,
   THE_NEW_NEW_THING,
   SHOE_DOG,
   BAD_BLOOD,
@@ -318,6 +346,7 @@ export const ALL_BOOKS: IBook[] = [
   ZERO_TO_ONE,
   COLD_START_PROBLEM,
   LEAN_STARTUP,
+  CHASING_THE_SCREAM,
   ART_OF_THE_START,
   HARD_THING_ABOUT_HARD_THINGS,
   EMPTY_PLANET,

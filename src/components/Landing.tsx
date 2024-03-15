@@ -38,7 +38,7 @@ const Landing: React.FC<any> = () => (
       <div className="flex flex-col justify-center max-w-3xl h-screen px-4 negative-landing-margin mx-auto">
         <h1 className="text-4xl px-8 md:px-0 md:text-4xl font-semibold mx-[-10px] space-y-8 md:space-y-4">
           <span className="block">Proven engineer, CTO, and founder.</span>
-          <span className="block">At MIT focused on AI and climate.</span>
+          <span className="block">At MIT focused on AI & sustainability.</span>
           <span className="block">A builder to my core!</span>
         </h1>
       </div>
