@@ -10,9 +10,9 @@ const About: React.FC<any> = () => (
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Currently a grad student at MIT getting my MBA and building AI and
-        climate tech. I'm extremely optimistic about recent AI advancements.
-        There's massive potential everywhere.
+        Currently a grad student at MIT getting my MBA and building at the
+        intersection of AI and sustainability. I'm extremely optimistic about
+        recent AI advancements. There's massive potential everywhere.
       </p>
       <p className="mt-8">
         <a
@@ -38,11 +38,12 @@ const About: React.FC<any> = () => (
           Stonks
         </a>{' '}
         (now known as SandHill Markets). We raised $19M from a16z and top VCs
-        (Matrix, Floodgate, Pioneer), top syndicates (including Ex-Google,
-        Ex-Uber, Ex-Palantir), and top angels (including Naval Ravikant, Sam
-        Parr, Tim Draper) to build "shark tank on the internet". I led our
-        engineering team, built our core product, and facilitated $120M+ into
-        hundreds of early stage companies on our platform.
+        (Matrix, Floodgate, Pioneer), top syndicates (including Ex-Google
+        syndicate, Ex-Uber syndicate, Ex-Palantir syndicate), and top angels
+        (including Naval Ravikant, Sam Parr, Tim Draper) to build "shark tank
+        for the internet". I led our engineering team, built our core product,
+        and facilitated $120M+ into hundreds of early stage companies through
+        our platform.
       </p>
 
       <p className="mt-8 text-lg">
@@ -69,7 +70,7 @@ const About: React.FC<any> = () => (
       </p>
 
       <p className="mt-8 text-lg">
-        Software Engineer at{' '}
+        Software Engineer and Tech Lead at{' '}
         <a
           className="underline"
           href="https://www.google.com/search?q=2x%5E2+%2B+3x+-+1+%3D+0&rlz=1C5CHFA_enUS707US716&oq=2x%5E2+%2B+3x+-+1+%3D+0&aqs=chrome..69i57.8930j0j9&sourceid=chrome&ie=UTF-8"
@@ -78,9 +79,9 @@ const About: React.FC<any> = () => (
         >
           Google
         </a>{' '}
-        leading teams in finance and education projects. While working with the
-        education team, designed and implemented features on Search and YouTube
-        impacting millions of students around the world{' '}
+        leading teams in education projects on Google Search and Youtube.
+        Designed and implemented features impacting millions of students around
+        the world{' '}
         <a
           className="underline"
           href="https://www.google.com/search?q=2x%5E2+%2B+3x+-+1+%3D+0&rlz=1C5CHFA_enUS707US716&oq=2x%5E2+%2B+3x+-+1+%3D+0&aqs=chrome..69i57.8930j0j9&sourceid=chrome&ie=UTF-8"
@@ -103,8 +104,8 @@ const About: React.FC<any> = () => (
           IBM Blockchain
         </a>
         . Led a remote developement team to build blockchain applications for
-        big companies. (This was 2017, and I'm now more skeptical about the
-        future of{' '}
+        large organization like FedEx and the State of Delaware. (This was 2017,
+        and I'm now more skeptical about the future of{' '}
         <a
           className="underline"
           href="https://www.hyperledger.org/"
@@ -118,8 +119,8 @@ const About: React.FC<any> = () => (
 
       <p className="mt-8 text-lg">
         Co-Founder of Tiger Bed Rentals, a bed rental company I started with a
-        friend (and my co-founder for OnePager!) in college. Grew to $60k+ in
-        revenue year one, profitable by year two. Evenutally sold to{' '}
+        friend (and my co-founder for OnePager) in college. Grew to $60k+ in
+        revenue year one, $200k+ and profitable by year two. Evenutally sold to{' '}
         <a
           className="underline"
           href="https://roomie.co/"
@@ -132,9 +133,9 @@ const About: React.FC<any> = () => (
       </p>
 
       <p className="mt-8 text-lg">
-        Undergraduate engineering degree in Computer Science from Princeton,
-        where I was recruited to play for the lacrosse team. That kickstarted my
-        whole life, let's go Tigers!
+        Undergraduate engineering degree in computer science from Princeton
+        University, where I was recruited to play for the lacrosse team. That
+        kickstarted everything, let's go Tigers!
       </p>
 
       <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
