@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
 const BaseHeader: React.FC<any> = ({
-  title = "Jack O'Brien's Website",
-  description = 'Proven builder with several successful technical projects and acquired companies. Interested in software, startups, AI, and climate change solutions. At my core, I like to build things.',
+  title = "Jack O'Brien",
+  description = 'Proven builder with several successful technical projects and acquired companies. Interested in software, AI, and climate change solutions. At my core, I like to build things.',
 }) => {
   return (
     <Head>

@@ -37,7 +37,7 @@ const Landing: React.FC<any> = () => (
       description="Co-Founder and CTO of OnePager, interested in software, startups, education, biotech, and climate
   change solutions. At my core, I like to build things."
     />
-    <div className="text-white flex flex-col w-full h-screen snap-y snap-mandatory overflow-scroll">
+    <div className="text-gray-800 flex flex-col w-full h-screen snap-y snap-mandatory overflow-scroll">
       <div className="flex flex-col h-screen w-full snap-center">
         <Header />
         <div className="flex flex-col justify-center max-w-3xl mx-auto h-screen px-4 negative-landing-margin ">

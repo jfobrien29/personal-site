@@ -24,7 +24,7 @@ const HeaderLink: React.FC<any> = ({ href, text, isExternal }) => {
 };
 
 const Header: React.FC = () => (
-  <header className="w-full mb-6 md:mb-16 text-white z-50">
+  <header className="w-full mb-6 md:mb-16 text-black z-50">
     <nav className="max-w-1030 flex justify-between mx-auto py-4 px-4 items-center">
       <h2 className="md:text-2xl font-bold leading-tight md:px-4 md:border-x border-orange">
         <Link href="/">Jack O'Brien</Link>

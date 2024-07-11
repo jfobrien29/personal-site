@@ -40,7 +40,7 @@ const Books: React.FC = () => (
     description="Books I've read and recommend! Includes my must reads, entreupreneur stories, software books, and other categories."
   >
     <div className="flex flex-col max-w-3xl px-4">
-      <h1 className=" text-white text-3xl font-semibold">Books</h1>
+      <h1 className=" text-gray-800 text-3xl font-semibold">Books</h1>
       <div className="mt-1">
         Books I've read and recommend you should too. If you find something
         interesting on this list and give it a read, let me know what you
