@@ -53,13 +53,6 @@ const Landing: React.FC<any> = () => (
           </a>
         </h2>
 
-        <h2 className="mt-8 text-lg">
-          For books,{' '}
-          <Link href={ROUTES.BOOKS} passHref>
-            <span className="underline">check out my top recommendations.</span>
-          </Link>
-        </h2>
-
         <h2 className="mt-8 italic text-lg">Highlighted blog posts</h2>
 
         {LANDING_BLOG_POSTS.map((post: IBlogPost) => {
@@ -70,6 +63,13 @@ const Landing: React.FC<any> = () => (
             />
           );
         })}
+
+        <h2 className="mt-8 text-lg">
+          Looking for a good book?{' '}
+          <Link href={ROUTES.BOOKS} passHref>
+            <span className="underline">Check out my top recommendations.</span>
+          </Link>
+        </h2>
       </div>
     </div>
   </BaseLayout>
