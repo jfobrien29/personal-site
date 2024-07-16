@@ -41,7 +41,7 @@ const Blog: React.FC = () => (
     description="Blog post from my life, work, and everything else. Includes posts from this site and links to external posts!"
   >
     <div className="flex flex-col max-w-2xl px-4">
-      <h1 className=" text-black text-3xl font-semibold">Blog</h1>
+      <h1 className=" text-zinc-700 text-3xl font-semibold">Blog</h1>
 
       {BLOG_SLUGS.filter((slug: string) => ALL_BLOGS_MAP.has(slug)).map(
         (slug: string) => (
