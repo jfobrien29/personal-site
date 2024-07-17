@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const LogoLink: React.FC<any> = ({ href, icon }) => (
-  <div className="text-gray-800">
+  <div className="text-zinc-700">
     <a
       className="cursor-pointer"
       type="link"

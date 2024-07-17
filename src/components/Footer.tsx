@@ -2,7 +2,7 @@ import React from 'react';
 import LogoLinks from './LogoLinks';
 
 const Footer: React.FC = () => (
-  <footer className="w-full flex flex-col justify-center items-center gap-3 mt-16 mb-4 text-black text-xs">
+  <footer className="w-full flex flex-col justify-center items-center gap-3 mt-16 mb-4 text-zinc-700 text-xs">
     <LogoLinks />
     <p>
       <a
