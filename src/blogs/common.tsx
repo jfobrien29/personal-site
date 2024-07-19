@@ -56,7 +56,7 @@ export const Heading3: React.FC<any> = ({ id, children }) => {
 };
 
 export const SubTitle: React.FC<any> = ({ children }) => {
-  return <p className="mt-1 text-gray-500 font-semibold">{children}</p>;
+  return <p className="mt-1 text-zinc-500 font-semibold">{children}</p>;
 };
 
 export const Heading4: React.FC<any> = ({ children }) => {
