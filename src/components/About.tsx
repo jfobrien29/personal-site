@@ -10,19 +10,9 @@ const About: React.FC<any> = () => (
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Currently a grad student at MIT getting my MBA and building at the
-        intersection of AI and sustainability. I'm extremely optimistic about
-        recent AI advancements. There's massive potential everywhere.
-      </p>
-      <p className="mt-8">
-        <a
-          className="underline"
-          href="https://twitter.com/thejackobrien/status/1678882968348024832"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Semi-recent thoughts on fighting climate change with AI.
-        </a>
+        Currently a grad student at MIT getting my MBA and building a company at
+        the intersection of AI and sustainability. I'm extremely optimistic
+        about recent AI advancements. There's huge potential everywhere.
       </p>
 
       <h2 className="mt-8 italic text-lg">Previously</h2>
