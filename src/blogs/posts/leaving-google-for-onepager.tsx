@@ -13,7 +13,7 @@ const BlogPost: React.FC<any> = () => {
     <>
       <P>
         Coming soon! Coming soon! Coming soon! Coming soon! Coming soon! Coming
-        soon!
+        soon! Should I write this?
       </P>
       <P> - Jack</P>
     </>
