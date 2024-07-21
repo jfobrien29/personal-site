@@ -69,16 +69,16 @@ const About: React.FC<any> = () => (
         >
           Google
         </a>{' '}
-        leading teams in education projects on Google Search and Youtube.
-        Designed and implemented features impacting millions of students around
-        the world{' '}
+        where I led teams on education-focused projects on Google Search and
+        Youtube. Designed and implemented features impacting millions of
+        students around the world{' '}
         <a
           className="underline"
           href="https://www.google.com/search?q=2x%5E2+%2B+3x+-+1+%3D+0&rlz=1C5CHFA_enUS707US716&oq=2x%5E2+%2B+3x+-+1+%3D+0&aqs=chrome..69i57.8930j0j9&sourceid=chrome&ie=UTF-8"
           target="_blank"
           rel="noreferrer"
         >
-          like this one I contributed to
+          like this one
         </a>
         .
       </p>
@@ -91,11 +91,11 @@ const About: React.FC<any> = () => (
           target="_blank"
           rel="noreferrer"
         >
-          IBM Blockchain
+          IBM Blockchain (Global Business Services)
         </a>
         . Led a remote developement team to build blockchain applications for
         large organization like FedEx and the State of Delaware. (This was 2017,
-        and I'm now more skeptical about the future of{' '}
+        and I'm now much more skeptical about the future of{' '}
         <a
           className="underline"
           href="https://www.hyperledger.org/"
@@ -109,8 +109,9 @@ const About: React.FC<any> = () => (
 
       <p className="mt-8 text-lg">
         Co-Founder of Tiger Bed Rentals, a bed rental company I started with a
-        friend (and my co-founder for OnePager) in college. Grew to $60k+ in
-        revenue year one, $200k+ and profitable by year two. Evenutally sold to{' '}
+        good friend (and later my co-founder for OnePager) in college. Grew to
+        $60k+ in revenue year one, $200k+ and profitable by year two. Evenutally
+        sold to{' '}
         <a
           className="underline"
           href="https://roomie.co/"
@@ -133,8 +134,23 @@ const About: React.FC<any> = () => (
       <div className="mt-8 text-lg">
         I usually get in all the coding/work I need from my main job, but I do
         love to tinker on side projects (OnePager is the only major graduate
-        from this list). A few fun ones both technical and non-technical:
+        from this list). A few notable technical and non-technical projects:
         <ul className="list-disc ml-6 mt-4 gap-4">
+          <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
+                href="https://maxcompute.co/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Max Compute Co.
+              </a>
+            </span>
+            , routing middleware between entprises and 3rd party LLM APIs. We
+            make LLM inference cheaper, faster, and more accurate. Winner of the
+            MIT 100k grand prize (2024)
+          </li>
           <li className="mt-4">
             <span className="font-semibold">
               <a
@@ -205,7 +221,7 @@ const About: React.FC<any> = () => (
             , mint simple randomized NFTs for the 2021 NYC marathon. Built
             thanks to a{' '}
             <a
-              className="underline font-semibold"
+              className="underline"
               href="https://buildspace.so/"
               target="_blank"
               rel="noreferrer"
