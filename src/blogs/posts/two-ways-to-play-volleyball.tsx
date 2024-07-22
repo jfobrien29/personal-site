@@ -4,7 +4,7 @@ import { Li, Ol, OLi, P, Ul } from '../common';
 
 export const SLUG = 'two-ways-to-play-volleyball';
 export const TITLE = 'Two Ways to Play Volleyball';
-export const DATE = '2023-01-19';
+export const DATE = '2024-07-21';
 export const EXCERPT = `You're either just keeping the ball in the air, or you're playing competitive volleyball.`;
 
 const BlogPost: React.FC<any> = () => {
