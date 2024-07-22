@@ -18,6 +18,37 @@ export const P: React.FC<any> = ({ children }) => {
   );
 };
 
+export const Ul: React.FC<any> = ({ children }) => {
+  return (
+    <p>
+      <ul className="mt-4 ml-4">{children}</ul>
+    </p>
+  );
+};
+
+export const Ol: React.FC<any> = ({ children }) => {
+  return (
+    <p className={font.className}>
+      <ol className="mt-4 ml-4">{children}</ol>
+    </p>
+  );
+};
+
+export const Li: React.FC<any> = ({ children }) => {
+  return (
+    <li className="list-disc">
+      <span className={font.className}>{children}</span>
+    </li>
+  );
+};
+export const OLi: React.FC<any> = ({ children }) => {
+  return (
+    <li className="list-decimal">
+      <span className={font.className}>{children}</span>
+    </li>
+  );
+};
+
 export const Quote: React.FC<any> = ({ children }) => {
   return (
     <div className="mt-6 pl-3 italic border-l-2 border-orange">

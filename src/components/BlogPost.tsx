@@ -12,9 +12,9 @@ const BlogPost: React.FC<any> = ({ slug }) => {
 
   return (
     <BaseLayout title={blog.title} description={blog.excerpt}>
-      <article className="flex flex-col max-w-3xl px-4 py-6 md:px-10 bg-white text-zinc-700">
-        <h1 className="text-4xl font-semibold">{blog.title}</h1>
-        <p className="text-lg font-semibold text-gray-500">
+      <article className="flex flex-col max-w-3xl px-4 md:px-10 bg-white text-zinc-700">
+        <h1 className="text-3xl font-semibold">{blog.title}</h1>
+        <p className="text-md text-zinc-500 mt-1">
           {moment(blog.date).format('MMMM Do, YYYY')}
         </p>
         <hr className="my-4 border-px border-orange" />
