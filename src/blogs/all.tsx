@@ -24,10 +24,9 @@ export interface IBlogPost {
 }
 
 export const LANDING_BLOG_POSTS: IBlogPost[] = [
+  TwoWaysToPlayVolleyball,
   IntroducingLowTechAI,
   BestOf2022,
-  YearInReview2021,
-  BestOf2021,
   HowToWriteSoftware,
 ];
 
