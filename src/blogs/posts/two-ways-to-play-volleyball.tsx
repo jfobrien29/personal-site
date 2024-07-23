@@ -20,11 +20,11 @@ const BlogPost: React.FC<any> = () => {
       <P>
         I think this distinction exists in many sports (lacrosse, baseball
         etc.), but it’s painfully obvious in volleyball. Are points scored on
-        great plays or mistakes? Is your team getting a hard spike after a clean
-        set on most returns? Is your entire team playing{' '}
+        great plays or mistakes? Is your team getting a solid spike on most
+        returns? Is your entire team playing{' '}
         <span className="italic">hard</span> to win? The vast majority of times
         I play volleyball we’re just trying to keep the ball in the air (still a
-        great time), and a hand full of times I’ve been a part of truly
+        great time), but a hand full of times I’ve been a part of truly
         competitive games.
       </P>
       <P>
@@ -48,10 +48,11 @@ const BlogPost: React.FC<any> = () => {
       </P>
       <P>
         To be a competitive software company, your engineering team must be
-        playing competitive volleyball. This might seem obvious, but the
-        metaphor crystalized it for me. The team should be defined by building
-        extrodinary experiences and launching new functionality at high
-        velocity. Mistakes will happen, but that must be outside the norm.
+        playing competitive volleyball with no exceptions. This might seem
+        obvious, but the metaphor crystalized it for me. The team should be
+        defined by building extrodinary experiences and launching new
+        functionality at high velocity. Mistakes will happen, but that must be
+        outside the norm.
       </P>
       <P>
         So how do you build a competitive volleyball/software team? Skill,
@@ -60,7 +61,7 @@ const BlogPost: React.FC<any> = () => {
       <Ol>
         <OLi>
           Every member needs to be extremely techincally proficient. You must be
-          able to return a serve–or have real experience in your teams tech
+          able to return a serve–or have serious experience in your team’s tech
           stack.
         </OLi>
 
@@ -71,8 +72,8 @@ const BlogPost: React.FC<any> = () => {
 
         <OLi>
           Your skilled, coordinated team needs to commit to the same game plan.
-          You can only win the qames (or launch the right product) if you’re
-          headed in the right direction.
+          You only win tough games (or launch the right product) if you’re
+          headed in the right direction together.
         </OLi>
       </Ol>
       <P>
@@ -87,8 +88,8 @@ const BlogPost: React.FC<any> = () => {
         <P>
           <span className="italic">
             (Disclaimer, I’m not particularly skilled at volleyball. S/o Jay
-            Goettman as a collegiate vollyballer in my midst. I love playing it
-            in all forms.)
+            Goettman as a collegiate vollyballer in my midst. I'm always up to
+            play in all forms.)
           </span>
         </P>
       </div>
