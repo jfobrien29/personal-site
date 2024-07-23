@@ -20,9 +20,10 @@ const BlogPost: React.FC<any> = () => {
       <P>
         I think this distinction exists in many sports (lacrosse, baseball
         etc.), but it’s painfully obvious in volleyball. Are points scored on
-        great plays or mistakes? Are serves competitive? Is your team getting a
-        hard spikes after clean sets most returns? The vast majority of times I
-        play volleyball we’re just trying to keep the ball in the air (still a
+        great plays or mistakes? Is your team getting a hard spike after a clean
+        set on most returns? Is your entire team playing{' '}
+        <span className="italic">hard</span> to win? The vast majority of times
+        I play volleyball we’re just trying to keep the ball in the air (still a
         great time), and a hand full of times I’ve been a part of truly
         competitive games.
       </P>
@@ -37,13 +38,13 @@ const BlogPost: React.FC<any> = () => {
         undoubtably just keeping the ball in the air. We constantly battled
         bugs, we couldn’t properly track metrics due to logging inconsistencies,
         and it was hard to make forward progress without taking a few steps
-        back. Overal, it felt like our effort was defined by our mistakes over
-        our successes–our fumbled balls over our collaborative spikes.
+        back. Overal, our effort was defined by our mistakes over our
+        successes–our fumbled balls over our collaborative spikes.
       </P>
       <P>
-        Eventually, a combination of strict eningeering guidelines, thorough
-        testing procedures, and firings made us a competitive team, but it took
-        time. Time that we didn’t necessarily have as as a company.
+        A combination of strict eningeering guidelines, thorough testing
+        procedures, and firings made us a competitive team, but it took time.
+        Time that we didn’t necessarily have as as a company.
       </P>
       <P>
         To be a competitive software company, your engineering team must be
@@ -80,7 +81,7 @@ const BlogPost: React.FC<any> = () => {
         until you mistake yourself into oblivion. If you’re doing anything with
         a team where the stakes are higher than a lighthearted volleyball game
         on pier 17, play to win. Otherwise improve the team fast or accept
-        medocrity.
+        mediocrity.
       </P>
       <div className="mt-12">
         <P>
