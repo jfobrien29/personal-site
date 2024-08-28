@@ -9,3 +9,4 @@ Launched in December 2021 to replaced the outdated [old angular-based site](http
 - Redo styling of pages
 - Add markdown to blog post
 - Write next blog - a year of projects
+- Blog post previews
