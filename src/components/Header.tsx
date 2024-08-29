@@ -30,9 +30,9 @@ const Header: React.FC = () => (
         <Link href="/">Jack O'Brien</Link>
       </h2>
       <div className="flex gap-2 md:gap-4 items-center">
-        <HeaderLink href="/blog" text="Blog" />
-        <div className="border-r h-4 border-orange" />
         <HeaderLink href="/about" text="About" />
+        <div className="border-r h-4 border-orange" />
+        <HeaderLink href="/blog" text="Blog" />
         <div className="border-r h-4 border-orange" />
         <HeaderLink href={TWITTER_LINK} text="Twitter" isExternal />
       </div>
