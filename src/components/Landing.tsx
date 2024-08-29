@@ -49,7 +49,7 @@ const Landing: React.FC<any> = () => (
         <h2 className="mt-8 text-lg">
           For my latest,{' '}
           <a className="underline" href={TWITTER_LINK}>
-            follow me on Twitter!
+            follow me on X/Twitter
           </a>
         </h2>
 
