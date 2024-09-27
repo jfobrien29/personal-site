@@ -28,7 +28,6 @@ export const LANDING_BLOG_POSTS: IBlogPost[] = [
   TradeOffsAndTaste,
   TwoWaysToPlayVolleyball,
   IntroducingLowTechAI,
-  BestOf2022,
   HowToWriteSoftware,
 ];
 
