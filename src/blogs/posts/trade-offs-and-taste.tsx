@@ -22,7 +22,7 @@ const BlogPost: React.FC<any> = () => {
       <P>
         I think we’ll still have people who make software, but they’ll have a
         different skill set than the engineers around today. Their abilities
-        will boil down to two necessary attributes: excellent trade off decision
+        will boil down to two necessary attributes: excellent trade-off decision
         making and great taste.
       </P>
       <Heading2>Software Engineering Today</Heading2>
@@ -64,14 +64,14 @@ const BlogPost: React.FC<any> = () => {
         product, your job will be to build those skills and know how to
         communicate them accurately.
       </P>
-      <Heading2>Trade Offs</Heading2>
+      <Heading2>Trade-offs</Heading2>
       <P>
         As long as we live in a world constrained by physics, computer science,
         and capitalist markets, software engineering at a high level will be a
-        game of trade offs. For every implementation decision, there’s a
-        negative trade off to consider. An engineer must make decisions on
+        game of trade-offs. For every implementation decision, there’s a
+        negative trade-off to consider. An engineer must make decisions on
         platform dependence, system architecture, database design, and key
-        algorithms all with trade offs around latency, accuracy, cost,
+        algorithms all with trade-offs around latency, accuracy, cost,
         reliability, and ethics. Great software engineers know how to evaluate
         decisions and make the best choice, and those choices will still be
         relevant when agents are generating our code.
@@ -81,7 +81,7 @@ const BlogPost: React.FC<any> = () => {
         Learning to code and building your own projects from scratch is a great
         way to do this, and one of the key reasons I think learning to code will
         be relevant in the future. Once you start thinking of your project as a
-        series of logic gates and trade offs expressed through code, you’re
+        series of logic gates and trade-offs expressed through code, you’re
         thinking like an engineer.
       </P>
       <P>
@@ -89,7 +89,7 @@ const BlogPost: React.FC<any> = () => {
         system will be able to effectively communicate and make decisions with
         an AI agent counterpart far more effectively than someone who only knows
         what they want at a high level. Build your own systems today, learn how
-        to weigh trade offs, and learn how to communicate them to be an
+        to weigh trade-offs, and learn how to communicate them to be an
         effective agent orchestrator.
       </P>
       <Heading2>Taste</Heading2>
