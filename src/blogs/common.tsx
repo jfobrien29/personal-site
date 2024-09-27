@@ -72,7 +72,7 @@ export const A: React.FC<any> = ({ children, href, noBlank }) => {
 
 export const Heading2: React.FC<any> = ({ id, children }) => {
   return (
-    <h2 id={id} className="mt-8 text-3xl font-bold">
+    <h2 id={id} className="mt-8 text-2xl font-bold">
       {children}
     </h2>
   );
@@ -80,7 +80,7 @@ export const Heading2: React.FC<any> = ({ id, children }) => {
 
 export const Heading3: React.FC<any> = ({ id, children }) => {
   return (
-    <h3 id={id} className="mt-10 text-2xl font-semibold">
+    <h3 id={id} className="mt-10 text-xl font-semibold">
       {children}
     </h3>
   );
