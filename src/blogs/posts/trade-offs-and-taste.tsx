@@ -49,19 +49,19 @@ const BlogPost: React.FC<any> = () => {
         won't believe the way we did things. They’ll orchestrate swarms of
         coding agents that take ideas, map them to an existing project, build
         it, test it, and iterate until the result is perfect. With directions
-        from a human, “typing” and “thinking” speed will increase 1000x from
-        today, allowing massive refactors, perfectly optimized changes, and
-        debugging loops to happen and without human intervention.
+        from a human and agents generating code, “typing” and “thinking” speed
+        will increase 1000x, allowing massive refactors, perfectly optimized
+        changes, and debugging loops to happen and without human intervention.
       </P>
       <P>
-        Most significantly, the time to make software will drop to essentially
-        zero. If you can articulate your thoughts, agents will be ready to turn
-        your intent into code. So, articulating your thoughts becomes the core
-        challenge. Most of the key abilities and contextual understanding of a
-        software engineer today will be handled by machines, except for the
-        ability to make tradeoffs and have great taste. To build a great
-        product, your job will be to build those skills and know how to
-        communicate them accurately.
+        The time to make software will drop to essentially zero. If you can
+        articulate your thoughts, agents will be ready to turn your intent into
+        code. So, articulating your thoughts becomes the core challenge. Most of
+        the key abilities and contextual understanding of a software engineer
+        today will be handled by machines, except for the ability to make
+        tradeoffs and have great taste. To build a great product, your job will
+        be to build those skills and know how to communicate with them
+        accurately.
       </P>
       <Heading2>Trade-offs</Heading2>
       <P>
@@ -88,7 +88,7 @@ const BlogPost: React.FC<any> = () => {
         system will be able to effectively communicate and make decisions with
         an AI agent counterpart far more effectively than someone who only knows
         what they want at a high level. Build your own systems today, learn how
-        to weigh trade-offs, and learn how to communicate them to be an
+        to weigh trade-offs, and learn how to communicate with them to be an
         effective agent orchestrator.
       </P>
       <Heading2>Taste</Heading2>
@@ -131,7 +131,7 @@ const BlogPost: React.FC<any> = () => {
       </P>
       <Heading2>How long do I have?</Heading2>
       <P>
-        It’s hard to say how long tradeoffs and taste will be relevant as a
+        It’s hard to say how long trade-offs and taste will be relevant as a
         skill set, but in my opinion they’ll certainly be the last things
         automated away. Writing code, fiddling with CSS, debugging, and
         searching stack overflow are almost certainly going to be things of the
