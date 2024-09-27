@@ -43,7 +43,7 @@ const BlogPost: React.FC<any> = () => {
         This all encompassing software engineering role will seem archaic and
         amazing a decade from now, probably similar to how I view the legendary
         programmer Chris Sawyer that{' '}
-        <A href="https://www.chrissawyergames.com/faq3.html">
+        <A href="https://www.chrissawyergames.com/faq3.htm">
           made RollerCoaster Tycoon in assembly language
         </A>{' '}
         (how the hell did he do that?!). The next generation of software makers
