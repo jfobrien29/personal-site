@@ -19,21 +19,21 @@ const BlogPost: React.FC<any> = () => {
         still worth learning how to code?
       </P>
       <P>
-        I think we’ll still need software engineers, but they’ll differ from the
-        ones we know today. Future engineers will only need two key skills: the
-        ability to decide system tradeoffs and a great sense of taste.
+        I think we’ll still have software engineers, but they’ll only need two
+        key skills: the ability to decide system tradeoffs and a great sense of
+        taste.
       </P>
       <Heading2>Software Engineering Today</Heading2>
       <P>
         Software engineering today relies on engineers to hold a ton of
         information in their head and bring abstract ideas to life. They must be
         fluent in the syntax of relevant programming languages and have broad
-        knowledge of available tools and frameworks. They need to understand
-        their existing codebase and previous implementation choices. They need
-        to be able to coordinate with product managers, designers, and other
-        engineers to determine what to build. Then with all of this context,
-        they must be able to fit structure around ambiguous features and
-        physically type it all into a computer. Assuming they nailed this
+        knowledge of available tools and frameworks. They must be aware of their
+        their existing codebase and understand previous implementation choices.
+        They need to be able to coordinate with product managers, designers, and
+        other engineers to determine what to build. Then with all of this
+        context, they must be able to fit structure around ambiguous features
+        and physically type it all into a computer. Assuming they nailed this
         translation on the first go (it rarely works that way), they then test
         their work and iterate until the project is complete.
       </P>
@@ -154,7 +154,7 @@ const BlogPost: React.FC<any> = () => {
         <A href="https://v0.dev/chat">see v0</A>). Breakout from the crowd and
         develop good taste.
       </P>
-      <Heading2>How long do I have?</Heading2>
+      <Heading2>How Long Do Those Matter?</Heading2>
       <P>
         It’s hard to say how long tradeoffs and taste will be relevant as a
         skill set, but in my opinion they’ll certainly be the last things
