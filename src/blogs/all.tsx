@@ -11,7 +11,7 @@ import { YearInReview2021 } from './posts/year-in-review-2021';
 import { BestOf2021 } from './posts/best-reads-of-2021';
 import { BestOf2022 } from './posts/best-reads-of-2022';
 import { TwoWaysToPlayVolleyball } from './posts/two-ways-to-play-volleyball';
-import { TradeOffsAndTaste } from './posts/trade-offs-and-taste';
+import { TradeoffsAndTaste } from './posts/tradeoffs-and-taste';
 // import { LeavingGoogleForOnePager } from './posts/leaving-google-for-onepager';
 
 export interface IBlogPost {
@@ -25,14 +25,14 @@ export interface IBlogPost {
 }
 
 export const LANDING_BLOG_POSTS: IBlogPost[] = [
-  TradeOffsAndTaste,
+  TradeoffsAndTaste,
   TwoWaysToPlayVolleyball,
   IntroducingLowTechAI,
   HowToWriteSoftware,
 ];
 
 export const ALL_BLOG_POSTS: IBlogPost[] = [
-  TradeOffsAndTaste,
+  TradeoffsAndTaste,
   TwoWaysToPlayVolleyball,
   PromptAThonV0,
   WhatAreLLMs,
@@ -46,7 +46,7 @@ export const ALL_BLOG_POSTS: IBlogPost[] = [
 ];
 
 export const HOSTED_BLOG_POSTS: IBlogPost[] = [
-  TradeOffsAndTaste,
+  TradeoffsAndTaste,
   TwoWaysToPlayVolleyball,
   BestOf2022,
   YearInReview2021,
