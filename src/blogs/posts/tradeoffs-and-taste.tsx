@@ -25,17 +25,17 @@ const BlogPost: React.FC<any> = () => {
       </P>
       <Heading2>Software Engineering Today</Heading2>
       <P>
-        Software engineering today relies on engineers to hold a ton of
-        information in their head and bring abstract ideas to life. They must be
-        fluent in the syntax of relevant programming languages and have broad
-        knowledge of available tools and frameworks. They must be aware of their
-        their existing codebase and understand previous implementation choices.
-        They need to be able to coordinate with product managers, designers, and
-        other engineers to determine what to build. Then with all of this
-        context, they must be able to fit structure around ambiguous features
-        and physically type it all into a computer. Assuming they nailed this
-        translation on the first go (it rarely works that way), they then test
-        their work and iterate until the project is complete.
+        Modern software engineering relies on engineers to hold a ton of
+        information in their head and bring abstract ideas to life with code.
+        They must be fluent in the syntax of relevant programming languages and
+        have broad knowledge of available tools and frameworks. They must be
+        aware of their their existing codebase and understand previous
+        implementation choices. They need to be able to coordinate with product
+        managers, designers, and other engineers to determine what to build.
+        Then with all of this context, they must be able to fit structure around
+        ambiguous features and physically type it all into a computer. Assuming
+        they nailed this translation on the first go (it rarely works that way),
+        they then test their work and iterate until the project is complete.
       </P>
       <P>
         This all encompassing software engineering role will seem archaic and
