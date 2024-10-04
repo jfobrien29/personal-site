@@ -141,6 +141,20 @@ const About: React.FC<any> = () => (
             <span className="font-semibold">
               <a
                 className="underline font-semibold"
+                href="https://mailkiwi.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Mail Kiwi
+              </a>
+            </span>
+            , AI generated images sent to you via postcard (and it's a surprise
+            til you get it!).
+          </li>
+          <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
                 href="https://maxcompute.co/"
                 target="_blank"
                 rel="noreferrer"
