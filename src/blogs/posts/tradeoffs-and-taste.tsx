@@ -3,8 +3,8 @@ import { IBlogPost } from '../all';
 import { A, Heading2, P } from '../common';
 
 export const SLUG = 'tradeoffs-and-taste';
-export const TITLE = 'Tradeoffs and Taste';
-export const DATE = '2024-09-27';
+export const TITLE = 'Taste and Tradeoffs (DRAFT)';
+export const DATE = '2024-10-09';
 export const EXCERPT =
   'All meaningful code used to be written by humans, but not anymore. What does that mean for software engineers in a few years? Is it still worth learning how to code?';
 
