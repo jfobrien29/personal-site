@@ -19,8 +19,13 @@ const BlogPost: React.FC<any> = () => {
         still worth learning how to code?
       </P>
       <P>
-        I think we’ll still have software engineers, but they’ll only need two
-        key skills: the ability to decide system tradeoffs and a great sense of
+        I've been writing code for a decade as a software engineer at Google and
+        a startup CTO, and after years of using AI tools like Github Copilot and
+        Cursor I think it's obvious that making software will never be the same.
+        The process of creating a product or finishing a task is fundamentally
+        different, and honestly it's much more enjoyable. A few years from now I
+        think we’ll still need software engineers, but they’ll only need two key
+        skills: the ability to decide system tradeoffs and a great sense of
         taste.
       </P>
       <Heading2>Software Engineering Today</Heading2>
