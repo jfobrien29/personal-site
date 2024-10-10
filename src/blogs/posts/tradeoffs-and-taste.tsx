@@ -21,12 +21,12 @@ const BlogPost: React.FC<any> = () => {
       <P>
         I've been writing code as a Google engineer and startup CTO for over a
         decade, and after using (and already relying on) tools like Github
-        Copilot and Cursor it's clear to me that creating software is already
+        Copilot and Cursor, it's clear to me that creating software is already
         fundamentally different than just a few years back. Language models make
         the work faster and more enjoyable, and they'll only get better from
-        here. However, two crucial skills will resist automation and become
-        vital for future software engineers to master: the ability to decide
-        system tradeoffs and an excellent sense of taste.
+        here. However, two skills will resist automation and become crucial for
+        future software engineers to master: the ability to decide system
+        tradeoffs and an excellent sense of taste.
       </P>
       <Heading2>Software Engineering Today</Heading2>
       <P>
@@ -59,20 +59,20 @@ const BlogPost: React.FC<any> = () => {
         ideas, map them onto a project, build it, test it, and iterate until the
         result works perfectly. With human directions and automated code
         generation, the speed of “typing” and "filling in the implementation
-        gaps" will increase 1000x allowing massive refactors, perfectly
-        optimized changes, and debugging loops to happen and without human
+        gaps" will increase 1000x allowing for massive refactors, perfectly
+        optimized changes, and debugging loops to happen without human
         intervention.
       </P>
       <P>
         The time to make software will drop to essentially zero. If you can
         articulate your thoughts, agents will be ready to turn your intent into
-        code. So, accurately articulating those thoughts and having the{' '}
-        <span className="italic">right</span> thoughts becomes the challenge.
-        This skillset will become core competency of software engineers, and
-        boiled down further the main directions to give will be around system
-        tradeoffs and making a tasteful product.
+        code. Having the <span className="italic">right</span> thoughts becomes
+        the challenge, and this skillset will become core competency of software
+        engineers. Boiled down a step further, the differentiating directions to
+        communicate will be around system tradeoffs and making a tasteful
+        product. Everything else will be automated away.
       </P>
-      <P>Let's explore each and how to develop these abilities today.</P>
+      <P>Let's explore each skill and how to develop them today.</P>
       <Heading2>Tradeoffs</Heading2>
       <P>
         As long as we live in a world constrained by physics, computer science,
@@ -92,34 +92,33 @@ const BlogPost: React.FC<any> = () => {
         specify implementation details and when to give the agents free reign.
         When they sense a critical tradeoff, they'll ask the right questions and
         adjust the product accordingly. They'll have total system awareness, but
-        not deep system fluency (just like I can't read assembly but understand
-        bottlenecks in a product today).
+        not deep system fluency (just like I can't read assembly code but
+        understand bottlenecks in a product today).
       </P>
       <P>
         It's worth noting that any tradeoffs related to developer productivity
         will no longer be relevant. All engineering teams today grapple with
         difficult prioritization decisions: should we build feature A, build
-        feature B, or fix tech debt C. Those decisions, including any problems
+        feature B, or fix tech debt C. Those decisions, especially any problems
         related to tech debt, will be a thing of the past. What to prioritize
         will no longer be an issue, and you'll have free reign to build with
-        unlimited engineering effort. What you build is the only thing that
-        matters.
+        unlimited engineering effort. What you choose to build will be the only
+        thing that matters.
       </P>
       <P>
         Developing intuition to make good tradeoffs today is fairly
-        straightforward: work on more projects. Making your own technical
-        projects from scratch is a great way to do this, and one of the key
-        reasons I think learning to code will still be relevant in the future.
-        Once you start thinking of your project as a series of tradeoffs
+        straightforward: make more product decisions. Building your own
+        technical projects from scratch is a great way to do this, and one of
+        the key reasons I think learning to code will still be relevant in the
+        future. Once you start thinking of your project as a series of tradeoffs
         expressed through code, you’re thinking like an engineer.
       </P>
       <P>
-        I think a software engineer who understands the innards of their system
-        will be able to communicate with an AI agent counterpart far more
-        effectively than someone who only knows what they want at a high level.
-        To stay relevant, my advice is to build your own systems today, learn
-        how to weigh tradeoffs you encounter, and learn how to communicate your
-        choices.
+        A software engineer who understands the innards of their system will
+        communicate with an A agent far more effectively than someone who only
+        knows the system at a high level. To stay relevant, my advice is to get
+        building today, practice weighing the tradeoffs you encounter, and learn
+        how to communicate your choices.
       </P>
       <Heading2>Taste</Heading2>
       <P>
@@ -134,10 +133,10 @@ const BlogPost: React.FC<any> = () => {
         A top software engineer will have incredible breadth of knowledge of
         successful software products and know how to articulate what gives them
         an edge. They will have deep intuition of what looks and feels right,
-        and they will be opinionated in a unique way of building that makes
-        their products stand out. Ultimately, it's their combination of
-        technical understand and refined taste that will distinguish truly
-        exceptional software engineers from their peers.
+        and they will be opinionated in a unique style that makes their products
+        stand out. Ultimately, it's their combination of technical understanding
+        and refined taste to build seemless products that will separate them
+        from their peers.
       </P>
       <P>
         Developing taste takes practice that comes from using great products,
@@ -150,19 +149,18 @@ const BlogPost: React.FC<any> = () => {
         As the agents get better and require less human intervention, a less
         experienced maker will be able to create fancier products. But these
         novice creators won’t stray far from the defaults inherent in AI models
-        and end up building indistinguishable products (
-        <A href="https://v0.dev/chat">see v0</A>). Breakout from the crowd and
-        develop good taste.
+        and end up building indistinguishable products. Breakout from the crowd
+        and develop good taste.
       </P>
       <Heading2>How Long Do These Skills Matter?</Heading2>
       <P>
         It’s hard to say how long taste and tradeoffs will be relevant as a
-        skill set, but in my opinion they’ll certainly be the last human skills
-        automated away. With certainty writing code and painfully debugging will
-        be things of the past, and makers in the next decade will be able to
-        think bigger because the smaller details will be handled. As a software
-        engineer, it's going to be an incredible world if you possess the
-        relevant skills.
+        skillset, but in my opinion they’ll certainly be the last human software
+        skills automated away. With certainty, writing code and debugging
+        processes will be relics of the past, and makers in the next decade will
+        be able to think bigger because the smaller details will be handled. As
+        a software engineer, it's going to be an incredible time if take
+        advantage of the opportunity.
       </P>
       <P>
         To get ahead today, build something. Make a new project. Use new tools
