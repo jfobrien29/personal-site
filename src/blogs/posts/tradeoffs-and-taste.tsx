@@ -2,7 +2,7 @@ import React from 'react';
 import { IBlogPost } from '../all';
 import { A, Heading2, P } from '../common';
 
-export const SLUG = 'tradeoffs-and-taste';
+export const SLUG = 'taste-and-tradeoffs';
 export const TITLE = 'Taste and Tradeoffs';
 export const DATE = '2024-10-10';
 export const EXCERPT =
