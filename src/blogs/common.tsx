@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { blurDataUrlShimmer } from '@/utils/shimmer';
 
 import { Source_Serif_Pro } from 'next/font/google';
+import clsx from 'clsx';
 
 const font = Source_Serif_Pro({
   subsets: ['latin'],
@@ -10,9 +11,9 @@ const font = Source_Serif_Pro({
   style: ['normal', 'italic'],
 });
 
-export const P: React.FC<any> = ({ children }) => {
+export const P: React.FC<any> = ({ children, className }) => {
   return (
-    <div className="mt-4">
+    <div className={clsx('mt-4', className || '')}>
       <p className={font.className}>{children}</p>
     </div>
   );
