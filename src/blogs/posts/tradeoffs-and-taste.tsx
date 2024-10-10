@@ -34,13 +34,13 @@ const BlogPost: React.FC<any> = () => {
         information in their head and bring abstract ideas to life with code.
         They must be fluent in the syntax of relevant programming languages and
         have broad knowledge of available tools and frameworks. They must be
-        aware of their their existing codebase and understand previous
-        implementation choices. They need to be able to coordinate with product
-        managers, designers, and other engineers to determine what to build.
-        Then with all of this context, they must be able to fit structure around
-        ambiguous features and physically type it all into a computer. Assuming
-        they nailed this translation on the first go (it rarely works that way),
-        they then test their work and iterate until the project is complete.
+        aware of their existing codebase and understand previous implementation
+        choices. They need to be able to coordinate with product managers,
+        designers, and other engineers to determine what to build. Then with all
+        of this context, they must be able to fit structure around ambiguous
+        features and physically type it all into a computer. Assuming they
+        nailed this translation on the first go (it rarely works that way), they
+        then test their work and iterate until the project is complete.
       </P>
       <P>
         This all encompassing software engineering role will seem archaic and
@@ -78,8 +78,8 @@ const BlogPost: React.FC<any> = () => {
         As long as we live in a world constrained by physics, computer science,
         and money, software engineering will be a game of tradeoffs. For every
         implementation decision there’s a negative tradeoff to consider, and
-        that's as true today as it will be in the far future. An engineer must
-        make decisions on platform dependence, system architecture, and key
+        that's as true today as it will be in the distant future. An engineer
+        must make decisions on platform dependence, system architecture, and key
         algorithms all with implications on latency, accuracy, cost,
         reliability, and ethics. Great software engineers know when they are
         making system tradeoffs, how to evaluate their decisions, and generally
@@ -98,12 +98,11 @@ const BlogPost: React.FC<any> = () => {
       <P>
         It's worth noting that any tradeoffs related to developer productivity
         will no longer be relevant. All engineering teams today grapple with
-        difficult prioritization decisions: should we build feature A, build
-        feature B, or fix tech debt C. Those decisions, especially any problems
-        related to tech debt, will be a thing of the past. What to prioritize
-        will no longer be an issue, and you'll have free reign to build with
-        unlimited engineering effort. What you choose to build will be the only
-        thing that matters.
+        prioritization: should we build feature A, build feature B, or fix tech
+        debt C. Those decisions will be a thing of the past, and you'll have
+        free reign to build with unlimited engineering effort. With all that
+        freedom, building the most performant, low cost, and useful system
+        becomes all the more important.
       </P>
       <P>
         Developing intuition to make good tradeoffs today is fairly
