@@ -65,11 +65,17 @@ const Landing: React.FC<any> = () => (
         })}
 
         <h2 className="mt-8 text-lg">
+          <Link href={ROUTES.BLOG} passHref>
+            <span className="underline">Check out all posts.</span>
+          </Link>
+        </h2>
+
+        {/* <h2 className="mt-8 text-lg">
           Looking for a good book?{' '}
           <Link href={ROUTES.BOOKS} passHref>
             <span className="underline">Check out my top recommendations.</span>
           </Link>
-        </h2>
+        </h2> */}
       </div>
     </div>
   </BaseLayout>

@@ -122,52 +122,54 @@ const BlogPost: React.FC<any> = () => {
       <Heading2>Taste</Heading2>
       <P>
         Having great taste is difficult to develop and arguably a more valuable
-        skill in the future. Great taste leads to great design in everything
-        from the aesthetic of a product to its user experience. It’s a skill
-        that's as much artistry as science, and is deeply human in nature.
-        Concerningly, I'd argue that few software engineers today truly have
-        great taste.
+        and differentiating skill in the future. Great taste leads to great
+        design in everything from the aesthetic of a product to its user
+        experience. It’s a skill that's as much artistry as science, and is
+        deeply human in nature. Concerningly, I'd argue that few software
+        engineers today truly have great taste.
       </P>
       <P>
-        A top software engineer will have incredible breadth of knowledge of
-        successful software products and know how to articulate what gives them
-        an edge. They will have deep intuition of what looks and feels right,
-        and they will be opinionated in a unique style that makes their products
-        stand out. Ultimately, it's their combination of technical understanding
-        and refined taste to build seemless products that will separate them
-        from their peers.
+        A top software engineer will need to know a wide variety of successful
+        of successful software products and be able to articulate what gives
+        them an edge. They will have deep intuition of what looks and feels
+        right, and they will be opinionated in a unique style that makes their
+        products stand out. Their combination of deep technical understanding
+        and human-computer interaction design intuition will lead them to build
+        seamless products that separate them from their peers.
       </P>
       <P>
-        Developing taste takes practice that comes from using great products,
-        launching great products, and internalizing feedback on your work. Some
-        have a knack for taste, and others will have to work at it. But good
-        taste for building software can certainly be earned (ex. my earliest
-        projects were garbage in every way, now they’re not too bad).
+        Developing taste comes from using great products, launching great
+        products, and internalizing feedback on your work. Some have a knack for
+        taste, and others will have to work at it. But good taste for building
+        software products can certainly be earned. (As an example, my earliest
+        projects were garbage in every way. Now they’re not too bad.)
       </P>
       <P>
-        As the agents get better and require less human intervention, a less
-        experienced maker will be able to create fancier products. But these
+        As agents get better and require less human intervention, a less
+        experienced maker will be able to create fancier products. But, these
         novice creators won’t stray far from the defaults inherent in AI models
-        and end up building indistinguishable products. Breakout from the crowd
-        and develop good taste.
+        and end up building indistinguishable products. To break out from the
+        crowd, you need to develop good taste.
       </P>
-      <Heading2>How Long Do These Skills Matter?</Heading2>
+      <Heading2>How Long Will These Skills Matter?</Heading2>
       <P>
-        It’s hard to say how long taste and tradeoffs will be relevant as a
-        skillset, but in my opinion they’ll certainly be the last human software
-        skills automated away. With certainty, writing code and debugging
-        processes will be relics of the past, and makers in the next decade will
-        be able to think bigger because the smaller details will be handled. As
-        a software engineer, it's going to be an incredible time if take
-        advantage of the opportunity.
+        It’s hard to say how long taste and tradeoffs will be relevant, but in
+        my opinion they’ll certainly be the last human software skills automated
+        away. Today in the copilot phase of AI, writing code and debugging are
+        becoming relics of the past. Soon in the age of agents, makers will be
+        able to think bigger because the smaller details will be handled. In the
+        farther future, agents may even self organize and make higher level
+        decisions themselves, but let's not get too far ahead of ourselves. As a
+        software engineer for at least the next five years, it's going to be an
+        incredible period if you can take advantage of the opportunity.
       </P>
       <P>
         To get ahead today, build something. Make a new project. Use new tools
         like <A href="https://www.cursor.com/">Cursor</A> and{' '}
         <A href="https://x.com/stackblitz/status/1841873251313844631">Bolt</A>.
-        Launch what you make to users and get offensive feedback from someone
-        anonymous online. Develop a sense of what’s good software and learn how
-        to make it run quickly, cheaply, and reliably.
+        Launch what you make to real users and get offensive feedback from
+        someone anonymous online. Develop a sense of what’s good software and
+        learn how to make it run quickly, cheaply, and reliably.
       </P>
       <P>
         I'm excited for a future where we can translate our ideas into live
@@ -176,8 +178,10 @@ const BlogPost: React.FC<any> = () => {
       </P>
 
       <P className="italic pt-16">
-        Thanks to Alexander Lee, Adam Hardej, and Nic Mahaney for feedback on
-        drafts of this post. I'd also highly recommend reading{' '}
+        I'm currently researching how to make agents cheaper and more useful, so
+        please reach out if you'd like me to share what I've found. Thanks to
+        Alexander Lee, Adam Hardej, and Nic Mahaney for feedback on drafts of
+        this post. I'd also highly recommend reading{' '}
         <A href="https://www.paulgraham.com/taste.html">
           Paul Graham's essay on taste for makers
         </A>
