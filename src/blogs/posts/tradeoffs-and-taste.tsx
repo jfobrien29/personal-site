@@ -114,7 +114,7 @@ const BlogPost: React.FC<any> = () => {
       </P>
       <P>
         A software engineer who understands the innards of their system will
-        communicate with an A agent far more effectively than someone who only
+        communicate with an AI agent far more effectively than someone who only
         knows the system at a high level. To stay relevant, my advice is to get
         building today, practice weighing the tradeoffs you encounter, and learn
         how to communicate your choices.
