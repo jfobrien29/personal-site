@@ -12,8 +12,8 @@ const About: React.FC<any> = () => (
       <p className="mt-8 text-lg">
         Currently a grad student at MIT getting my MBA and building a company at
         the intersection of AI and sustainability. I'm extremely optimistic
-        about recent AI advancements. There's huge potential, if we can figure
-        out how to power it all.
+        about recent AI advancements. There's huge potential, and it only gets
+        more wild from here.
       </p>
 
       <h2 className="mt-8 italic text-lg">Previously</h2>
