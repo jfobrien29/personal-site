@@ -147,9 +147,20 @@ const About: React.FC<any> = () => (
               >
                 The Turing Fest
               </a>
+            </span>{' '}
+            and{' '}
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
+                href="https://killtherobot.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Kill the Robot
+              </a>
             </span>
-            , A "Card Against Humanity" style game, but some of the players are
-            AI! (2024)
+            , Classic party games to play with friends, each with an AI twist
+            (2024)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
