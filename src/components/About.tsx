@@ -141,6 +141,20 @@ const About: React.FC<any> = () => (
             <span className="font-semibold">
               <a
                 className="underline font-semibold"
+                href="https://theturingfest.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                The Turing Fest
+              </a>
+            </span>
+            , A "Card Against Humanity" style game, but some of the players are
+            AI! (2024)
+          </li>
+          <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
                 href="https://mailkiwi.com/"
                 target="_blank"
                 rel="noreferrer"
@@ -148,8 +162,8 @@ const About: React.FC<any> = () => (
                 Mail Kiwi
               </a>
             </span>
-            , AI generated images sent to you via postcard (and it's a surprise
-            til you get it!).
+            , AI generated images sent to you via postcard, and it's a surprise
+            til you get it! (2024)
           </li>
           <li className="mt-4">
             <span className="font-semibold">
