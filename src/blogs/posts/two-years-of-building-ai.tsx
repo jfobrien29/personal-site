@@ -329,13 +329,14 @@ const BlogPost: React.FC<any> = () => {
         <strong>One liner:</strong> An inexpensive public GPU cloud for AI
         training powered by renewables.
         <br />
-        <strong>Inspiration:</strong> Atomic VC is a massive VC fund and startup
+        <strong>Inspiration:</strong> Atomic VC is a VC fund and startup
         accelerator behind breakout companies like hims & hers, Exowatt, and
-        Elly. The firm experiments with ideas, tries hard to kill them, and
-        takes on the most promising opportunities to found, fund, and find a
-        team to run. Around the time we were debating next steps for Max Compute
-        Co., Atomic reached out to me about becoming a founder of a new company
-        they were exploring called Build AI.
+        <A href="https://www.elly.ai/">Elly</A>. The firm experiments with
+        ideas, tries hard to kill them, and takes on the most promising
+        opportunities to found, fund, and find a team to run. Around the time we
+        were debating next steps for Max Compute Co., Atomic reached out to me
+        about becoming a founder of a new company they were exploring called
+        Build AI.
       </P>
       <P>
         Taking advantage of low energy prices in remote areas and the massive
@@ -358,9 +359,9 @@ const BlogPost: React.FC<any> = () => {
       <P>
         <strong>Status:</strong> It became clear over the months I was working
         on Build AI that the core assumptions of this company were wrong. A win
-        for entrepreneurial experimentation, but another failure for me. With my
-        recommendation, Atomic decided to shut down the company. A few key
-        reasons we decided to shut down:
+        for entrepreneurial experimentation, but another failure for me. In part
+        with my recommendation, Atomic decided to shut down the company. A few
+        key reasons we decided to shut down:
       </P>
       <P>
         For a training cluster with top of the line interconnected hardware, the
@@ -374,7 +375,7 @@ const BlogPost: React.FC<any> = () => {
         latency).
       </P>
       <P>
-        We realized that only about 40 teams in the world are consistently
+        We realized that only about 40-50 teams in the world are consistently
         training on more than 40 GPUs at a time. If you're working close to the
         AI space, you can probably name everyone of them, and at reasonable
         scale they all want to build and own their own hardware. Companies like
@@ -396,10 +397,10 @@ const BlogPost: React.FC<any> = () => {
         and GPU clouds like CoreWeave, Lambda, RunPod, and Crusoe.
       </P>
       <P>
-        After all my customer calls, building the platform, researching the
-        industry, and evaluating what we'd learned, I recommended Build AI shut
-        down. It crushed me, and I dealt with that in the weeks that followed,
-        but it was the right decision.
+        After all my customer calls, building the platform, researching
+        opportunities, and evaluating what we'd learned, I recommended Build AI
+        shut down. It crushed me, and I dealt with that in the weeks that
+        followed, but it was the right decision.
       </P>
 
       <P>
@@ -409,19 +410,21 @@ const BlogPost: React.FC<any> = () => {
       <Heading2>The Sundai Club</Heading2>
       <P>
         At this point, I returned to Cambridge to finish my MBA at MIT. I
-        learned a ton working on Build AI, but not knowing exactly what to do or
-        what to build next and traveling through September for weddings, I was
-        lucky to come across the Sundai Club. Sundai is a group of hackers from
-        MIT, Harvard, Northeastern, and the Boston area that get together on
-        Sundays to launch AI powered apps in a single day. Get there at 10am,
-        demo at 9pm.
+        learned a ton working on Build AI, but I didn't know exactly what to do
+        or what to build next. Through the chaos of wedding weekends and school,
+        I was lucky to come across the{' '}
+        <A href="https://www.sundai.club/">Sundai Club</A>. Sundai is a group of
+        hackers from MIT, Harvard, Northeastern, and the Boston area that get
+        together on Sundays to launch AI powered apps in a single day. Get there
+        at 10am, demo at 9pm.
       </P>
       <P>
-        Also, it's important to note that at this point I switched from writing
-        code in VS code with Copilot to using Cursor. I didn't expect the change
-        to be so drastic, but wow was I wrong. Cursor is an incredible tool
-        that's made getting into a flow state building software that much easier
-        and more fun.
+        It's important to note that at this point I, a business school student,
+        was still writing code daily, and around this time switched from working
+        in VS code with Copilot to using Cursor. I didn't expect the change to
+        be so drastic, but wow was I wrong. Cursor is an incredible tool that's
+        made getting into a flow state building software that much easier and
+        more fun.
       </P>
       <P>
         Through my experience with Github Copilot, switching to Cursor, and
@@ -443,8 +446,12 @@ const BlogPost: React.FC<any> = () => {
         <strong>One liner:</strong> Submit a prompt, get a custom postcard in
         the mail.
         <br />
-        <strong>Inspiration:</strong> This tweet! I loved it, noodled on it for
-        months, and eventually built it. A really fun project.
+        <strong>Inspiration:</strong>{' '}
+        <A href="https://x.com/imkevinxu/status/1740178787063706071">
+          This tweet that Kevin tagged me in!
+        </A>{' '}
+        I loved it, thought about it for months, and eventually built it. A
+        really fun project.
         <br />
         <strong>The launch:</strong> I launched on Twitter to lots of positive
         reactions. Still need to build out what one friend called "Mom mode",
@@ -452,7 +459,8 @@ const BlogPost: React.FC<any> = () => {
         postcard.
         <br />
         <strong>Status:</strong> Still alive and well. Send yourself a postcard
-        today! My grandma does it every few months.
+        today! My grandma does it every few months. Lob is the best postcard API
+        I could find.
       </P>
       <P>
         <A href="https://mailkiwi.com">
