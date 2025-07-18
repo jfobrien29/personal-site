@@ -329,7 +329,7 @@ const BlogPost: React.FC<any> = () => {
         training powered by renewables.
         <br />
         <strong>Inspiration:</strong> Atomic VC is a VC fund and startup
-        accelerator behind breakout companies like hims & hers, Exowatt, and
+        accelerator behind breakout companies like hims & hers, Exowatt, and{' '}
         <A href="https://www.elly.ai/">Elly</A>. The firm experiments with
         ideas, tries hard to kill them, and takes on the most promising
         opportunities to found, fund, and find a team to run. Around the time we
@@ -514,18 +514,24 @@ const BlogPost: React.FC<any> = () => {
       <P>
         <strong>One liner:</strong> An API for cheap asynchronous inference
         <br />
-        <strong>Inspiration:</strong> My experience at Build AI led to building
-        a plaform that focused on inference not training. When you stop worrying
-        about hyperfast inference, there's a ton of room to optimize. We wanted
-        to enable more economically viable AI use cases with higher latency AI,
-        and make better usage of the GPUs already plugged into our energy
-        infrastructure.
+        <strong>Inspiration:</strong> My experience at Build AI led me to
+        building a plaform that focused on inference instead of training. I'd
+        heard from company after company at Build AI that they actually cared
+        way more about lowering their inference costs, and were even willing to
+        sacrifice latency, but at the time we were 100% focused on training.
+        When you stop worrying about hyperfast inference, there's a ton of room
+        to optimize. We aimed to enable more economically viable AI use cases
+        with higher latency AI, and make better usage of the GPUs already
+        plugged into our energy infrastructure.
         <br />
         <strong>The launch:</strong> Built a prototype and launched to a small
-        subset of companies.
+        subset of companies. I pitched this at my "Launching Tech Ventures"
+        class at Harvard Business School. I worked on this during the Everydai
+        program at MIT. And I slowly grew our product and our offering.
         <br />
-        <strong>Status:</strong> It didn't work for a number of reasons, but led
-        to me meeting Hongyin.
+        <strong>Status:</strong> It didn't work for a number of reasons, but the
+        best thing that happened was it led to me meeting{' '}
+        <A href="https://luohongyin.github.io/">Hongyin</A>.
       </P>
 
       <Heading2>(Bonus) Project 11: Stealth Materials Science Company</Heading2>
