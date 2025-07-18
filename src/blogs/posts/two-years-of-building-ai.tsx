@@ -489,12 +489,13 @@ const BlogPost: React.FC<any> = () => {
       <P>
         <strong>One liner:</strong> Fantasy football for music
         <br />
-        <strong>Inspiration:</strong> Working with Blake on a fun new concept
+        <strong>Inspiration:</strong> Working with Blake on a fun new concept.
         <br />
-        <strong>The launch:</strong> Shared with a group of friends at MIT
+        <strong>The launch:</strong> Shared with a group of friends at MIT,
+        great feeback so far!
         <br />
-        <strong>Status:</strong> Blake is continuing the work, but I'm not
-        convinced this is more interesting than a novelty.
+        <strong>Status:</strong> Blake is continuing the work, I think it's a
+        killer project!
       </P>
       <P>
         <A href="https://frontrowvibes.com">
