@@ -4,19 +4,35 @@ import BaseLayout from '@/containers/BaseLayout';
 const About: React.FC<any> = () => (
   <BaseLayout
     title="About Jack O'Brien"
-    description="Proven engineer, CTO, and founder at MIT. At my core, I like to build things. Prev. Sandhill Markets, Google, IBM, and Princeton University."
+    description="Proven engineer and founder. At my core, I like to build things. Prev. MIT, Sandhill Markets, Google, IBM, and Princeton University."
   >
     <div className="flex flex-col max-w-2xl px-4">
       <h1 className="text-3xl font-semibold">About</h1>
 
       <p className="mt-8 text-lg">
-        Currently a grad student at MIT getting my MBA and building a company at
-        the intersection of AI and sustainability. I'm extremely optimistic
-        about recent AI advancements. There's huge potential, and it only gets
-        more wild from here.
+        Co-founder and CEO of{' '}
+        <a
+          className="underline"
+          href="https://subconscious.dev"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Subconscious
+        </a>
+        . Backed by MIT research, we're building a platform for running
+        production agents with tool use and long horizon reasoning from a single
+        API call. Where others innovated at the software layer, we innovated at
+        the model and runtime layer to maximize efficiency, capability, and
+        flexibility. If you're interested in building with us, please reach out!
       </p>
 
       <h2 className="mt-8 italic text-lg">Previously</h2>
+
+      <p className="mt-8 text-lg">
+        MBA at MIT. Came with the aim of building a company at the intersection
+        of AI and sustainability. Those two years let to a lot of learning and
+        failure, but eventually led me to Hongyin and Subconscious.
+      </p>
 
       <p className="mt-8 text-lg">
         CTO at{' '}
@@ -50,7 +66,7 @@ const About: React.FC<any> = () => (
         and{' '}
         <a
           className="underline"
-          href="https://os.onepager.vc"
+          href="https://openscout.vc"
           target="_blank"
           rel="noreferrer"
         >
@@ -70,9 +86,9 @@ const About: React.FC<any> = () => (
         >
           Google
         </a>{' '}
-        where I led teams on education-focused projects on Google Search and
-        Youtube. Designed and implemented features impacting millions of
-        students around the world{' '}
+        where I build education-focused projects on Google Search and Youtube.
+        Designed and implemented features impacting millions of students around
+        the world{' '}
         <a
           className="underline"
           href="https://www.google.com/search?q=2x%5E2+%2B+3x+-+1+%3D+0&rlz=1C5CHFA_enUS707US716&oq=2x%5E2+%2B+3x+-+1+%3D+0&aqs=chrome..69i57.8930j0j9&sourceid=chrome&ie=UTF-8"
@@ -92,11 +108,11 @@ const About: React.FC<any> = () => (
           target="_blank"
           rel="noreferrer"
         >
-          IBM Blockchain (Global Business Services)
+          IBM Blockchain
         </a>
         . Led a remote developement team to build blockchain applications for
-        large organization like FedEx and the State of Delaware. (This was 2017,
-        and I'm now much more skeptical about the future of{' '}
+        large organization like FedEx, Iron Mountain, and the State of Delaware.
+        (This was 2017, and I'm now much more skeptical about of{' '}
         <a
           className="underline"
           href="https://www.hyperledger.org/"
@@ -109,10 +125,10 @@ const About: React.FC<any> = () => (
       </p>
 
       <p className="mt-8 text-lg">
-        Co-Founder of Tiger Bed Rentals, a bed rental company I started with a
-        good friend (and later my co-founder for OnePager) in college. Grew to
-        $60k+ in revenue year one, $200k+ and profitable by year two. Evenutally
-        sold to{' '}
+        Co-Founder of Tiger Bed Rentals, a bed rental company I started with
+        Adam Hardej (who was later my co-founder for OnePager) in college. Grew
+        to $60k+ in revenue year one, 200k+ and profitable by year two.
+        Evenutally sold to{' '}
         <a
           className="underline"
           href="https://roomie.co/"
@@ -130,13 +146,28 @@ const About: React.FC<any> = () => (
         kickstarted everything, let's go Tigers!
       </p>
 
-      <h2 className="mt-8 italic text-lg">Misc Side Projects</h2>
+      <h2 className="mt-8 italic text-lg">I love side projects</h2>
 
       <div className="mt-8 text-lg">
-        I usually get in all the coding/work I need from my main job, but I do
-        love to tinker on side projects (OnePager is the only major graduate
-        from this list). A few notable technical and non-technical projects:
+        I usually get in all the coding/work I need from my core work, but I
+        just love to tinker on side projects (OnePager and Subconscious are
+        graduates from this list). A few notable technical and non-technical
+        projects:
         <ul className="list-disc ml-6 mt-4 gap-4">
+          <li className="mt-4">
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
+                href="https://frontrowvibes.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Front Row Fantasy
+              </a>
+            </span>
+            , fantasy sports for indie music artists in Boston (2024-2025).
+            Alive and well led by Blake Blaze!
+          </li>
           <li className="mt-4">
             <span className="font-semibold">
               <a
@@ -160,7 +191,7 @@ const About: React.FC<any> = () => (
               </a>
             </span>
             , Classic party games to play with friends, each with an AI twist
-            (2024)
+            (2024).
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -174,7 +205,21 @@ const About: React.FC<any> = () => (
               </a>
             </span>
             , AI generated images sent to you via postcard, and it's a surprise
-            til you get it! (2024)
+            til you get it! (2024).
+          </li>
+          <li>
+            <span className="font-semibold">
+              <a
+                className="underline font-semibold"
+                href="https://promptbetter.today/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Promptly
+              </a>
+            </span>
+            , a chrome extension that makes LLM prompts better, quickly. Think
+            grammarly for prompts (2024).
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -189,7 +234,7 @@ const About: React.FC<any> = () => (
             </span>
             , routing middleware between entprises and 3rd party LLM APIs. We
             make LLM inference cheaper, faster, and more accurate. Winner of the
-            MIT 100k grand prize (2024)
+            MIT 100k grand prize (2024).
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -203,7 +248,7 @@ const About: React.FC<any> = () => (
               </a>
             </span>
             , Stable diffusion + SAM for a seemless virtual try on experience
-            for e-commerce brands (2023-2024)
+            for e-commerce brands (2023-2024).
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -216,7 +261,11 @@ const About: React.FC<any> = () => (
                 LowTech AI
               </a>
             </span>
-            , Dead simple AI tools for non tech savy people (2023-2024)
+            , Dead simple AI tools for non tech savy people (2023-2025).{' '}
+            <span className="italic">
+              This project has killer SEO these days thanks to the domain and a
+              lot of well used prompts.
+            </span>
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -229,11 +278,12 @@ const About: React.FC<any> = () => (
                 The 12 Days of AI
               </a>
             </span>
-            , the wordle of Generative AI + Christmas (2022, resurrected 2023)
+            , the wordle of Generative AI + Christmas (2022, resurrected 2023,
+            2024).
           </li>
           <li className="mt-4">
             <span className="font-semibold">Text Reflect</span>, daily self
-            reflection via text (2022)
+            reflection via text (2022).
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -247,7 +297,7 @@ const About: React.FC<any> = () => (
               </a>
             </span>
             , NYC marathon fundraising team for the Leukemia & Lymphoma Society
-            (2018-2021)
+            (2018-2021).
           </li>
           <li className="mt-4">
             <a
@@ -268,7 +318,7 @@ const About: React.FC<any> = () => (
             >
               buildspace course
             </a>{' '}
-            (2021)
+            (2021).
           </li>
           <li className="mt-4">
             <a
@@ -280,7 +330,7 @@ const About: React.FC<any> = () => (
               All to Scale
             </a>
             , Putting unthinkable size, numbers, and complexity into a form you
-            can wrap your head around! (2021){' '}
+            can wrap your head around! (2021).
           </li>
           <li className="mt-4">
             <a
@@ -292,7 +342,7 @@ const About: React.FC<any> = () => (
               Calendar Challenger
             </a>
             , complete a single challenge every day to build consistency, submit
-            via text, show results in public (2021){' '}
+            via text, show results in public (2021).
           </li>
           <li className="mt-4">
             <a
@@ -303,7 +353,7 @@ const About: React.FC<any> = () => (
             >
               Skys the Minute
             </a>
-            , use your free minutes to learn something (2018)
+            , use your free minutes to learn something (2018).
           </li>
           <li className="mt-4">
             <span className="font-semibold">
@@ -316,14 +366,14 @@ const About: React.FC<any> = () => (
                 Old Relly
               </a>
             </span>
-            , renovated a school bus and drove it to 37 states (2017)
+            , renovated a school bus and drove it to 37 states (2017).
           </li>
           <li className="mt-4">
             <span className="font-semibold">
               Impact Environmental Calculator
             </span>
             , calculate and compete to improve your true impact on the
-            environment with others in your area (2016)
+            environment with others in your area (2016).
           </li>
         </ul>
       </div>
