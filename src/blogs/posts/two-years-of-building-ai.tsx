@@ -25,30 +25,31 @@ const BlogPost: React.FC<any> = () => {
         It used an early version of Stability AI's Dreambooth API, and was a hit
         among the friends and anonymous internet people who tried it out. One
         friend even begged me to keep making more puzzles after the 12 original
-        days were up. I happily extended it, and relaunched it in 2023 and 2024.
-        That project kicked me into the rabbit hole.
+        days were up. I happily extended it, integrated it with DALLE, and
+        relaunched it in 2023 and 2024. That project kicked me into the AI
+        rabbit hole.
       </P>
       <P>
-        Over the past two years, I've built and publicly launched 10 individual
-        AI powered apps with vastly different goals, technologies, and levels of
-        success. Some were for fun or experimentation, but 5 were serious
-        attempts at launching real business. As I come to the end of my time at
-        Sloan, I went through the repos, the dbs, the emails, and my own notes
-        to make sense of it all. Among those 10 apps are tens of thousands of
-        users, thousands in revenue, many painful decisions to move on, and a
-        ton of fun along the way.
+        Over the past 2+ years, I've built and publicly launched 10 individual
+        AI powered apps (many more if you count single day hackathons) with
+        vastly different goals, technologies, and levels of success. Some were
+        for fun or experimentation, and 5 were serious attempts at launching a
+        real business. As I was gradutating MIT Sloan a few months ago, I went
+        through the repos, the dbs, the emails, and my own notes to make sense
+        of it all. Among those 10 apps are tens of thousands of users, thousands
+        in revenue, many painful decisions to move on, and a ton of fun along
+        the way.
       </P>
       <P>
-        These past two years have been exciting but chaotic for me: I quit my
-        job, I got engaged, we moved to Boston, I went to business school, we
-        had our wedding, and all around us AI was taking over the world. I
-        wanted to take a moment to reflect on each project, how it came to be,
-        and what it led to next for me. It's much easier to connect the dots
-        looking backwards.
+        These years have been exciting but chaotic for me: I quit my job, I got
+        engaged, we moved to Boston, I went to business school, we had our
+        wedding, and all around us AI was taking over the world. I wanted to
+        take a moment to reflect on each project, how it came to be, and what it
+        led to next. It's always easier to connect the dots looking backwards.
       </P>
       <P>
         Read along to understand what I've been up to, what I'm most excited
-        about, and hopefully learn from the mistakes I've made.
+        about, and probably learn a thing or two.
       </P>
 
       <Heading2>The Projects</Heading2>
@@ -87,13 +88,13 @@ const BlogPost: React.FC<any> = () => {
         <strong>Inspiration:</strong> In 2022 I was experimenting with the
         stable diffusion API with my friend Charlie Durbin in NYC. It was clumsy
         and expensive to use through Dream Booth, but in a single sitting we
-        managed to get a webapp with text-image working. The next weekend,
-        inspired after hearing the Wordle creator sold his project to the New
-        York Times after making it for his girlfriend, I decided to turn our
-        starter project into a game. The point was to create a newly possible
-        game format by using text to image and share the magic of Gen AI. The
-        game still proudly proclaims "You're about to use generative AI"! Crazy
-        way to phrase things these days.
+        managed to get a webapp with text-image working, these were the days
+        before Cursor. The next weekend, inspired by hearing the Wordle creator
+        sold his project to the New York Times after making a fun game for his
+        girlfriend, I decided to turn our starter project into a game too. The
+        point was to create a newly possible game format by using text to image
+        and share the magic of Gen AI. The game still proudly proclaims "You're
+        about to use generative AI"! Crazy way to phrase things these days.
       </P>
       <P>
         <strong>The launch:</strong> I built an initial version in late November
@@ -112,6 +113,10 @@ const BlogPost: React.FC<any> = () => {
         today! I haven't touched the core gameplay, ux, or styling of the app,
         but I have slightly updated it for 2023 and 2024. You can still give it
         a try today.
+      </P>
+
+      <P>
+        <A href="https://12daysofai.com">Play 12 Days of AI</A>
       </P>
 
       <Heading2>Project 2: LowTech AI</Heading2>
@@ -164,6 +169,10 @@ const BlogPost: React.FC<any> = () => {
         generating product. Try out LowTech AI today.
       </P>
 
+      <P>
+        <A href="https://lowtech.ai">Try LowTech AI</A>
+      </P>
+
       <Heading2>Project 3: Modelle</Heading2>
       <P>
         <strong>One liner:</strong> The best model for you is you.
@@ -209,6 +218,12 @@ const BlogPost: React.FC<any> = () => {
         When inference costs really fall and these models improve, I'm sure
         there will be several companies in this space that transform fashion and
         e-commerce, but it won't be me!
+      </P>
+
+      <P>
+        <A href="https://modelle.ai">
+          Check out Modelle (site live, but inactive)
+        </A>
       </P>
 
       <Heading2>Project 4: Max Compute Co.</Heading2>
@@ -271,6 +286,12 @@ const BlogPost: React.FC<any> = () => {
         work and decided to part ways.
       </P>
 
+      <P>
+        <A href="https://maxcompute.co">
+          Check out Max Compute Co. (site live, but inactive)
+        </A>
+      </P>
+
       <Heading2>Project 5: Promptly</Heading2>
       <P>
         <strong>One liner:</strong> Grammarly for AI Prompts
@@ -295,6 +316,12 @@ const BlogPost: React.FC<any> = () => {
       <P>
         <strong>Status:</strong> Hibernation, potentially very possible now with
         WebGPU and tiny models!
+      </P>
+
+      <P>
+        <A href="https://chromewebstore.google.com/detail/promptly/ajgjlgooiinfdmongiadfhfflgihmbeg?hl=en">
+          Check out Promptly (chrome webstore)
+        </A>
       </P>
 
       <Heading2>Project 6: Build AI</Heading2>
@@ -375,6 +402,10 @@ const BlogPost: React.FC<any> = () => {
         but it was the right decision.
       </P>
 
+      <P>
+        <A href="https://trybuild.ai">Check out Build AI</A>
+      </P>
+
       <Heading2>The Sundai Club</Heading2>
       <P>
         At this point, I returned to Cambridge to finish my MBA at MIT. I
@@ -420,6 +451,11 @@ const BlogPost: React.FC<any> = () => {
         <strong>Status:</strong> Still alive and well. Send yourself a postcard
         today! My grandma does it every few months.
       </P>
+      <P>
+        <A href="https://mailkiwi.com">
+          Send yourself a postcard with Mail Kiwi
+        </A>
+      </P>
 
       <Heading2>Project 9: The Turing Fest (Sundai)</Heading2>
       <P>
@@ -435,6 +471,9 @@ const BlogPost: React.FC<any> = () => {
         <strong>Status:</strong> Still alive and well. Someday, I hope to host
         an event at The Turing Tavern in Cambridge MA for groups to play.
       </P>
+      <P>
+        <A href="https://theturingfest.com">Play The Turing Fest</A>
+      </P>
 
       <Heading2>Project 9: Front Row Fantasy</Heading2>
       <P>
@@ -446,6 +485,11 @@ const BlogPost: React.FC<any> = () => {
         <br />
         <strong>Status:</strong> Blake is continuing the work, but I'm not
         convinced this is more interesting than a novelty.
+      </P>
+      <P>
+        <A href="https://frontrowvibes.com">
+          Join a league on Front Row Fantasy
+        </A>
       </P>
 
       <Heading2>
@@ -467,6 +511,11 @@ const BlogPost: React.FC<any> = () => {
         concept and on the strength of my background, but I've seen no traction
         from users who want to use the API and the unit economics don't look
         great.
+      </P>
+      <P>
+        <A href="https://subconscious.dev">
+          Sneak peak of Subconscious v2 (coming soon)
+        </A>
       </P>
 
       <Heading2>(Bonus) Project 11: Stealth Materials Science Company</Heading2>
