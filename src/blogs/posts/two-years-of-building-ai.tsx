@@ -489,13 +489,20 @@ const BlogPost: React.FC<any> = () => {
       <P>
         <strong>One liner:</strong> Fantasy football for music
         <br />
-        <strong>Inspiration:</strong> Working with Blake on a fun new concept.
+        <strong>Inspiration:</strong> Blake Blaze came up with this concept with
+        his brother on a simple concept: if you can guess which artists playing
+        at venues under 2k people will make it big, we'll buy you front row
+        tickets to thier show. I was lucky to be included in the second league
+        created around this concept and had such a good time at the draft party
+        that I vibe coded the first version of the app over the weekend for fun.
+        With that app, we got accepted into the MIT Arts Accelerator.
         <br />
-        <strong>The launch:</strong> Shared with a group of friends at MIT,
-        great feeback so far!
+        <strong>The launch:</strong> We shared with groups of friends at MIT,
+        and got great feeback so far!
         <br />
         <strong>Status:</strong> Blake is continuing the work, I think it's a
-        killer project!
+        killer project. Front Row is live in Boston and coming soon to Nashville
+        and NYC.
       </P>
       <P>
         <A href="https://frontrowvibes.com">
@@ -532,7 +539,9 @@ const BlogPost: React.FC<any> = () => {
         he called a "top three problem in the world".
         <br />
         <strong>The launch:</strong> This work is in progress, but hasn't
-        publicly launched just yet!
+        publicly launched just yet.
+        <strong>Status:</strong> This wasn't a good fit for me, but I'm excited
+        to see how it goes and hope he succeeds.
       </P>
 
       <Heading2>So what's it all mean?</Heading2>
