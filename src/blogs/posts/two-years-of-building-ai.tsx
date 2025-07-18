@@ -426,8 +426,11 @@ const BlogPost: React.FC<any> = () => {
       <P>
         Through my experience with Github Copilot, switching to Cursor, and
         these hacks with the Sundai club, I wrote an article about the future of
-        software engineering and the only two skills that matter: taste and
-        tradeoffs.
+        software engineering and the only two skills that matter:{' '}
+        <A href="https://thejackobrien.com/blog/taste-and-tradeoffs">
+          taste and tradeoffs
+        </A>
+        .
       </P>
       <P>
         During Sundai hacks, I've built seven or eight products, but I want to
@@ -544,10 +547,11 @@ const BlogPost: React.FC<any> = () => {
         My advice if you're starting out working on something now: you have to
         go for it. Anytime spent wavering is wasted time. Once you're in the
         middle of it (can take 2 weeks or 6 months), it becomes very obvious
-        very quickly wether that project was worth your time. You'll see the
+        very quickly wether that project is worth your time. You'll see the
         technical shortcomings, the ways OpenAI could crush you, the impossible
-        sales process in front of you, or the feel the lack of traction. If
-        you're lucky, you might just find something that works.
+        sales process in front of you, or the feel the lack of traction. It only
+        works if you do it, and it's usually pretty fun too. If you're lucky,
+        you might just find something that works.
       </P>
       <P>
         Thanks to everyone who's supported me on this journey. Excited to share
