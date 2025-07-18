@@ -11,10 +11,10 @@ import {
   SubTitle,
 } from '../common';
 
-export const SLUG = 'two-years-of-building-ai';
-export const TITLE = 'Two Years of Building AI';
+export const SLUG = 'ten-shots-at-building-ai';
+export const TITLE = 'Ten Shots at Building AI';
 export const DATE = '2025-07-18';
-export const EXCERPT = `Over the past two years, I've built and launched 10 AI powered projects with vastly different goals, technologies, and levels of success. Here's what I learned.`;
+export const EXCERPT = `Over the past 2+ years, I've built and launched 10 AI projects with vastly different goals, technologies, and levels of success. Here's what happened.`;
 
 const BlogPost: React.FC<any> = () => {
   return (
@@ -483,10 +483,26 @@ const BlogPost: React.FC<any> = () => {
         publicly launched just yet!
       </P>
 
+      <Heading2>So what's it all mean?</Heading2>
       <P>
-        Overall, it's been a hard experience, shutting down company after
-        company, but all of that let me here today. Excited to share more on
-        what's next for Subconscious v2 in the near future!
+        It's been hard at times, especially letting go or parting ways with a
+        collaborator, but it's been extremely rewarding and fun. Business school
+        can be a lot of talk, and while I learned an unbelievable amount and met
+        incredible life long friends and mentors, I couldn't imagine not
+        participating in the AI wave that's happening all around us.
+      </P>
+      <P>
+        My advice if you're starting out working on something now: you have to
+        go for it. Anytime spent wavering is wasted time. Once you're in the
+        middle of it (can take 2 weeks or 6 months), it becomes very obvious
+        very quickly wether that project was worth your time. You'll see the
+        technical shortcomings, the ways OpenAI could crush you, the impossible
+        sales process in front of you, or the feel the lack of traction. If
+        you're lucky, you might just find something that works.
+      </P>
+      <P>
+        Thanks to everyone who's supported me on this journey. Excited to share
+        more on what's next for me with Subconscious v2 in the near future!
       </P>
     </>
   );
