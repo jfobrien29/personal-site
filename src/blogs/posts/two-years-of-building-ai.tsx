@@ -77,8 +77,7 @@ const BlogPost: React.FC<any> = () => {
         Front Row Fantasy:{' '}
         <A href="https://frontrowvibes.com">frontrowvibes.com</A>
         <br />
-        Subconscious Systems (v1):{' '}
-        <A href="https://subconscious.dev">subconscious.dev</A>
+        "Async Inference Co": domain taken over by current project
       </P>
 
       <Heading2>Project 1: The 12 Days of AI</Heading2>
@@ -503,30 +502,22 @@ const BlogPost: React.FC<any> = () => {
         </A>
       </P>
 
-      <Heading2>
-        Project 10: The project formerly known as "Subconscious Systems"
-      </Heading2>
+      <Heading2>Project 10: "Async Inference Co."</Heading2>
       <P>
         <strong>One liner:</strong> An API for cheap asynchronous inference
         <br />
         <strong>Inspiration:</strong> My experience at Build AI led to building
-        subconscious. When you stop worrying about hyperfast inference, there's
-        a ton of room to optimize. We want to enable more economically viable AI
-        use cases with higher latency AI, and make better usage of the GPUs
-        already plugged into our energy infrastructure.
+        a plaform that focused on inference not training. When you stop worrying
+        about hyperfast inference, there's a ton of room to optimize. We wanted
+        to enable more economically viable AI use cases with higher latency AI,
+        and make better usage of the GPUs already plugged into our energy
+        infrastructure.
         <br />
         <strong>The launch:</strong> Built a prototype and launched to a small
-        subset of companies
+        subset of companies.
         <br />
-        <strong>Status:</strong> Currently on hold. VCs want to invest in the
-        concept and on the strength of my background, but I've seen no traction
-        from users who want to use the API and the unit economics don't look
-        great.
-      </P>
-      <P>
-        <A href="https://subconscious.dev">
-          Sneak peak of Subconscious v2 (coming soon)
-        </A>
+        <strong>Status:</strong> It didn't work for a number of reasons, but led
+        to me meeting Hongyin.
       </P>
 
       <Heading2>(Bonus) Project 11: Stealth Materials Science Company</Heading2>
