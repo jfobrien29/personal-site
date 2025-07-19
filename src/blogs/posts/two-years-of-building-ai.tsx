@@ -1,4 +1,6 @@
 import React from 'react';
+import { Source_Serif_Pro } from 'next/font/google';
+import clsx from 'clsx';
 import { IBlogPost } from '../all';
 import {
   A,
@@ -10,6 +12,12 @@ import {
   Quote,
   SubTitle,
 } from '../common';
+
+const font = Source_Serif_Pro({
+  subsets: ['latin'],
+  weight: ['200', '400', '600', '700', '900'],
+  style: ['normal', 'italic'],
+});
 
 export const SLUG = 'ten-shots-at-building-ai';
 export const TITLE = 'Ten Shots at Building AI';
@@ -229,13 +237,13 @@ const BlogPost: React.FC<any> = () => {
       <P>
         <strong>One liner:</strong> LLM optimization for enterprises
         <br />
-        <strong>Inspiration:</strong> I made the difficult decision to go to
-        business school for a few reasons. First, I wanted to move away from
-        building fintech webapps and become the CEO of a startup. Second, I saw
-        the efficacy of GitHub copilot and wanted to move away from building
-        software as my core competency. Finally, I wanted to shift my career
-        focus towards the only industries I thought mattered on any meaningful
-        timescale, AI and energy. MIT seemed to be the only university for an
+        <strong>Inspiration:</strong> I made the difficult decision to uproot
+        from NYC and go to business school for a few reasons. First, I wanted to
+        move away from building fintech webapps and become the CEO of a startup.
+        Second, I saw the efficacy of GitHub copilot and wanted to move away
+        from building software as my core competency. Finally, I wanted to shift
+        my career focus towards the only industries I thought mattered on any
+        meaningful timescale, AI and energy. MIT was the only university for an
         engineer at heart with a top business school program, and I'm glad I
         made the leap.
       </P>
@@ -246,43 +254,50 @@ const BlogPost: React.FC<any> = () => {
         "Compute Will Flood the World", didn't win a cash prize, but it did
         spark what would become Max Compute Co. At this point I'd built a few AI
         projects and had done research on AI's energy consumption so I knew two
-        things to be true: using AI models was extremely expensive, but also
-        extremely resource intensive. But not all models are created equally,
-        and the rise of small models led to my building MCC.
+        things to be true: using AI models was costly for companies, but also
+        extremely resource intensive for the planet. However, not all models are
+        created equally, and the rise of small models led to us building MCC.
       </P>
       <P>
         Our product was a middleware proxy for developers to route LLM requests
-        to the smallest, cheapest, and most environmentally friendly but best
-        model to solve a user's query. It was great for companies to save money,
-        reduce latency, and improve reliability, and as a side benefit was great
-        for the planet to save energy.
+        to the smallest, cheapest, and most environmentally friendly model best
+        suited to solve a user's query. It was great for companies to save
+        money, reduce latency, and improve reliability, and as a side benefit
+        was great for the planet to save energy.
       </P>
       <P>
         After planning out heuristics for building this sort of router and
-        starting to talk with new companies, we built the prototype at an AGI
-        House hackathon on MIT campus and came in 2nd. We won 5k in free Lambda
-        credits!
+        starting to talk with new companies, we built the prototype at an{' '}
+        <A href="https://x.com/thejackobrien/status/1779693795686199599">
+          AGI House hackathon
+        </A>{' '}
+        on MIT campus and came in 2nd. We won 5k in free Lambda credits!
       </P>
       <P>
         <strong>The launch:</strong> The biggest moment for Max Compute Co. was
-        the MIT 100k pitch competition. We'd been waitlisted from MIT Delta V,
-        rejected by YC after 2 interviews, and denied from a number of other
-        programs and pitch competitions as we tried to get our company off the
-        ground. But from hundreds of applicants, we were lucky to pitch among 20
-        semifinalist companies for a chance to win 100k. We were more lucky to
-        win and advance to the finals. Then in front of a huge crowd at MIT, Tim
-        and I pitched MCC together and won the 100k prize. It was a hugely
+        the{' '}
+        <A href="https://youtu.be/SSekvkT2WDA?si=AFrpNL4UmZaOPkkZ&t=3071">
+          MIT 100k pitch competition
+        </A>
+        . We'd been waitlisted from MIT Delta V, rejected by YC after 2
+        interviews, and denied from a number of other programs and pitch
+        competitions as we tried to get our company off the ground. But from
+        hundreds of applicants, we were lucky to pitch among 20 semifinalist
+        companies for a chance to win 100k. We were more lucky to place int he
+        semis and advance to the finals. Then in front of a huge crowd at MIT,
+        Tim and I pitched MCC together and won the 100k prize. It was a hugely
         validating win, and an incredible intro to the Boston VC community.
       </P>
       <P>
         <strong>Status:</strong> Unfortunately for Max Compute Co., the AI
-        landscape had shifted below us. By the time we won the 100k prize, 5+
-        competitors had launched. Potential enterprise customers either wanted
-        to partner with a single AI company directly, not route between several.
-        An open source solution looked like the winner. And most importantly,
-        Tim and I had different priorities. Despite some positive, external
-        validation from the MIT 100k, we didn't see a way to make this business
-        work and decided to part ways.
+        landscape had shifted below us. When we started out, there weren't any
+        "prompt routers." By the time we won the 100k prize, 5+ competitors had
+        launched. Potential enterprise customers mostly wanted to partner with a
+        single AI company directly, not route between several. An open source
+        solution looked like the winner. And most importantly, Tim and I had
+        different priorities. Despite some positive, external validation from
+        the MIT 100k, we didn't see a way to make this business work and decided
+        to part ways.
       </P>
 
       <P>
@@ -302,7 +317,8 @@ const BlogPost: React.FC<any> = () => {
         conference, I met up with Sabrina in San Francisco and she shared her
         idea for a "grammarly for prompting". After building LowTech AI, I loved
         the idea immediately, and during a cab ride to Palo Alto I coded up a
-        chrome plugin prototype (no code complete, all natural). We passively
+        chrome plugin prototype (no code complete, all natural). The prototype
+        worked surprisingly well, and we decided to keep going. We passively
         worked on the idea for several weeks, culminating in a weekend when
         Sabrina came up to Boston from NYC for a full day hackathon.
       </P>
@@ -335,12 +351,12 @@ const BlogPost: React.FC<any> = () => {
         opportunities to found, fund, and find a team to run. Around the time we
         were debating next steps for Max Compute Co., Atomic reached out to me
         about becoming a founder of a new company they were exploring called
-        Build AI.
+        Build AI. (Inspiration for the name of this blog.)
       </P>
       <P>
         Taking advantage of low energy prices in remote areas and the massive
-        demand for GPUs for training, Build AI aimed to build modular data
-        centers were energy was cheap but intermittent. Success would mean
+        demand for GPUs for training runs, Build AI aimed to build modular data
+        centers where energy was cheap but intermittent. Success would mean
         cheaper training for companies, AI infrastructure powered by renewables,
         and a perfect merging of my interests and strengths on a world scale
         problem. In May I moved to NYC to work on Build AI with the intention of
@@ -351,55 +367,54 @@ const BlogPost: React.FC<any> = () => {
         <strong>The launch:</strong> At Build AI, I took on the role of a
         non-technical founder and focused on A) hiring and managing the build of
         our cloud offering and B) pushing for sales by talking with customers,
-        anyone who would get on the phone with us and talk about AI training.
-        Without actually having built out AI modular data centers, we launched a
-        cloud platform in August and onboarded customers using rented GPUs.
+        any engineering team willing to talk about their AI training. Without
+        having built out a modular data center yet, we launched a cloud platform
+        in August and onboarded customers using rented GPUs.
       </P>
       <P>
         <strong>Status:</strong> It became clear over the months I was working
-        on Build AI that the core assumptions of this company were wrong. A win
+        on Build AI that the core assumptions of the company were wrong. A win
         for entrepreneurial experimentation, but another failure for me. In part
-        with my recommendation, Atomic decided to shut down the company. A few
-        key reasons we decided to shut down:
+        with my recommendation, Atomic decided to shut down the company.
       </P>
+      <P>A few key reasons we decided to shut down:</P>
+      <ul className={clsx('mt-6 list-disc ml-6', font.className)}>
+        <li className="mt-2">
+          For a training cluster with top of the line interconnected hardware,
+          the price of energy didn't meaningfully lower the cost of GPU/hr
+          pricing. Training requires the best hardware (H100s at the time)
+          intfinibanded together, and the hardware alone for building a cluster
+          is the only cost that matters over the lifetime of the datacenter.
+          Earlier financial models for the company had discounted how expensive
+          the GPU hardware and networking would be. From a user perspective, you
+          get a cloud that is slightly cheaper, but has sizeable tradeoffs
+          (intermittency, higher latency).
+        </li>
+        <li className="mt-2">
+          We realized that only about 40-50 teams in the world are consistently
+          training on more than 40 GPUs at a time. If you're working close to
+          the AI space, you can probably name every one of them, and at
+          reasonable scale they all want to build and own their own hardware,
+          not a public cloud. Companies like SF Compute Co. have stepped in to
+          cater to startups for bursty training, and companies of larger scale
+          are building their own clusters. The vast majority of public cloud
+          training is smaller finetuning jobs.
+        </li>
+        <li className="mt-2">
+          Atomic would need to invest 30M+ for a single POC modular data center
+          to prove the model before we scaled. They were doubtful it was worth
+          the shot.
+        </li>
+        <li className="mt-2">
+          We were seeing enormous outlays of capital from existing hyperscalers
+          and fast growingGPU clouds like CoreWeave, Lambda, RunPod, and Crusoe.
+        </li>
+      </ul>
       <P>
-        For a training cluster with top of the line interconnected hardware, the
-        price of energy didn't meaningfully lower the cost of GPU/hr pricing.
-        Training requires the best hardware (H100s at the time) intfinibanded
-        together, and the hardware alone for building a cluster is the only cost
-        that matters over the lifetime of the asset. Earlier financial models
-        for the company had discounted how expensive the GPU hardware and
-        networking would be. From a user perspective, you get a cloud that is
-        slightly cheaper, but has sizeable tradeoffs (intermittency, higher
-        latency).
-      </P>
-      <P>
-        We realized that only about 40-50 teams in the world are consistently
-        training on more than 40 GPUs at a time. If you're working close to the
-        AI space, you can probably name everyone of them, and at reasonable
-        scale they all want to build and own their own hardware. Companies like
-        SF compute Co have stepped in to cater to startups for bursty training,
-        and companies of larger scale are building their own clusters. The vast
-        majority of training is smaller finetuning jobs.
-      </P>
-      <P>
-        Small companies train on free credits. Larger company train on hardware
-        they own. The largest companies build data centers.
-      </P>
-      <P>
-        Atomic would need to invest 30M+ for a single POC modular data center to
-        prove the model before we scaled. They were doubtful it was worth the
-        shot.
-      </P>
-      <P>
-        We were seeing enormous outlays of capital from existing hyperscalers
-        and GPU clouds like CoreWeave, Lambda, RunPod, and Crusoe.
-      </P>
-      <P>
-        After all my customer calls, building the platform, researching
-        opportunities, and evaluating what we'd learned, I recommended Build AI
-        shut down. It crushed me, and I dealt with that in the weeks that
-        followed, but it was the right decision.
+        After my calls with engineering teams, building the platform,
+        researching opportunities, and evaluating what we'd learned, I
+        recommended Build AI not continue. It was tough, and I dealt with that
+        in the weeks that followed, but it was the right call.
       </P>
 
       <P>
@@ -410,8 +425,8 @@ const BlogPost: React.FC<any> = () => {
       <P>
         At this point, I returned to Cambridge to finish my MBA at MIT. I
         learned a ton working on Build AI, but I didn't know exactly what to do
-        or what to build next. Through the chaos of wedding weekends and school,
-        I was lucky to come across the{' '}
+        or what to build next. Through the chaos of September weddings and
+        school restarting, I was lucky to come across the{' '}
         <A href="https://www.sundai.club/">Sundai Club</A>. Sundai is a group of
         hackers from MIT, Harvard, Northeastern, and the Boston area that get
         together on Sundays to launch AI powered apps in a single day. Get there
@@ -421,8 +436,8 @@ const BlogPost: React.FC<any> = () => {
         It's important to note that at this point I, a business school student,
         was still writing code daily, and around this time switched from working
         in VS code with Copilot to using Cursor. I didn't expect the change to
-        be so drastic, but wow was I wrong. Cursor is an incredible tool that's
-        made getting into a flow state building software that much easier and
+        be so drastic, but wow was I wrong. Cursor is incredible and I find it
+        makes getting into a flow state building software that much easier and
         more fun.
       </P>
       <P>
@@ -435,15 +450,15 @@ const BlogPost: React.FC<any> = () => {
         .
       </P>
       <P>
-        During Sundai hacks, I've built seven or eight products, but I want to
+        During Sundai hacks, I built seven or eight products, but I want to
         focus on two that I worked on beyond the single day hackathons: Mail
         Kiwi & The Turing Fest
       </P>
 
       <Heading2>Project 9: Mail Kiwi (Sundai)</Heading2>
       <P>
-        <strong>One liner:</strong> Submit a prompt, get a custom postcard in
-        the mail.
+        <strong>One liner:</strong> Submit a prompt, get a postcard in the mail
+        with a generated image.
         <br />
         <strong>Inspiration:</strong>{' '}
         <A href="https://x.com/imkevinxu/status/1740178787063706071">
@@ -469,18 +484,23 @@ const BlogPost: React.FC<any> = () => {
 
       <Heading2>Project 9: The Turing Fest (Sundai)</Heading2>
       <P>
-        <strong>One liner:</strong> Quiplash for LLMs
+        <strong>One liner:</strong> Quiplash with LLMs
         <br />
         <strong>Inspiration:</strong> Honestly, I'm just a big fan of quiplash,
-        and after using convex.dev I figured I had the ability to make this in a
-        single weekend.
+        and after using <A href="https://convex.dev">convex.dev</A> to make
+        MailKiwi, I figured I had the ability to make game this in a single
+        weekend.
         <br />
         <strong>The launch:</strong> I've played 30+ games with friends all over
         MIT, starting at a night hosted by Blake Blaze.
         <br />
         <strong>Status:</strong> Still alive and well. Someday, I hope to host
-        an event at The Turing Tavern in Cambridge MA for groups to play.
+        an event at The Turing Tavern in Cambridge MA for groups to play. The
+        Turing Fest's sister game,{' '}
+        <A href="https://killtherobot.vercel.app">Kill the Robot</A>, Mafia with
+        LLMs, will also be played at the event!
       </P>
+
       <P>
         <A href="https://theturingfest.com">Play The Turing Fest</A>
       </P>
@@ -490,19 +510,20 @@ const BlogPost: React.FC<any> = () => {
         <strong>One liner:</strong> Fantasy football for music
         <br />
         <strong>Inspiration:</strong> Blake Blaze came up with this concept with
-        his brother on a simple concept: if you can guess which artists playing
-        at venues under 2k people will make it big, we'll buy you front row
-        tickets to thier show. I was lucky to be included in the second league
-        created around this concept and had such a good time at the draft party
-        that I vibe coded the first version of the app over the weekend for fun.
-        With that app, we got accepted into the MIT Arts Accelerator.
+        his brother on a few simple rules: if you can guess which artists
+        playing at venues under 2k people will make it big, we'll buy you front
+        row tickets to thier show. I was lucky to be included in the second
+        league created around this concept and had such a good time at the draft
+        party that I vibe coded the first version of the app over the weekend.
+        With that app, we got accepted into the MIT Arts Accelerator, and FRF
+        was born.
         <br />
         <strong>The launch:</strong> We shared with groups of friends at MIT,
-        and got great feeback so far!
+        and got great feeback so far! Last I checked, we had 5 leagues live.
         <br />
-        <strong>Status:</strong> Blake is continuing the work, I think it's a
-        killer project. Front Row is live in Boston and coming soon to Nashville
-        and NYC.
+        <strong>Status:</strong> Blake is continuing the work, and I think it's
+        a killer project. Front Row is live in Boston and coming soon to
+        Nashville and NYC.
       </P>
       <P>
         <A href="https://frontrowvibes.com">
@@ -517,17 +538,18 @@ const BlogPost: React.FC<any> = () => {
         <strong>Inspiration:</strong> My experience at Build AI led me to
         building a plaform that focused on inference instead of training. I'd
         heard from company after company at Build AI that they actually cared
-        way more about lowering their inference costs, and were even willing to
-        sacrifice latency, but at the time we were 100% focused on training.
-        When you stop worrying about hyperfast inference, there's a ton of room
-        to optimize. We aimed to enable more economically viable AI use cases
-        with higher latency AI, and make better usage of the GPUs already
-        plugged into our energy infrastructure.
+        more about lowering their inference costs, but at the time we were 100%
+        focused on training due to the shape of our compute. When you stop
+        worrying about hyperfast inference, there's a ton of room to optimize.
+        You can run inference on all sorts of chips and at off hours in small
+        pockets or in small niches in our energy system. I kicked off the
+        project in November and started talking to potential customers.
         <br />
         <strong>The launch:</strong> Built a prototype and launched to a small
         subset of companies. I pitched this at my "Launching Tech Ventures"
         class at Harvard Business School. I worked on this during the Everydai
-        program at MIT. And I slowly grew our product and our offering.
+        program at MIT. And I slowly grew our product and our number of
+        interested customers.
         <br />
         <strong>Status:</strong> It didn't work for a number of reasons, but the
         best thing that happened was it led to me meeting{' '}
@@ -540,37 +562,41 @@ const BlogPost: React.FC<any> = () => {
         (materials science processes) and your bytes (data to inform those
         processes)
         <br />
-        <strong>Inspiration:</strong> I met, the founder a brilliant engineer,
-        who came to this concept after exploring the materials space to fix what
-        he called a "top three problem in the world".
+        <strong>Inspiration:</strong> I met the founder at a Pillar VC
+        co-founder matching event who explained to me that he was solving a "top
+        three problem of humanity". I wanted to learn more, and over the next
+        few weeks decided to commit to the company.
         <br />
-        <strong>The launch:</strong> This work is in progress, but hasn't
+        <strong>The launch:</strong> This work is in progress and hasn't
         publicly launched just yet.
-        <strong>Status:</strong> This wasn't a good fit for me, but I'm excited
-        to see how it goes and hope he succeeds.
+        <strong>Status:</strong> This project ultimately wasn't a good fit for
+        me, but I'm excited to see how it goes! As always, it's hard to decide
+        to leave a project you've put your time and energy into.
       </P>
 
+      <Divider />
       <Heading2>So what's it all mean?</Heading2>
       <P>
-        It's been hard at times, especially letting go or parting ways with a
-        collaborator, but it's been extremely rewarding and fun. Business school
-        can be a lot of talk, and while I learned an unbelievable amount and met
+        It's been hard at times, especially parting ways with my collaborators,
+        but it's also been extremely rewarding and fun. Business school can be a
+        lot of talk, and while I learned an unbelievable amount and met
         incredible life long friends and mentors, I couldn't imagine not
         participating in the AI wave that's happening all around us.
       </P>
       <P>
-        My advice if you're starting out working on something now: you have to
-        go for it. Anytime spent wavering is wasted time. Once you're in the
-        middle of it (can take 2 weeks or 6 months), it becomes very obvious
-        very quickly wether that project is worth your time. You'll see the
-        technical shortcomings, the ways OpenAI could crush you, the impossible
-        sales process in front of you, or the feel the lack of traction. It only
-        works if you do it, and it's usually pretty fun too. If you're lucky,
-        you might just find something that works.
+        My advice if you're starting working on something but have the
+        beginnings of an idea: you have to go for it. Anytime spent wavering is
+        wasted time. Once you're in the middle of it (can take 2 weeks or 6
+        months), it becomes very obvious very quickly whether that project is
+        worth your time. You'll see the technical shortcomings, the ways
+        incumbents could crush you, the impossible sales process in front of
+        you, or the feel the lack of traction. You only learn if you do it, and
+        it's usually pretty fun too get in the action too. If you're lucky, you
+        might even find something that works, that you really believe in.
       </P>
       <P>
         Thanks to everyone who's supported me on this journey. Excited to share
-        more on what's next for me with Subconscious v2 in the near future!
+        more on what's next for me in the near future!
       </P>
     </>
   );
