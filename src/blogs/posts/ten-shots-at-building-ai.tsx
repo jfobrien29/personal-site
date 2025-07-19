@@ -52,52 +52,50 @@ const BlogPost: React.FC<any> = () => {
       </P>
 
       <Heading2>The Projects</Heading2>
+      <ol className={clsx('mt-4  ml-6 list-decimal', font.className)}>
+        <li>
+          The 12 Days of AI: <A href="https://12daysofai.com">12daysofai.com</A>
+        </li>
+        <li>
+          <span className="font-bold">LowTech AI</span>:{' '}
+          <A href="https://lowtech.ai">lowtech.ai</A>
+        </li>
+        <li>
+          <span className="font-bold">Modelle</span>:{' '}
+          <A href="https://modelle.ai">modelle.ai</A>
+        </li>
+        <li>
+          <span className="font-bold">Max Compute Co</span>:{' '}
+          <A href="https://maxcompute.co">maxcompute.co</A>
+        </li>
+        <li>
+          Promptly:{' '}
+          <A href="https://chromewebstore.google.com/detail/promptly/ajgjlgooiinfdmongiadfhfflgihmbeg?hl=en">
+            (chrome webstore)
+          </A>
+        </li>
+        <li>
+          <span className="font-bold">Build AI</span>:{' '}
+          <A href="https://trybuild.ai">trybuild.ai</A>
+        </li>
+        <li>
+          Mail Kiwi: <A href="https://mailkiwi.com">mailkiwi.com</A>
+        </li>
+        <li>
+          The Turing Fest:{' '}
+          <A href="https://theturingfest.com">theturingfest.com</A>
+        </li>
+        <li>
+          Front Row Fantasy:{' '}
+          <A href="https://frontrowvibes.com">frontrowvibes.com</A>
+        </li>
+        <li>
+          <span className="font-bold">"Async Inference Co"</span>: N/A
+        </li>
+      </ol>
       <P>
-        <ol className={clsx('mt-6  ml-6 list-decimal')}>
-          <li>
-            The 12 Days of AI:{' '}
-            <A href="https://12daysofai.com">12daysofai.com</A>
-          </li>
-          <li>
-            <span className="font-bold">LowTech AI</span>:{' '}
-            <A href="https://lowtech.ai">lowtech.ai</A>
-          </li>
-          <li>
-            <span className="font-bold">Modelle</span>:{' '}
-            <A href="https://modelle.ai">modelle.ai</A>
-          </li>
-          <li>
-            <span className="font-bold">Max Compute Co</span>:{' '}
-            <A href="https://maxcompute.co">maxcompute.co</A>
-          </li>
-          <li>
-            Promptly:{' '}
-            <A href="https://chromewebstore.google.com/detail/promptly/ajgjlgooiinfdmongiadfhfflgihmbeg?hl=en">
-              (chrome webstore)
-            </A>
-          </li>
-          <li>
-            <span className="font-bold">Build AI</span>:{' '}
-            <A href="https://trybuild.ai">trybuild.ai</A>
-          </li>
-          <li>
-            Mail Kiwi: <A href="https://mailkiwi.com">mailkiwi.com</A>
-          </li>
-          <li>
-            The Turing Fest:{' '}
-            <A href="https://theturingfest.com">theturingfest.com</A>
-          </li>
-          <li>
-            Front Row Fantasy:{' '}
-            <A href="https://frontrowvibes.com">frontrowvibes.com</A>
-          </li>
-          <li>
-            <span className="font-bold">"Async Inference Co"</span>: domain
-            taken over by current project
-          </li>
-        </ol>
-        <span className="italic pt-4 text-xs">
-          Bold denotes serious attempt at starting a company
+        <span className="italic pt-4 text-sm">
+          Bold projects are serious attempts at starting a company.
         </span>
       </P>
 
