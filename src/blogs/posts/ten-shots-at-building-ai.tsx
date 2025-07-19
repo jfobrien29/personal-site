@@ -2,16 +2,7 @@ import React from 'react';
 import { Source_Serif_Pro } from 'next/font/google';
 import clsx from 'clsx';
 import { IBlogPost } from '../all';
-import {
-  A,
-  Divider,
-  Heading2,
-  Heading3,
-  Heading4,
-  P,
-  Quote,
-  SubTitle,
-} from '../common';
+import { A, Divider, Heading2, P } from '../common';
 
 const font = Source_Serif_Pro({
   subsets: ['latin'],
@@ -62,30 +53,52 @@ const BlogPost: React.FC<any> = () => {
 
       <Heading2>The Projects</Heading2>
       <P>
-        The 12 Days of AI: <A href="https://12daysofai.com">12daysofai.com</A>
-        <br />
-        LowTech AI: <A href="https://lowtech.ai">lowtech.ai</A>
-        <br />
-        Modelle: <A href="https://modelle.ai">modelle.ai</A>
-        <br />
-        Max Compute Co: <A href="https://maxcompute.co">maxcompute.co</A>
-        <br />
-        Promptly:{' '}
-        <A href="https://chromewebstore.google.com/detail/promptly/ajgjlgooiinfdmongiadfhfflgihmbeg?hl=en">
-          (chrome webstore)
-        </A>
-        <br />
-        Build AI: <A href="https://trybuild.ai">trybuild.ai</A>
-        <br />
-        Mail Kiwi: <A href="https://mailkiwi.com">mailkiwi.com</A>
-        <br />
-        The Turing Fest:{' '}
-        <A href="https://theturingfest.com">theturingfest.com</A>
-        <br />
-        Front Row Fantasy:{' '}
-        <A href="https://frontrowvibes.com">frontrowvibes.com</A>
-        <br />
-        "Async Inference Co": domain taken over by current project
+        <ol className={clsx('mt-6  ml-6 list-decimal')}>
+          <li>
+            The 12 Days of AI:{' '}
+            <A href="https://12daysofai.com">12daysofai.com</A>
+          </li>
+          <li>
+            <span className="font-bold">LowTech AI</span>:{' '}
+            <A href="https://lowtech.ai">lowtech.ai</A>
+          </li>
+          <li>
+            <span className="font-bold">Modelle</span>:{' '}
+            <A href="https://modelle.ai">modelle.ai</A>
+          </li>
+          <li>
+            <span className="font-bold">Max Compute Co</span>:{' '}
+            <A href="https://maxcompute.co">maxcompute.co</A>
+          </li>
+          <li>
+            Promptly:{' '}
+            <A href="https://chromewebstore.google.com/detail/promptly/ajgjlgooiinfdmongiadfhfflgihmbeg?hl=en">
+              (chrome webstore)
+            </A>
+          </li>
+          <li>
+            <span className="font-bold">Build AI</span>:{' '}
+            <A href="https://trybuild.ai">trybuild.ai</A>
+          </li>
+          <li>
+            Mail Kiwi: <A href="https://mailkiwi.com">mailkiwi.com</A>
+          </li>
+          <li>
+            The Turing Fest:{' '}
+            <A href="https://theturingfest.com">theturingfest.com</A>
+          </li>
+          <li>
+            Front Row Fantasy:{' '}
+            <A href="https://frontrowvibes.com">frontrowvibes.com</A>
+          </li>
+          <li>
+            <span className="font-bold">"Async Inference Co"</span>: domain
+            taken over by current project
+          </li>
+        </ol>
+        <span className="italic pt-4 text-xs">
+          Bold denotes serious attempt at starting a company
+        </span>
       </P>
 
       <Heading2>Project 1: The 12 Days of AI</Heading2>
@@ -602,7 +615,7 @@ const BlogPost: React.FC<any> = () => {
   );
 };
 
-export const TwoYearsOfBuildingAI: IBlogPost = {
+export const TenShotsAtBuildingAI: IBlogPost = {
   slug: SLUG,
   title: TITLE,
   date: DATE,
