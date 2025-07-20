@@ -588,22 +588,23 @@ const BlogPost: React.FC<any> = () => {
       <Divider />
       <Heading2>So what's it all mean?</Heading2>
       <P>
-        It's been hard at times, especially parting ways with my collaborators,
-        but it's also been extremely rewarding and fun. Business school can be a
-        lot of talk, and while I learned an unbelievable amount and met
-        incredible life long friends and mentors, I couldn't imagine not
-        participating in the AI wave that's happening all around us.
+        It's also been hard at times, especially parting ways with my potential
+        cofounders and friends, but it's also been extremely rewarding and fun.
+        Business school can be a lot of talk, and while I did learn an
+        unbelievable amount and met incredible life long friends and mentors, I
+        wouldn't do it any other way. I had to participate in the AI wave that's
+        happening all around us.
       </P>
       <P>
-        My advice if you're starting working on something but have the
+        My advice if you're considering working on something and only have the
         beginnings of an idea: you have to go for it. Anytime spent wavering is
         wasted time. Once you're in the middle of it (can take 2 weeks or 6
-        months), it becomes very obvious very quickly whether that project is
+        months), it becomes very obvious very quickly whether that project is a
         worth your time. You'll see the technical shortcomings, the ways
         incumbents could crush you, the impossible sales process in front of
-        you, or the feel the lack of traction. You only learn if you do it, and
-        it's usually pretty fun too get in the action too. If you're lucky, you
-        might even find something that works, that you really believe in.
+        you, or the lack of traction. You only learn if you do it, and it's
+        usually pretty fun too get in the action too. If you're lucky, you might
+        even find something that works, that you really believe in.
       </P>
       <P>
         Thanks to everyone who's supported me on this journey. Excited to share
