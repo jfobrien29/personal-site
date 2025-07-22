@@ -466,7 +466,7 @@ const BlogPost: React.FC<any> = () => {
         Kiwi & The Turing Fest
       </P>
 
-      <Heading2>Project 9: Mail Kiwi (Sundai)</Heading2>
+      <Heading2>Project 7: Mail Kiwi (Sundai)</Heading2>
       <P>
         <strong>One liner:</strong> Submit a prompt, get a postcard in the mail
         with a generated image.
@@ -493,7 +493,7 @@ const BlogPost: React.FC<any> = () => {
         </A>
       </P>
 
-      <Heading2>Project 9: The Turing Fest (Sundai)</Heading2>
+      <Heading2>Project 8: The Turing Fest (Sundai)</Heading2>
       <P>
         <strong>One liner:</strong> Quiplash with LLMs
         <br />
